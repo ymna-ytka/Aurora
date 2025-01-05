@@ -1,0 +1,36 @@
+{
+    
+    "material.gtceu.bad_bronze": "Збіднена бронза",
+    "material.gtceu.tumbaga": "Тумбага",
+    "material.gtceu.netherite": "Незерит",
+    "material.gtceu.ferabrass": "Латунна сталь",
+    "material.gtceu.constantan": "Константан",
+    "material.gtceu.carbide_silicon": "Карбід кремнія",
+
+
+
+    "block.gtceu.fire_bath": "Вогняна баня",
+    "block.gtceu.ulv_item_import_hatch_fire": "Вогняний люк прийому предметів",
+    "block.gtceu.ulv_item_export_hatch_fire": "Вогняний люк видачі предметів",
+    "block.gtceu.ulv_fluid_input_hatch_fire": "Вогняний люк прийому рідин",
+    "block.gtceu.fire_smalter": "Вогняна плавильня",
+    "block.gtceu.lp_steam_mixer": "Паровий міксер",
+    "block.gtceu.steam_coke_oven": "Парова коксова піч",
+    "block.gtceu.steam_blast_furnace": "Парова доменна піч",
+    "block.gtceu.steam_magic_bath": "Магічна парова ванна",
+    
+
+    "gtceu.fire_bath": "Вогняна баня",
+    "gtceu.fire_smalter": "Вогняна плавильня",
+    "gtceu.bronze_mixer": "Бронзовий міксер",
+    "gtceu.steam_coke_oven": "Парова коксова піч",
+    "gtceu.steam_blast_furnace": "Парова доменна піч",
+    "gtceu.steam_magic_bath":  "Магічна парова ванна",
+
+    "gtceu.jei.ore_vein.nickel_twilight": "Жила Нікелю",
+    "gtceu.jei.ore_vein.galena_nether": "Жила Галеніту",
+    "gtceu.jei.ore_vein.mica_nether": "Жила Слюди"
+
+
+
+}
