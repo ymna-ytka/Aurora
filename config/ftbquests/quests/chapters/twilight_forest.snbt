@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: ""
+	icon: "twilightforest:snow_queen_trophy"
+	id: "7497BD714E51CB1D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Twilight Forest W.I.P"
+}

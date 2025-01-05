@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "597B0F87020D9354"
+	group: ""
+	icon: "minecraft:diamond"
+	id: "597B0F87020D9354"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2ADB86F432A7BF12"
+				"4F183D850BC47A01"
+				"0812FCB3EF474282"
+				"4D6C5005A459A994"
+				"149A516CC3BA7477"
+				"0D32D7F87CB834CC"
+				"7B3E46C1241F08A1"
+				"7E131D640063F937"
+				"2B5FB6EBDF824A8D"
+				"1F0D709A6410347C"
+				"700CB1F87685BA75"
+			]
+			description: [
+				"Почніть вашу неймовірну пригоду!"
+				""
+				""
+				"{ \"text\": \"БАМ\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"665E80F6AE69E410\" } }"
+			]
+			id: "62C31D013B7D1870"
+			rewards: [
+				{
+					id: "3ACC5D7FB98205F7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "3B6896E6D9A053D1"
+					item: "farmersdelight:kelp_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E0857E71F10A9B9"
+				title: "Вперед"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Тепер яйце дракона падає при кожному вбивстві дракона, насолоджуйтесь."]
+			id: "0D32D7F87CB834CC"
+			rewards: [{
+				id: "267EFE50FFAAB52E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Яйце дракона"
+			tasks: [{
+				id: "1A3171C5E51D942D"
+				title: "Заново?"
+				type: "checkmark"
+			}]
+			title: "Знову?"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["В цій збірці присутній такий мод як REI, його перевагою є більша оптимізованість та інші фішки, яких немає в JEI, користуйтесь!"]
+			id: "4F183D850BC47A01"
+			rewards: [{
+				id: "1E8E11E14069C61B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "47BF134D9BBEEC7B"
+				title: "EMI"
+				type: "checkmark"
+			}]
+			title: "REI"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Натисніть \"Є\", щоб відкрити меню для привату чанків."
+				"ЛКМ - приват чанку."
+				"ПКМ - відмінна привату"
+				"SHIFT+ЛКМ - щоб провантажувати чанки."
+			]
+			id: "0812FCB3EF474282"
+			rewards: [{
+				id: "40D3DBCCF7A9F977"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7EDF0C8104AB6069"
+				title: "FTB Chunks"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["У вас є можливість викопувати потрібно вам блоки зразу ж жилами, варто тільки зажати клавішу \"Є\"."]
+			id: "149A516CC3BA7477"
+			rewards: [{
+				id: "0E6A2249F9F79A06"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2987CFC8C432B00E"
+				title: "FTB Ultimine"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"В данному мод-паці було прийняте вирішення відключити загрязнення через використання механізмів, насолоджуйтесь."
+				""
+				""
+				"P.s якщо ви все таки хочете цього, в нашому дискорд каналі є конфіг, що відновить цю функцію."
+			]
+			id: "7B3E46C1241F08A1"
+			rewards: [{
+				id: "03564C5659E6AD77"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1BC9FBEAEB3087A5"
+				title: "Небезпека!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Запрошення до нашої спільноти: https://discord.gg/AgrVjPPxjg."]
+			id: "2ADB86F432A7BF12"
+			rewards: [
+				{
+					command: "/tell @a https://discord.gg/AgrVjPPxjg"
+					id: "1AF1BF8F38A511F5"
+					title: "Запрошення"
+					type: "command"
+				}
+				{
+					id: "4E323D2D9CCA2AE9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "61138861A1349344"
+				title: "Discord"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Ви з легкістю можете відкрити книгу квестів без самої книги просто натиснувши клавішу *Л*."]
+			id: "4D6C5005A459A994"
+			rewards: [{
+				id: "6D5C017EF98D18E7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "33ABD4D26D7BFA1F"
+				title: "FTB Quest"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Якщо вам потрібно дізнатись, чи спавняться в данному місці моби, це вам дуже знадобиться!"
+				""
+				"Варто натиснути F7, після чого з'явиться сітка, що покаже вам всю необхідну інформацію."
+				""
+				"А при натисканні на F9 ви зможете побачити рамки чанків в такому форматі, в якому буде вам більш зручніше."
+			]
+			id: "7E131D640063F937"
+			rewards: [{
+				id: "0DE85B442EBD1A71"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "031AB06F6B763B4B"
+				title: "More overlays"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: ["При нажаті на кнопку *z*, ви зможете збільшити\\прибилизити свій зір до чогось, що вам потрібно."]
+			id: "2B5FB6EBDF824A8D"
+			rewards: [{
+				id: "0BB360E1EA99EF63"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5819378FC07B6365"
+				title: "Zoom"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Ви не хочете випадков позбутися вашого кайла чи потрібних вам ресурсів? Не бажаєте випадково викинути ваші діаманти в лаву? Тоді це для вас!"
+				""
+				"На збірці пристуній мод ItemLocks, який дозволяє вам заблокувати слоти, щоб випадково не викинути\\передвинути кудись не туди ваші предмети. Для заблокування\\розблокування потрібно в інветарі навестись на потрібний слот, та нажати клавішу *С*. Але якщо ви захочете примусово вийняти предмет з заблокованого слоту, всього потрібно натиснути клавішу \"И\"."
+			]
+			id: "1F0D709A6410347C"
+			rewards: [{
+				id: "76E7800285912224"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2C36313DA7E7ADAA"
+				title: "Item Locks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["Тепер моби мають підвищену зону агресії. Монстри захочуть вас вбити, якщо ви потрапите в їх зону зору (32 блока). Будьте обережними."]
+			id: "700CB1F87685BA75"
+			rewards: [{
+				id: "4A523E702C241275"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "674BCF3667ED7B8A"
+				title: "Радіус мобів"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	title: "Вступ"
+}

@@ -1,0 +1,1520 @@
+{
+	autofocus_id: "5E9D374647491674"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2E3C7518858E0E70"
+	group: ""
+	icon: "gtceu:bronze_ingot"
+	id: "2E3C7518858E0E70"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55848E5168F93234"]
+			description: ["Бронзовий корпус — основа для створення першого парового бойлера та інших важливих механізмів. Цей корпус стане ключовим елементом у виробництві більш складних пристроїв, що дозволить розпочати нову етап розвитку технологій."]
+			hide_until_deps_complete: true
+			id: "1ACB848EF5FCB716"
+			rewards: [{
+				count: 8
+				id: "21E47F74101C878C"
+				item: "gtceu:coke_oven_bricks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DCCB4C271091E6A"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			title: "Бронзові механізми"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1ACB848EF5FCB716"]
+			description: ["Парові печі відкривають нові горизонти в обробці матеріалів. Вони використовують пару для нагрівання та плавлення, значно покращуючи ефективність процесів. Створена з бронзи, ця піч стане основою для подальшої автоматизації, знижуючи витрати енергії та підвищуючи продуктивність."]
+			hide_until_deps_complete: true
+			id: "3997EEC3CC94AAD3"
+			rewards: [
+				{
+					count: 4
+					id: "5EC004388DEE63E5"
+					item: "kubejs:copper_voltage_coil"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EB90D09E4E8B912"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Котлети на пару"
+			tasks: [{
+				id: "4551CD59E605F3F2"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			title: "Парова піч"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3997EEC3CC94AAD3"]
+			description: ["Перехід до сталевого виробництва відкриває нові можливості для більш швидкого та ефективного плавлення. Сталева парова піч не лише швидше досягає високих температур, але й здатна працювати з більш твердими матеріалами, що дозволяє створювати складніші компоненти. Однак, цей механізм також має свої вимоги: він споживає більше енергії та ресурсів. Розвиток сталевого виробництва дає значні переваги у швидкості обробки, але потребує ефективного управління ресурсами."]
+			id: "3AAA712942DFB121"
+			rewards: [
+				{
+					count: 8
+					id: "50E11F61351A50C3"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "5D2ACDA7CA709723"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Сталеві котлети"
+			tasks: [{
+				id: "4351953DA45BF236"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			title: "Сталева парова піч"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1ACB848EF5FCB716"]
+			description: ["Створення першого парового бойлера відкриває нові горизонти у використанні пари для механічних процесів. Початкову версію можна виготовити з бронзи, але з часом її можна покращити, замінивши на сталь для збільшення ефективності. Це лише перший крок у світі генераторів пару — є й інші варіанти, які можуть бути більш ефективними, ніж спалювання твердопаливного палива."]
+			hide_until_deps_complete: true
+			id: "5E9D374647491674"
+			rewards: [{
+				count: 7
+				id: "529EBE1E5082458C"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6BD9C623877025B3"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Парова фабрика"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E9D374647491674"]
+			description: ["Ця версія парового бойлера здатна працювати на лаві чи креозоті, відкриваючи нові горизонти для ефективного генерування пару. Такий бойлер стане незамінним для живлення ваших механізмів, але спершу подбайте про створення надійних резервуарів для зберігання запасів рідкого палива. Пам’ятайте, що лава є потужним, але небезпечним ресурсом, а креозот чудово підходить як побічний продукт коксової печі."]
+			id: "21E45459AFC98D96"
+			rewards: [{
+				id: "2150658312205BF2"
+				item: "fluidtank:tank_stone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09871600B6FB4050"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			title: "Лавова пара"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E9D374647491674"]
+			description: ["Цей передовий бойлер використовує тепло сонця для створення пару, забезпечуючи екологічний і довговічний спосіб генерації енергії. Його серце — спеціальні теплозбиральні плити зі сталевих і срібних пластин, які ефективно концентрують сонячну енергію. Проте пам'ятайте: вночі плити остудяться, і бойлер не зможе працювати, тому варто підготувати резерв пари чи альтернативне джерело енергії!"]
+			id: "09627DA2104429C1"
+			rewards: [
+				{
+					id: "188F01B9A61247A4"
+					item: "gtceu:silver_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "15A6CC51C2CA31AF"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D90B6E336345FD8"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "Сонячна пара"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E9D374647491674"]
+			description: ["Покращена версія бронзового бойлера, сталевий бойлер, здатна виробляти значно більше пари завдяки своїй вдосконаленій конструкції. Його потужність дозволяє ефективніше працювати з більшими механізмами, але варто пам'ятати, що сталевий бойлер є більш енергоємним і вимагає більше палива для підтримки своїх високих показників. Якщо правильно керувати ресурсами, цей бойлер стане надійним джерелом пари для подальших технологічних досягнень."]
+			id: "6F1219D769A97E16"
+			rewards: [
+				{
+					count: 4
+					id: "2AF0329E1773C2F8"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23B0D22A13B13E43"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "771B1DFEACE0127C"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Сталевий бойлер"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["21E45459AFC98D96"]
+			description: ["Цей вдосконалений бойлер, виготовлений зі сталі, забезпечує ще більшу потужність і ефективність у генерації пару, працюючи на лаві чи креозоті. Завдяки підвищеній міцності та продуктивності він стає ідеальним вибором для підтримки великих виробничих систем. Але не забувайте: із його підвищеними можливостями зростають і витрати палива, тому ретельно сплануйте місце для зберігання запасів."]
+			id: "74BE734943FA9C60"
+			rewards: [
+				{
+					id: "01D88CEE639E3D90"
+					item: "gtceu:wrought_iron_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A693B9EED8BC9B2"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0036AAFB397028D9"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			title: "Лавове озеро"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09627DA2104429C1"]
+			description: ["Сталевий сонячний бойлер — покращена версія, що забезпечує більшу продуктивність і витримує вищі температури завдяки міцному сталевому корпусу. Як і попередник, він використовує спеціальні теплозбиральні плити зі сталевих і срібних пластин для перетворення сонячного тепла в пар. Однак не забувайте, що вночі плити охолоджуються, тому варто подбати про резерв пари або додаткові джерела енергії для безперервної роботи!"]
+			id: "75762C8BEC9BEAE2"
+			rewards: [
+				{
+					count: 4
+					id: "3CB0EF104F38A417"
+					item: "gtceu:steel_plate"
+					type: "item"
+				}
+				{
+					id: "00619E4E0C1B4B73"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67146011110E7761"
+					item: "oceansdelight:cooked_stuffed_cod"
+					type: "item"
+				}
+			]
+			subtitle: "Тепер сонце ваш раб"
+			tasks: [{
+				id: "12CC8D941A78E26A"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "Сталева пара"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E9D374647491674"]
+			description: ["Ваша перша пічка що вміє робити примітивні сплави, виробляти скло, та трохи пізніше створити загартоване залізо."]
+			hide_until_deps_complete: true
+			id: "5836B837F6A49A3E"
+			rewards: [{
+				id: "64C6775DBCA86B98"
+				item: "gtceu:block_casting_mold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "088B5F1054EB3C46"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "Ливарний цех"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5836B837F6A49A3E"]
+			id: "5C40F2F9C59C50E0"
+			tasks: [{
+				id: "5FD7085683531EA4"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "Сталевий цех"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"40D56EF03874CB53"
+				"35CEF59FFBCAA9EF"
+				"3EF8978B764E8E72"
+			]
+			description: [
+				"Загартоване залізо - це покращена версія звичайного заліза, яке було обжарене(загартоване) під високими температурами."
+				"На данний момент, єдиний спосіб здобути його, це розібрати залізо на самородки, переплавити їх в сплавному заводі, зіжми їх у компресорі, і готово. "
+			]
+			hide_until_deps_visible: true
+			id: "6C870A658F468572"
+			tasks: [{
+				count: 8L
+				id: "52C2AABB78102898"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Загартоване залізо"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21A22A6FA9C5D9D8"]
+			hide_until_deps_complete: true
+			id: "35CEF59FFBCAA9EF"
+			tasks: [{
+				id: "6DE21194A9539F7C"
+				item: "gtceu:nugget_casting_mold"
+				type: "item"
+			}]
+			title: "Ливарна форма (Самородок)"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["21A22A6FA9C5D9D8"]
+			hide_until_deps_complete: true
+			id: "40D56EF03874CB53"
+			tasks: [{
+				id: "73FB360EBFD80857"
+				item: "gtceu:ingot_casting_mold"
+				type: "item"
+			}]
+			title: "Ливарна форма (Злиток)"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5836B837F6A49A3E"]
+			description: ["Знадобиться в примітивних електроних схемах."]
+			id: "3028120B0668FAD3"
+			subtitle: "Зплав з крові?"
+			tasks: [{
+				count: 16L
+				id: "542E5BD387123EDE"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			title: "Червоний зплав"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3028120B0668FAD3"]
+			description: ["Ви можете постаратись використати їх, по прямому призначенню."]
+			hide_until_deps_complete: true
+			id: "51157657CB8CDE17"
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "72106D3381A32C15"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			title: "Поршеневий"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51157657CB8CDE17"]
+			description: ["Стане в пригоді, коли захочете створити металеві блоки, чи зжати самородки загортованого заліза. "]
+			id: "61FEC24ACACA269B"
+			tasks: [{
+				id: "3EF8978B764E8E72"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			title: "Компресор"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61FEC24ACACA269B"]
+			id: "5C4799938E0B6CEF"
+			subtitle: "Iron man?"
+			tasks: [{
+				count: 4L
+				id: "3CB8392C849DA945"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			title: "Залізни блоки"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4799938E0B6CEF"]
+			hide_until_deps_complete: true
+			id: "4D000AD33DD854E6"
+			subtitle: "Ковадло"
+			tasks: [{
+				count: 4L
+				id: "0AD232698ADE1AD5"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Ковадло"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D000AD33DD854E6"]
+			description: ["З даним механізмом, ви відкриваєте можливість зекономити ресурси та деякі інструменти! Для більш детального розгляду інформації для вас представлені 2 гайд-квести які покажуть вам, що ви до прикладу можете тепер робити не вручну."]
+			id: "0DB32AAE77E40BDF"
+			subtitle: "Сила Тора"
+			tasks: [{
+				id: "758259306D046328"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "Cиловий прийом"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D000AD33DD854E6"]
+			id: "174DDAFC4672352D"
+			subtitle: "Хоч гамно, хоч бедрок"
+			tasks: [{
+				id: "2A5204DA733687C5"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			title: "Ломальщик"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DB32AAE77E40BDF"]
+			id: "06A206B7809E7FF4"
+			tasks: [{
+				id: "6FDB3E7432541EFF"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "Сталевий молот"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["174DDAFC4672352D"]
+			id: "7A0F783D44F815E0"
+			subtitle: "Зробіть з тебе обсидіанового голема"
+			tasks: [{
+				id: "6BE1DEC47895565D"
+				item: "gtceu:hp_steam_rock_crusher"
+				type: "item"
+			}]
+			title: "Сталева каменюка"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DB32AAE77E40BDF"]
+			description: ["Тепер ви можете створювати пластини не 2 до 1,  а 1.5 до 1, вітаю вас. Це справді зменшить використання ваших ресурсів."]
+			id: "7C494B19B3111967"
+			tasks: [{
+				id: "5004499CCA1DC444"
+				title: "Покращені пластини"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51157657CB8CDE17"]
+			description: ["Тепер х2 руди це не слухи."]
+			id: "784B1CE33C3E8FE6"
+			tasks: [{
+				id: "658013C3459BEF76"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			title: "Макератор"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["21A22A6FA9C5D9D8"]
+			id: "7CAB4208E6ECEDB8"
+			tasks: [{
+				id: "75EAE6F9BD2D4598"
+				item: "gtceu:block_casting_mold"
+				type: "item"
+			}]
+			title: "Ливарна форма (Блок)"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7CAB4208E6ECEDB8"
+				"0A950F97101013EC"
+				"1FEF7B6CCF63F78A"
+			]
+			description: ["Нічого сказати окрім того, що в збірці поскаладнений крафт скла."]
+			hide_until_deps_visible: true
+			id: "3F7258EEDC81890D"
+			shape: "hexagon"
+			subtitle: "Зіниці розширені?"
+			tasks: [{
+				count: 18L
+				id: "7C509D8D2F9FD0B5"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "Скляний"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0DB32AAE77E40BDF"]
+			description: ["Тепер ви можете прискорити переробку руди! Звісно ви не зможете зробити х2 руди за допомогою цього, але прискорити при потребності ви можете."]
+			id: "186DF1EF1AD246AD"
+			tasks: [{
+				id: "1F58C36BA50FE9FD"
+				title: "Пилинки"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5836B837F6A49A3E"]
+			description: ["Як було сказано в минулому квесті, завод сплавів, також має можливість створю деякі предмети\\складові частини механізмів, скло та загартоване залізо. Але для цього всього потрібно використовувати спеціальні форми, які показані в наступних квестах."]
+			id: "21A22A6FA9C5D9D8"
+			tasks: [{
+				id: "1A51B5A6F9CEF737"
+				title: "Форми виплавки"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["658013C3459BEF76"]
+			hide_until_deps_complete: true
+			id: "0A950F97101013EC"
+			tasks: [{
+				count: 18L
+				id: "3BAF81C0D8F77DF8"
+				item: "gtceu:quartz_sand_dust"
+				type: "item"
+			}]
+			title: "Кварцовий пісок"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["658013C3459BEF76"]
+			hide_until_deps_complete: true
+			id: "1FEF7B6CCF63F78A"
+			tasks: [{
+				count: 18L
+				id: "09F91ED2AC74609C"
+				item: "gtceu:tiny_flint_dust"
+				type: "item"
+			}]
+			title: "Купка кремнію"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["51157657CB8CDE17"]
+			hide_until_deps_complete: true
+			id: "1F135D7110A671F5"
+			subtitle: "Приготуй себе."
+			tasks: [{
+				id: "0E0E8664B292FDED"
+				item: "gtceu:lp_steam_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3F7258EEDC81890D"
+				"51157657CB8CDE17"
+			]
+			description: ["Вижми з тебе всі соки."]
+			hide_until_deps_visible: true
+			id: "16749D0C0D220359"
+			tasks: [{
+				id: "21B28C8CF6765DAB"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			title: "Екстрадиція"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16749D0C0D220359"]
+			id: "71022090334DBFA3"
+			subtitle: "Сталева соковижималка"
+			tasks: [{
+				id: "0449C30F2707EBC6"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			title: "Сталевий екстрактор"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["72106D3381A32C15"]
+			hide_until_deps_complete: true
+			icon: "gtceu:lapis_ore"
+			id: "66876B565EC17D22"
+			tasks: [
+				{
+					count: 48L
+					id: "3258546D3DBA21E7"
+					item: { Count: 48, id: "gtceu:raw_lazurite" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "617860543DD4AF2E"
+					item: { Count: 32, id: "gtceu:raw_sodalite" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "01F1BD601FF5EC7B"
+					item: { Count: 32, id: "gtceu:raw_lapis" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "76E3E42A851793F5"
+					item: { Count: 16, id: "gtceu:raw_calcite" }
+					type: "item"
+				}
+			]
+			title: "Лазуритова жила"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72106D3381A32C15"]
+			hide_until_deps_complete: true
+			icon: "gtceu:basaltic_mineral_sand_ore"
+			id: "5AADB1AA0167584B"
+			tasks: [
+				{
+					count: 48L
+					id: "09DF292C63CEED76"
+					item: { Count: 48, id: "gtceu:raw_basaltic_mineral_sand" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1EAEA84009537051"
+					item: { Count: 32, id: "gtceu:raw_granitic_mineral_sand" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "199D5BEEF4DBFBA2"
+					item: { Count: 32, id: "gtceu:raw_fullers_earth" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0EF3CAFA82EC0040"
+					item: { Count: 16, id: "gtceu:raw_gypsum" }
+					type: "item"
+				}
+			]
+			title: "Мінеральна жила"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F135D7110A671F5"
+				"5AADB1AA0167584B"
+				"66876B565EC17D22"
+			]
+			hide_until_deps_complete: true
+			id: "0E1F5D380001329E"
+			tasks: [{
+				count: 132L
+				id: "45E47C8FCA1D421E"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			title: "Глина з вогню"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E1F5D380001329E"]
+			id: "5425C5D760FD8A2A"
+			tasks: [{
+				count: 132L
+				id: "33E37A93533C9E9B"
+				item: "gtceu:compressed_fireclay"
+				type: "item"
+			}]
+			title: "Сира вогняна цеглина"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5425C5D760FD8A2A"]
+			id: "3A8703A55B0F7773"
+			tasks: [{
+				count: 132L
+				id: "1176EAE544FD83D3"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			title: "Вогняна цеглина"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A8703A55B0F7773"]
+			id: "2C9FA71CBF573809"
+			tasks: [{
+				id: "12168E217B2EAA39"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			title: "Вогняна цегла"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C9FA71CBF573809"]
+			description: ["Вітаю!!! Це ваша сталь, перша законо зроблена сталь! Вітаю вас з новими можливостями."]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "68D9867C5D62C477"
+			tasks: [
+				{
+					id: "02979D4EFDCD364C"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "78375DA1B155E53C"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			title: "Примітивна доменна піч"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68D9867C5D62C477"]
+			description: ["СТАЛЬ!! Можете покращити заранні зроблені механізми, зробити покращені труби, привідкрити двері до електричної ери\\першої енергії і багато чого ще, все попереду!"]
+			hide_until_deps_complete: true
+			id: "41D2FC6C489989DA"
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				count: 16L
+				id: "20A9159FD6DB05DE"
+				item: { Count: 16, id: "gtceu:steel_ingot" }
+				type: "item"
+			}]
+			title: "Сталева сталь"
+			x: 8.4d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["5836B837F6A49A3E"]
+			hide_dependency_lines: true
+			id: "6BDD1352AFDEEC5E"
+			tasks: [{
+				count: 4L
+				id: "390D9F2402CEB774"
+				item: { Count: 4, id: "gtceu:rubber_sapling" }
+				type: "item"
+			}]
+			title: "Резинове дерево"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BDD1352AFDEEC5E"]
+			icon: "gtceu:sticky_resin"
+			id: "6C1909C03D49C45E"
+			tasks: [
+				{
+					count: 8L
+					id: "28F11ADBED1E1498"
+					item: { Count: 8, id: "gtceu:rubber_log" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "74D20CB8CCA24FBB"
+					item: { Count: 16, id: "gtceu:sticky_resin" }
+					type: "item"
+				}
+			]
+			title: "Сира резина"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"16749D0C0D220359"
+				"6C1909C03D49C45E"
+			]
+			id: "597B6989C4670993"
+			tasks: [{
+				count: 40L
+				id: "1D55B9E4F0DF86A1"
+				item: { Count: 24, id: "gtceu:rubber_dust" }
+				type: "item"
+			}]
+			title: "Резинова пульпа"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Необіхідне щоб підпалити (але не в Полтаві) портал, та відвідати незер."]
+			hide_dependency_lines: true
+			id: "5A2CC08526EFCA51"
+			subtitle: "Не креслення"
+			tasks: [{
+				id: "73FA414FAE62A751"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A2CC08526EFCA51"]
+			description: ["Попавши в незер, ви відкриїте собі доступ до багатьох мінералів, деяких данжів необхідних, просто блоків та багато іншого."]
+			id: "5C7EF6ECB2AD8CF3"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:crying_obsidian"
+					id: "3094A65E0768CB00"
+					title: "Внизу"
+					type: "dimension"
+				}
+				{
+					count: 14L
+					id: "46AD175182729368"
+					item: { Count: 14, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			title: "В недра!"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C7EF6ECB2AD8CF3"]
+			icon: "gtceu:sulfur_ore"
+			id: "189C47B02694D88E"
+			tasks: [
+				{
+					count: 48L
+					id: "220E87D49ED82E39"
+					item: { Count: 48, id: "gtceu:raw_sulfur" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4E414506819EAEBF"
+					item: { Count: 32, id: "gtceu:raw_pyrite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5A5D00DC249E09F5"
+					item: { Count: 16, id: "gtceu:raw_sphalerite" }
+					type: "item"
+				}
+			]
+			title: "Сульфурна жила"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"597B6989C4670993"
+				"189C47B02694D88E"
+			]
+			description: ["Тепер ви крутий пан в резинових чоботях."]
+			id: "3926D5915C025161"
+			subtitle: "Пий, жуй, орбіт"
+			tasks: [{
+				count: 32L
+				id: "4990D79D90885553"
+				item: { Count: 32, id: "gtceu:rubber_ingot" }
+				type: "item"
+			}]
+			title: "Резинка"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3926D5915C025161"]
+			hide_until_deps_complete: true
+			icon: "gtceu:resistor"
+			id: "0367CE411B464234"
+			tasks: [
+				{
+					count: 2L
+					id: "6861E5805756B29A"
+					item: "gtceu:resistor"
+					type: "item"
+				}
+				{
+					id: "3FD37A9C434AC913"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "772001A253DEDC8F"
+					item: { Count: 3, id: "gtceu:red_alloy_single_cable" }
+					type: "item"
+				}
+			]
+			title: "Набір електроніки"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			hide_until_deps_complete: true
+			id: "504D5D0BAC77EB48"
+			tasks: [{
+				count: 2L
+				id: "54E232FC95CFAC16"
+				item: { Count: 2, id: "gtceu:vacuum_tube" }
+				type: "item"
+			}]
+			title: "Вакуумні трубки"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"504D5D0BAC77EB48"
+				"0367CE411B464234"
+			]
+			description: ["Ваша база, ваш фундамет! Механізми, заводи, різні дрібнички та багато чого, десятки годин продумування, куди, що і як. Мені вас дуже й дуже шкода...."]
+			id: "558F79BC5CD79FC9"
+			tasks: [{
+				id: "4D2641910AFD70E8"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "Електроніка"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20A9159FD6DB05DE"]
+			description: ["З цього всьо списка добра, вам потрібен тільки піролюзит, його ви переплавите та получите манґан. "]
+			hide_until_deps_complete: true
+			icon: "gtceu:pyrolusite_ore"
+			id: "6FF86BF3C56E02CA"
+			tasks: [
+				{
+					count: 48L
+					id: "414A6FB6677D98D1"
+					item: "gtceu:raw_grossular"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "38DB084D4FE93CA7"
+					item: { Count: 32, id: "gtceu:raw_spessartine" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "058D7F1F02856CEA"
+					item: { Count: 32, id: "gtceu:raw_pyrolusite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7F7AF90E8D1100C4"
+					item: { Count: 16, id: "gtceu:raw_tantalite" }
+					type: "item"
+				}
+			]
+			title: "Манґанова жила"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20A9159FD6DB05DE"]
+			hide_until_deps_complete: true
+			icon: "gtceu:tin_ore"
+			id: "644047784D66B92F"
+			tasks: [
+				{
+					count: 48L
+					id: "32D58BD26D0EC4AD"
+					item: "gtceu:raw_cassiterite_sand"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7D245407ABBEACED"
+					item: { Count: 32, id: "gtceu:raw_garnet_sand" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "70FB1A67B1C02853"
+					item: { Count: 32, id: "gtceu:raw_asbestos" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4A8E314D4FC52BFC"
+					item: { Count: 16, id: "gtceu:raw_diatomite" }
+					type: "item"
+				}
+			]
+			title: "Жила гранатового олова"
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FF86BF3C56E02CA"]
+			id: "5441CC287F2C26B4"
+			tasks: [{
+				count: 8L
+				id: "5DF5B9542FF8BBB2"
+				item: { Count: 8, id: "gtceu:manganese_ingot" }
+				type: "item"
+			}]
+			title: "Марганець"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["644047784D66B92F"]
+			id: "629203F7E771693D"
+			tasks: [{
+				count: 8L
+				id: "2ABBABAFBBDC788D"
+				item: { Count: 8, id: "gtceu:silicon_dust" }
+				type: "item"
+			}]
+			title: "Силікон"
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"558F79BC5CD79FC9"
+				"3C54B4175F664C22"
+			]
+			description: [
+				"Можливо, воно зможе синтезувати необіхідний мені камінь чи щось подібне...."
+				""
+				"Якщо у вас питання, як подати сюди стільки пару, варто використовувати спеціальна люки для пару."
+			]
+			icon: "gtceu:steam_magic_bath"
+			id: "3D26A2F5F9F876C2"
+			tasks: [
+				{
+					id: "1C730D954D809F2D"
+					item: "gtceu:steam_magic_bath"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2025442963D5F54B"
+					item: { Count: 4, id: "gtceu:steel_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "510BEDB53277156F"
+					item: { Count: 4, id: "gtceu:steel_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "4110D2C8611C5DED"
+					item: { Count: 48, id: "kubejs:ferabrass_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7CF9AE7C7A359669"
+					item: { Count: 9, id: "gtceu:ferabrass_block" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "502F22AD3E12CAEE"
+					item: { Count: 9, id: "gtceu:ferabrass_frame" }
+					type: "item"
+				}
+				{
+					id: "7F02DD1B4A8DBEE4"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4256E0C4813E3325"
+					item: { Count: 3, id: "gtceu:ulv_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "28342BA060F2D7F2"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+			]
+			title: "Магічна ваночка"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5441CC287F2C26B4"
+				"629203F7E771693D"
+			]
+			id: "3C54B4175F664C22"
+			tasks: [{
+				count: 8L
+				id: "2FC14DC3713FC420"
+				item: { Count: 8, id: "gtceu:ferabrass_ingot" }
+				type: "item"
+			}]
+			title: "Латунна долина"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B32D63B50B3E5F0"]
+			id: "5A644B2AF0D328C1"
+			subtitle: "в злитках"
+			tasks: [{
+				count: 20L
+				id: "56F7878800F24318"
+				item: { Count: 16, id: "gtceu:tumbaga_ingot" }
+				type: "item"
+			}]
+			title: "Тумба №2"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F135D7110A671F5"]
+			id: "1B32D63B50B3E5F0"
+			tasks: [{
+				count: 20L
+				id: "7DE0C82EACB50B8D"
+				item: { Count: 20, id: "gtceu:tumbaga_dust" }
+				type: "item"
+			}]
+			title: "Тумбочка"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A644B2AF0D328C1"]
+			icon: "gtceu:steam_oven"
+			id: "4E622603D5C1D117"
+			subtitle: "Пиріжки прямо як в бабусі"
+			tasks: [
+				{
+					id: "1D21743A837DBA03"
+					item: "gtceu:steam_oven"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "764644D84897BE42"
+					item: { Count: 8, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "55AB2EACA2EDBA9E"
+					item: { Count: 8, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					id: "1C482E50704D5555"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6E250A0AC9CE6D25"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "3878765D6BE362CD"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+			]
+			title: "Парова пічка"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A644B2AF0D328C1"]
+			icon: "gtceu:steam_grinder"
+			id: "5BC641719319F97F"
+			tasks: [
+				{
+					id: "3F35B5D1858912B7"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "4B47D5DA48726309"
+					item: { Count: 22, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "6A136BA76D009C65"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4AED7479269EF2C6"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "3A0914B52A715977"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+			]
+			title: "Парова дробарка"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			id: "1FE0E69DBCB68A95"
+			tasks: [{
+				id: "1A5AFE5F666C6CF0"
+				item: "morphtool:tool"
+				type: "item"
+			}]
+			title: "Інструменти інженера"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			id: "650821F4128029B7"
+			subtitle: "Тут не купатися"
+			tasks: [
+				{
+					id: "5CD9CEBAEDF1FD3A"
+					item: "trashcans:item_trash_can"
+					type: "item"
+				}
+				{
+					id: "20B5991BACDD0D22"
+					item: "trashcans:liquid_trash_can"
+					type: "item"
+				}
+			]
+			title: "Смітники"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Хочете носити багато всього, не займаючи основний інвентарь? Тоді вам стане у нагоді цей прекрасний ремінь, який має базове місце, і при бажання, його можна збільшити прикріпивши до нього додаткові підсумки в ковадлі."]
+			icon: {
+				Count: 1
+				id: "toolbelt:belt"
+				tag: { }
+			}
+			id: "3E733E463146D323"
+			tasks: [
+				{
+					id: "0026EDDF600BAFF9"
+					item: {
+						Count: 1
+						id: "toolbelt:belt"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1DB73686B172AE28"
+					item: { Count: 2, id: "toolbelt:pouch" }
+					type: "item"
+				}
+			]
+			title: "Ремінь тата"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			id: "0FAE562F92CB96EF"
+			tasks: [{
+				id: "2911ACFE27046D31"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D26A2F5F9F876C2"]
+			id: "3677A37E3341F851"
+			tasks: [{
+				id: "13E1EC5B6B42434E"
+				item: "kubejs:twilight_gem"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3677A37E3341F851"]
+			description: ["Темніше ночі, але все так же цікаво(ні)."]
+			id: "4581E453DD4E8C97"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:magic_beans"
+				id: "4020DD220D9550C9"
+				type: "dimension"
+			}]
+			title: "Ліс темряви"
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4581E453DD4E8C97"]
+			icon: "gtceu:nickel_ore"
+			id: "6DDEEF801B27D555"
+			tasks: [
+				{
+					count: 48L
+					id: "00F5694B5BA34C1A"
+					item: { Count: 48, id: "gtceu:raw_garnierite" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "02C390E9CBD3B63E"
+					item: { Count: 32, id: "gtceu:raw_nickel" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5DE8B90B3B84B3BB"
+					item: { Count: 32, id: "gtceu:raw_cobaltite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "708204726BDD3332"
+					item: { Count: 16, id: "gtceu:raw_pentlandite" }
+					type: "item"
+				}
+			]
+			title: "Жила нікелю"
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DDEEF801B27D555"]
+			id: "2ED9E5EA96C1A34E"
+			tasks: [{
+				count: 16L
+				id: "0F5094964406E09A"
+				item: { Count: 16, id: "gtceu:constantan_ingot" }
+				type: "item"
+			}]
+			title: "Константин"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ED9E5EA96C1A34E"]
+			icon: "kubejs:blank_lv_electric_motor"
+			id: "67C0A4B0750575EF"
+			tasks: [
+				{
+					id: "174E42820625A755"
+					item: "kubejs:blank_lv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "7432FCCFD179A308"
+					item: "kubejs:blank_lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "2FF2E83AD86F57B0"
+					item: "kubejs:blank_lv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "171AA7DC8521A5BB"
+					item: "kubejs:blank_lv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "03AD96596F77ABAC"
+					item: "kubejs:blank_lv_conveyor"
+					type: "item"
+				}
+			]
+			title: "Корпуси LV деталей"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67C0A4B0750575EF"]
+			id: "7721E55352B37E41"
+			tasks: [{
+				id: "6DB8699C03D70A2A"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			title: "Електричний мотор"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7721E55352B37E41"]
+			description: ["Тепер ви війшли в епоху енергії! Весь світ перед вашими ногами."]
+			id: "68C601B55FEFF271"
+			shape: "octagon"
+			size: 4.0d
+			tasks: [{
+				id: "693DF8A0E71EBE92"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "&5&lЕНЕРГІЯ!"
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Не має багато призначень, але стане вам у пригоді в майбутньому, коли вам треба буде зняти накладений на блок чи механізм помпу, конвеєри і подібне їм обладнання"]
+			id: "27953990194649AF"
+			tasks: [{
+				id: "4A760DCA4F6CD131"
+				item: {
+					Count: 1
+					id: "gtceu:steel_crowbar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 511
+							ToolSpeed: 9.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Лом"
+			x: 8.35d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Сталевий резервуар об’ємом на 8 відер — це надійне рішення для зберігання великих обсягів рідини. Використовуй його у своїх цілях або інтегруй в автоматизовані системи. Для вилучення рідин за допомогою труб знадобиться помпа з GregTech."]
+			id: "15F012D77314A875"
+			rewards: [
+				{
+					id: "5773973AC34A23AC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "131EF718247EF5A7"
+					item: "gtceu:steel_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C06B3B5F23D8DB6"
+				item: "fluidtank:tank_stone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F012D77314A875"]
+			id: "5248CFAADC8C0BA3"
+			tasks: [{
+				id: "3ACC1D62ED99F19A"
+				item: "gtceu:wood_drum"
+				type: "item"
+			}]
+			title: "Сталева бочка"
+			x: 6.5d
+			y: 3.0d
+		}
+	]
+	title: "Глава ІІ: Парова епоха"
+}

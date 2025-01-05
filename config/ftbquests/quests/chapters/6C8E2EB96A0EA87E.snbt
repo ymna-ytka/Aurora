@@ -1,0 +1,2141 @@
+{
+	autofocus_id: "665E80F6AE69E410"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6C8E2EB96A0EA87E"
+	group: ""
+	icon: "gtceu:bad_bronze_ingot"
+	id: "6C8E2EB96A0EA87E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["597B0F87020D9354"]
+			description: ["Надовбіть ваше перше дерево!"]
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_log"
+			id: "665E80F6AE69E410"
+			rewards: [
+				{
+					count: 8
+					id: "610E4DAC3E5890C8"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "47725670FB7075C7"
+					item: "nethersdelight:hoglin_sirloin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				icon: "minecraft:oak_log"
+				id: "75F7EAB8E8B77CE2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Дерево"
+				type: "item"
+			}]
+			title: "Дуб"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["665E80F6AE69E410"]
+			description: ["Як могли побачити, тепер дошки робляться не по 4 штуки, починайте відчувати різницю з самого старту."]
+			hide_until_deps_complete: true
+			id: "1F04A8A423BBC629"
+			rewards: [
+				{
+					count: 4
+					id: "6DB6834539C2AAAD"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "71FFF7A35A982BE0"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			subtitle: "Дошки не як раніше!"
+			tasks: [{
+				count: 16L
+				icon: "minecraft:oak_planks"
+				id: "4F12BDA6070B1BF2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Дошки"
+				type: "item"
+			}]
+			title: "Дошки"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F04A8A423BBC629"]
+			description: ["Мало що будете ним для квестів різати, але без нього ніяк."]
+			hide_until_deps_complete: true
+			id: "19C055DF52BD57CD"
+			rewards: [{
+				count: 16
+				id: "26D25EF2081C41F0"
+				item: "minecraft:grass"
+				type: "item"
+			}]
+			subtitle: "Весела нарізка."
+			tasks: [{
+				id: "7C7E55AA703E34B1"
+				item: {
+					Count: 1
+					id: "moredelight:wooden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"19C055DF52BD57CD"
+				"58CE8250A857EEE5"
+				"37220C2E581F7D91"
+				"1D2499984936BCA4"
+			]
+			description: [
+				"Цей квест дасть тобі можливість дізнатися всі секрети здобуття та обробки шкіри, щоб створювати дублену шкіру — матеріал, який стане основою для виготовлення високоякісних виробів, таких як броня, сумки, ремені та багато іншого."
+				""
+				"P.s для крафту використовуйте ножі з GregTech."
+			]
+			hide_until_deps_complete: true
+			id: "44B8C7D9C5005282"
+			rewards: [
+				{
+					count: 4
+					id: "60270630B0A0EAD5"
+					item: "kubejs:cleansed_leather"
+					type: "item"
+				}
+				{
+					id: "302E955B9A3E6BFD"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Шкіряний"
+			tasks: [
+				{
+					count: 8L
+					id: "1B65CF6FBB3E439C"
+					item: { Count: 8, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7CAA6355E1816802"
+					item: "kubejs:cleansed_leather"
+					type: "item"
+				}
+			]
+			title: "Шкіряний магнат"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44B8C7D9C5005282"]
+			description: [
+				"Шкіра — це універсальний матеріал, однак, щоб вона стала по-справжньому міцною та стійкою до часу, її потрібно пройти через процес дублення. У цьому квесті ти дізнаєшся, як перетворити звичайну шкіру на дублену шкіру, що стане основою для виготовлення важливих предметів. Ти зможеш створювати ремені, ранці, підсумки, броню та багато іншого, що допоможе тобі на шляху до досягнення великих цілей."
+				""
+				"Для того, щоб отримати дублену шкіру, тобі потрібно буде пройти кілька етапів: спочатку здобути сировину — шкіру, а потім за допомогою спеціальних методів обробки перетворити її в цей міцний та стійкий матеріал. Дублену шкіру можна використовувати не лише для створення різних аксесуарів, а й для важливих броньових елементів."
+			]
+			id: "44F31F01076453DA"
+			rewards: [
+				{
+					count: 2
+					id: "07AA9F3C5863BC05"
+					item: "kubejs:tanned_leather"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7F65A61E3231F89F"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "00D39ABBAF0ECA09"
+					item: "honeydelight:honey_cookie"
+					type: "item"
+				}
+			]
+			subtitle: "Шуба"
+			tasks: [{
+				count: 8L
+				id: "342B07BFF1949371"
+				item: "kubejs:tanned_leather"
+				type: "item"
+			}]
+			title: "Мистецтво дублення"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44F31F01076453DA"]
+			description: ["Ваш перший ранець, ви можете як і покращити його різними апгрейдами, так і розширити його місткість за рахунок оброблення різними металами."]
+			id: "5D4505BAA089C6A7"
+			rewards: [
+				{
+					count: 4
+					id: "1A3A61CA653F98BB"
+					item: "kubejs:tanned_leather"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B265CE16B436D7F"
+					item: "oceansdelight:squid_rings"
+					type: "item"
+				}
+			]
+			subtitle: "Переїзд."
+			tasks: [{
+				id: "102BE4BEE444A5E7"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19C055DF52BD57CD"]
+			description: ["Щоб здобути сіно, варто зламати будь яку траву, яка має шанс дати вам так бажаний предмет."]
+			hide_until_deps_complete: true
+			id: "78F13A0C5ADE78A0"
+			rewards: [
+				{
+					count: 8
+					id: "201E9101620106E9"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "624BE3788B5D2A86"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+			]
+			subtitle: "Сіновидний"
+			tasks: [{
+				count: 32L
+				id: "3840BDC6E41F68B2"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "Сіно"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78F13A0C5ADE78A0"]
+			description: ["Стане у пригоді, щоб обробляти не тільки м'ясо."]
+			hide_until_deps_complete: true
+			id: "612DA27A848BA9F1"
+			rewards: [{
+				id: "65E209CADB1E63F2"
+				item: "simplehats:burning_m_bison"
+				type: "item"
+			}]
+			subtitle: "Мільйонер "
+			tasks: [{
+				id: "3E3A1DECF4611E2B"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["612DA27A848BA9F1"]
+			description: ["Варто зазначити, що в житті не варто спалювати сіно\\суху траву."]
+			hide_until_deps_complete: true
+			id: "224AECB78A82FBFC"
+			rewards: [{
+				count: 8
+				id: "32BAF0D0F29FFE80"
+				item: "kubejs:coal_chunk"
+				type: "item"
+			}]
+			subtitle: "А чому воно не згоріло?"
+			tasks: [{
+				count: 16L
+				id: "3C78C140E40F6B51"
+				item: "kubejs:coal_chunk"
+				type: "item"
+			}]
+			title: "Солом'яне паливо"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0801A74F593ECAC2"]
+			description: [
+				"Зайшла палиця в бар. Бармен подивився і каже:"
+				""
+				"— Вибачте, але ми не обслуговуємо такі сувеніри."
+				""
+				"Палиця відповідає:"
+				""
+				"— Не переживайте, я просто зачекаю на місці!"
+			]
+			hide_until_deps_complete: true
+			id: "7CF2C4A6D3FEB074"
+			rewards: [{
+				count: 8
+				id: "607E5D702F397B56"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			subtitle: "УА Ауауа УАА"
+			tasks: [{
+				count: 2L
+				id: "3204347CC6B7950F"
+				item: "kubejs:stone_stick"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"224AECB78A82FBFC"
+				"7CF2C4A6D3FEB074"
+			]
+			description: ["Натріть свою ебонітову палочку."]
+			hide_until_deps_complete: true
+			id: "10D255F191EF4CB4"
+			rewards: [
+				{
+					count: 2
+					id: "6D97FAAE69443F88"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7283B83FBFB8A89A"
+					item: "corn_delight:boiled_corn"
+					type: "item"
+				}
+			]
+			subtitle: "Будь розумною макакою"
+			tasks: [{
+				count: 2L
+				id: "57E64EB36500420A"
+				item: "kubejs:coal_stone_stick"
+				type: "item"
+			}]
+			title: "Оброблена палиця"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["10D255F191EF4CB4"]
+			description: ["Створи кременеву кірку — перший крок до видобутку корисних копалин. Цей інструмент відкриє шлях до глибоких шахт і прихованих ресурсів."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "gtceu:flint_pickaxe"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 63
+						ToolSpeed: 5.5f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "3B49FE215A18ACC9"
+			rewards: [
+				{
+					count: 8
+					id: "185BE68FEC7D591E"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "66910FD3C7416183"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "5728EEFD66BB144D"
+					item: {
+						Count: 1
+						id: "nethersdelight:iron_machete"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Як вона тримається?"
+			tasks: [{
+				id: "060ABF0B1458A398"
+				item: {
+					Count: 1
+					id: "gtceu:flint_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 63
+							ToolSpeed: 5.5f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Кременева кірка"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["612DA27A848BA9F1"]
+			description: [
+				"— Чому кремінь ніколи не гуляє з іншими каменями?"
+				""
+				"— Бо він завжди хоче розпалити ситуацію!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0ADB40DEFA754AFA"
+			rewards: [{
+				id: "5DB909562AD3969E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 3L
+				id: "58CE8250A857EEE5"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "Кремінь"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Збирай кругляк — універсальний будівельний матеріал, що стане основою для створення міцних конструкцій, предметів і навіть декоративних елементів."]
+			hide_until_deps_complete: true
+			id: "4CAAA29313C470D6"
+			rewards: [
+				{
+					count: 16
+					id: "3ABCFBA1D89A115E"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "133AD7039C90248F"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "25C67094F1D2FE83"
+					item: "minecraft:sandstone"
+					type: "item"
+				}
+			]
+			subtitle: "Не круглий"
+			tasks: [{
+				count: 32L
+				id: "086A53944F792915"
+				item: { Count: 32, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "Кругляк"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Створи кремневу сапку, обробляючи кремінь та камінь(?) для міцного інструмента, та щоб стати першим землеробом на селі. "]
+			id: "0BAE68C68B7042F9"
+			rewards: [{
+				count: 32
+				id: "6D164A92B91559F5"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EDDF69BAED4CF0A"
+				item: {
+					Count: 1
+					id: "gtceu:flint_hoe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Кремнева сапка"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Створи кремневий ніж, обробляючи кремінь для створення гострого леза, яке стане ідеальним інструментом для виживання та обробки матеріалів."]
+			id: "5D990C55690C0940"
+			rewards: [
+				{
+					id: "7062F7C91F988EF2"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "110812B50B536B43"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D2499984936BCA4"
+				item: {
+					Count: 1
+					id: "gtceu:flint_knife"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 1.0f
+							AttackSpeed: 3.0f
+							Damage: 0
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Кремневий ніж"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4CAAA29313C470D6"]
+			description: ["Спали та переплавлюй їх всіх"]
+			hide_until_deps_complete: true
+			id: "2F19725C0B3ABE73"
+			subtitle: "Гаряча крихітка"
+			tasks: [{
+				id: "54DB75A31F83DE2E"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Печінка"
+			x: 7.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			description: [
+				"Викуй свій перший залізний ключ, використовуючи міцність металу та свою майстерність. Цей ключ відкриє двері до нових механізмів, таємниць і пригод, ставши символом твого прогресу у створенні інструментів!"
+				""
+				"Ти зможеш ним прикручувати та відкручувати свої труби, напрявляти в потрібну сторону свої механізми, та налаштувати їх властивості I/O."
+			]
+			id: "3C9709B09BB6CD96"
+			rewards: [
+				{
+					count: 2
+					id: "14BBF7EB3BDDFED4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "089ABA08531152FB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "40F81709A1E24B87"
+				item: {
+					Count: 1
+					id: "gtceu:iron_wrench"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Залізний ключ"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			description: ["Створи залізний напальник, який стане твоїм першим кроком до створення інструментів, деталей та багато чого іншого. "]
+			id: "607D17D2397B7206"
+			rewards: [
+				{
+					count: 2
+					id: "69A467E3FAEEB564"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2BE63CA2E1AD1D03"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "57E40B646595C0FF"
+				item: {
+					Count: 1
+					id: "gtceu:iron_file"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Залізний напильник"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			description: ["Створи залізний молот — інструмент справжнього майстра, який стане незамінним у переробці руд, виготовленні доспіхів і створенні складних деталей. Цей потужний інструмент відкриє нові горизонти в твоїй роботі!"]
+			id: "757A0D43453712B9"
+			rewards: [
+				{
+					count: 6
+					id: "0E99F94032DC46A7"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "36DC45194F4CEFAC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "37220C2E581F7D91"
+				item: {
+					Count: 1
+					id: "gtceu:iron_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Залізний молот"
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			description: ["Викуй залізну пилу, інструмент, який дозволить тобі працювати з деревом і металом з неймовірною точністю. Цей інструмент стане ключем до створення дошок та дерев'яних виробів з меншою затратою ресурсів."]
+			id: "2F1852201941E5AA"
+			rewards: [
+				{
+					count: 3
+					id: "5F6BCCF24F86B673"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7C61CD3EB4A14B02"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "424E8385D48B0D4B"
+				item: {
+					Count: 1
+					id: "gtceu:iron_saw"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							HarvestIce: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Залізна пила"
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F19725C0B3ABE73"]
+			description: ["За допомогою печі ти можеш переплавити руду у свій перший залізний злиток, але це лише початок твого шляху. Прості матеріали відкривають двері у світ створення, але для більш просунутих сплавів і компонентів тобі знадобляться нові інструменти, ресурси та знання. Виплавка — лише перший крок до технологій майбутнього!"]
+			hide_until_deps_complete: true
+			id: "38FBBBAA5C0D910E"
+			rewards: [{
+				id: "0C685D9132E206CC"
+				item: {
+					Count: 1
+					id: "gtceu:damascus_steel_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+						GT.Behaviours: {
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 1023
+							ToolSpeed: 10.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Залізна людина"
+			tasks: [{
+				count: 16L
+				id: "245AC4128594EAAE"
+				item: { Count: 16, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Залізняк"
+			x: 7.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F19725C0B3ABE73"]
+			description: ["Це стане у пригоді для подальшого розвитку: наприклад, для подрібення глини, створення паперу чи інших корисних речей.  "]
+			hide_until_deps_complete: true
+			id: "58BDA9FF38AED435"
+			rewards: [{
+				id: "644BD725F26B4173"
+				item: {
+					Count: 1
+					id: "gtceu:damascus_steel_mortar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 1023
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Подрібни кісточки"
+			tasks: [{
+				id: "56C3B8E525184020"
+				item: {
+					Count: 1
+					id: "gtceu:iron_mortar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Молотилка"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: [
+				"Вітаю вас, ви прийшли до мене з питанням чому жили тепер такі великі не звичні? Це ще одна особливість GregTech, тепер ваші звичайні жили руд по декілька штук заміняються на великі скупчення руди радіусом в середньому 3х3 чанка. Спочатку це може збити з пантелику, але потім ви звикнете до цього. Щоб дізнатись більш точну інформацію про жили, скористуйтесь REI."
+				""
+				"Якщо говорити найбільш точно, в даному квесті наведений приклад залізної жили, яку ви можете знайти будь-де в будь-якому місці вашого світу. В собі немає залізної руди як такої, але це їй не заважає бути головним родовищем залізна для вас, як мінімум на цьому етапі гри."
+			]
+			icon: "minecraft:iron_ore"
+			id: "2CE44A9074DFA144"
+			rewards: [{
+				id: "5100F370FD638844"
+				item: {
+					Count: 1
+					id: "gtceu:stainless_steel_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 3071
+							ToolSpeed: 6.8f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "1A0EB69ADBD43F68"
+					item: "gtceu:raw_goethite"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "716F663B292DD03D"
+					item: "gtceu:raw_yellow_limonite"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5D45C1A4D1488BED"
+					item: "gtceu:raw_hematite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3CF1D0ED38E6FE45"
+					item: "gtceu:raw_malachite"
+					type: "item"
+				}
+			]
+			title: "Залізна жила"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Ти натрапив на багату мідну жилу, де основною рудою є халькопірит — джерело цінної міді. Окрім нього, тут можна знайти пірит, залізо та чисту мідь. Ця жила стане твоїм ключем до створення провідників, механізмів і інструментів, тому досліджуй її ретельно та видобувай ресурси з розумом!"]
+			icon: "minecraft:copper_ore"
+			id: "4BD20EC24D72FECE"
+			rewards: [
+				{
+					count: 4
+					id: "0017066F0D463E36"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+				{
+					id: "736EF7CC80CA745A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2486E767C791237B"
+					item: "simplehats:hatscraps_halloween"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "1B966A198E6109D9"
+					item: "gtceu:raw_chalcopyrite"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6C6715990031D67B"
+					item: { Count: 32, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4FD6BE2324B3BCB5"
+					item: { Count: 32, id: "gtceu:raw_pyrite" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "36FD5D29573B95C3"
+					item: { Count: 32, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			title: "Мідна жила"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Виявлено касетеритову жилу, в якій основною рудою є олово, а кассетерит служить додатковим компонентом. Твоя мета — видобути олово, яке згодиться для виготовлення різних предметів та електроніки, а також добути кассетерит, який може бути корисним для подальшої обробки та використання"]
+			icon: "gtceu:tin_ore"
+			id: "60DAE367D25A65BB"
+			rewards: [{
+				id: "170A9A013059BE47"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "54781220FB84C18E"
+					item: "gtceu:raw_tin"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "3868DB6808238299"
+					item: { Count: 32, id: "gtceu:raw_cassiterite" }
+					type: "item"
+				}
+			]
+			title: "Кассетеритова жила"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58BDA9FF38AED435"]
+			description: ["Перемели олово і мідь вручну, використовуючи підручні інструменти. Цей трудомісткий, але важливий процес підготує матеріали для створення сплавів і подальшої обробки!"]
+			id: "723D1A0EB361CB17"
+			rewards: [
+				{
+					count: 4
+					id: "01DCBC7C79766B3E"
+					item: "gtceu:bad_bronze_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5907EA87F3DF2250"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			subtitle: "На порозі бронзової епохи"
+			tasks: [
+				{
+					count: 15L
+					id: "58A68F966E97263A"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "4170AD885914EE6F"
+					item: { Count: 45, id: "gtceu:copper_dust" }
+					type: "item"
+				}
+			]
+			title: "Подрібнюй"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["723D1A0EB361CB17"]
+			description: ["Створи пил збідненої бронзи, змішуючи олово та мідь вручну. Цей сплав — лише примітивна версія справжньої бронзи, оскільки досягти її повноцінної якості таким способом неможливо. Проте це чудовий старт для роботи з металами!"]
+			id: "62EAA54EDE5AE6B7"
+			rewards: [{
+				count: 16
+				id: "7013925A79BE8EA1"
+				item: "gtceu:bad_bronze_dust"
+				type: "item"
+			}]
+			subtitle: "Бідняк"
+			tasks: [{
+				count: 45L
+				id: "6FC9E801FB3B31A9"
+				item: "gtceu:bad_bronze_dust"
+				type: "item"
+			}]
+			title: "Бронза (збіднена)"
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"22CE2A550A32AA41"
+				"58BDA9FF38AED435"
+			]
+			description: [
+				"Виготов папір із тростини, перемелюючи її та стискаючи залишки за допомогою молота та підливаючи трохи води."
+				"Хоча це прадавній і трудомісткий процес, у майбутньому відкриття механізмів і електрики зробить створення паперу значно простішим і ефективнішим!"
+			]
+			hide_until_deps_complete: true
+			id: "2C32660215F1E1A9"
+			rewards: [{
+				count: 16
+				id: "2B6C45C4B9E16719"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			subtitle: "в туалеті?"
+			tasks: [{
+				count: 16L
+				id: "074E4279EF6B94DC"
+				item: { Count: 15, id: "minecraft:paper" }
+				type: "item"
+			}]
+			title: "Секрети папіру"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58BDA9FF38AED435"]
+			description: ["Шукай тростину вздовж берегів річок і озер — цей природний ресурс стане в нагоді для виготовлення паперу, компонентів і навіть декору. Досліджуй місцевість і збирай якомога більше!"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "22CE2A550A32AA41"
+			rewards: [
+				{
+					count: 16
+					id: "5F25E3B7CAB42E40"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4BC0BD05CC0F1188"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "5E76B920ACAE9AAA"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "Цукрова тростина"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F04A8A423BBC629"]
+			id: "4DBA78F441C3DE34"
+			rewards: [{
+				id: "2FC96085F3E292AF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6A40E531EDB641D7"
+				item: {
+					Count: 1
+					id: "gtceu:wood_mallet"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "М'який молоточок"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C32660215F1E1A9"]
+			description: ["Створи книгу, комбінуючи листки паперу, шкіру та сиру гуму, або вирушай на пошуки в світі, де заховані старі томи. Книги — це не лише джерело знань, а й ключ до нових можливостей!"]
+			id: "4490EA0F69AA744E"
+			rewards: [{
+				count: 4
+				id: "03CAD258B34BA277"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			subtitle: "Книжковий черв'як"
+			tasks: [{
+				count: 5L
+				id: "511ACA07CD4227EB"
+				item: { Count: 5, id: "minecraft:book" }
+				type: "item"
+			}]
+			title: "Бібліотекарь"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4490EA0F69AA744E"]
+			description: ["Створи книгу Акаші — унікальний артефакт, що здатний зберігати всі книги з різних модифікацій. Цей том стане твоєю персональною бібліотекою та незамінним інструментом для організації знань!"]
+			id: "767851F1827F2615"
+			rewards: [{
+				id: "43D0BA0CE295386C"
+				item: "creeperoverhaul:tiny_cactus"
+				type: "item"
+			}]
+			subtitle: "Всезнайка"
+			tasks: [{
+				id: "7FC6CD373008F920"
+				item: "akashictome:tome"
+				type: "item"
+			}]
+			title: "Том безмежних знань"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4490EA0F69AA744E"]
+			description: ["Створи кулінарну книгу, яка зберігає записи про всі страви, що ти коли-небудь куштував. Цей кулінарний шедевр стане твоїм провідником у світі їжі та допоможе відстежувати твої гастрономічні пригоди!"]
+			id: "49BB126567F29B66"
+			rewards: [
+				{
+					count: 16
+					id: "6163DA50AAEB25E8"
+					item: "oceansdelight:cabbage_wrapped_elder_guardian"
+					type: "item"
+				}
+				{
+					id: "36EC925805CD531B"
+					item: "simplehats:drinkinhat"
+					type: "item"
+				}
+			]
+			subtitle: "Скільки калорій ти сьогодні з'їв?"
+			tasks: [{
+				id: "5D00236A87EF8A41"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			title: "Смак пам’яті"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62EAA54EDE5AE6B7"]
+			description: ["\"Переплавляючи пил у злиток, відчуваєш себе магом: береш жменю порошку, трохи вогню — і ось уже металевий брусок! Якщо так піде далі, то з попелу зможу відновлювати дерева.\""]
+			hide_until_deps_complete: true
+			id: "442B9556CED98BF7"
+			rewards: [{
+				count: 16
+				id: "51ECD548BDAE51C6"
+				item: "gtceu:bad_bronze_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "Перші модові злитки"
+			tasks: [{
+				count: 45L
+				id: "63808C15FE225BD2"
+				item: { Count: 16, id: "gtceu:bad_bronze_ingot" }
+				type: "item"
+			}]
+			title: "Бідняк"
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["442B9556CED98BF7"]
+			description: ["Побудуй вогняну баню — багатоблокову структуру, яка використовує лаву для створення збідненої бронзи та випалювання цеглин для коксової печі. Ця палаюча конструкція стане твоїм надійним помічником на шляху до парової епохи!"]
+			hide_until_deps_complete: true
+			icon: "gtceu:fire_bath"
+			id: "49E319666B44FA41"
+			rewards: [
+				{
+					id: "6E510661273A5B12"
+					item: "gtceu:ulv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A1B461529BAD61C"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "6128BF0C73295AC4"
+					item: "gtceu:bad_bronze_block"
+					type: "item"
+				}
+			]
+			subtitle: "Вогняні муки"
+			tasks: [
+				{
+					id: "1CF47BB6C4EA44B2"
+					item: "gtceu:fire_bath"
+					type: "item"
+				}
+				{
+					id: "47D94462FEAAD80E"
+					item: "gtceu:ulv_item_import_hatch_fire"
+					type: "item"
+				}
+				{
+					id: "5AB2C1E6B02F083D"
+					item: "gtceu:ulv_item_export_hatch_fire"
+					type: "item"
+				}
+				{
+					id: "2F37E31F2FFCD243"
+					item: "gtceu:ulv_fluid_input_hatch_fire"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "372236CB9F30D113"
+					item: { Count: 34, id: "kubejs:fire_casing" }
+					type: "item"
+				}
+			]
+			title: "Баня вогню"
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6FC9E801FB3B31A9"]
+			description: ["\"Пісок у Майнкрафті — це як час: варто трохи зачекати, і він завжди просиплеться крізь пальці!\""]
+			hide_until_deps_complete: true
+			id: "481B78BFF06D3DCC"
+			rewards: [
+				{
+					id: "0D8D3EBCC8374803"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "0CDD1FE56E2AF94B"
+					item: "farmersdelight:cod_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 170L
+				id: "49BF0A959BAE2970"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "Пісочок"
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6FC9E801FB3B31A9"]
+			description: ["\"Глина в Майнкрафті — це як друг: завжди поруч, але щоб побачити її справжній потенціал, треба трохи розбити!\""]
+			hide_until_deps_complete: true
+			id: "6A5413993C3178A1"
+			rewards: [
+				{
+					id: "0E42EFAE9AACD594"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "11AA06FFAA63ED88"
+					item: "moredelight:chicken_salad"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 102L
+				id: "0C06B9FC0268986D"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "Глина"
+			x: 13.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"481B78BFF06D3DCC"
+				"6A5413993C3178A1"
+			]
+			description: ["Створи необроблену дерев'яну форму, яка після доопрацювання стане ідеальною для ручного створення цегли коксової печі та глиняних цеглин. Простий, але незамінний інструмент для майстра!"]
+			id: "47EDCE2969B9E52A"
+			rewards: [{
+				id: "5AA21B16053E9FC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "не готова"
+			tasks: [{
+				id: "63541872A0894179"
+				item: "gtceu:empty_wooden_form"
+				type: "item"
+			}]
+			title: "Форма для випічки"
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["47EDCE2969B9E52A"]
+			description: ["Створи дерев'яну форму для цегли, яка стане ключовим інструментом у процесі ручного виготовлення потрібних цеглин. Простий, але ефективний спосіб забезпечити будівельні потреби і не тільки!"]
+			id: "41DC5087DB394CD5"
+			rewards: [{
+				id: "6FC221BF725F6317"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "готова"
+			tasks: [{
+				id: "44983901802A1AA8"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			title: "Форма для випічки"
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["41DC5087DB394CD5"]
+			description: ["Створи сиру, необроблену коксову цеглинку — перший крок до будівництва коксової печі. Без випалювання вона поки що непридатна для використання, але саме з неї починається твій шлях до прогресу!"]
+			id: "0042D30547C5F1E3"
+			rewards: [{
+				count: 16
+				id: "0844775D1CA45673"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Кокос?"
+			tasks: [{
+				count: 100L
+				id: "4C30FEC88EC1F27B"
+				item: "gtceu:compressed_coke_clay"
+				type: "item"
+			}]
+			title: "Сирий коксик"
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0042D30547C5F1E3"
+				"49E319666B44FA41"
+			]
+			description: ["Коксову піч не сплутай з кокаїном — одна будує прогрес, а інший його руйнує!"]
+			id: "29A0824239C724EC"
+			rewards: [
+				{
+					id: "5C80C9CF7E4E53C4"
+					item: "nethersdelight:warped_moldy_meat"
+					type: "item"
+				}
+				{
+					id: "7436710D2339E9E6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Обходимо кордони"
+			tasks: [{
+				count: 100L
+				id: "26BEF03BBC47368F"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			title: "В банани?"
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["591432EB7B5D0375"]
+			description: ["Побудуй коксову піч, яка дозволить отримувати креозот та коксове вугілля. Ця піч стане основним джерелом для здобуття цих цінних ресурсів, необхідних для подальших виробничих процесів."]
+			hide_until_deps_complete: true
+			icon: "gtceu:coke_oven"
+			id: "2FD82017BD59F84F"
+			rewards: [{
+				count: 128
+				id: "0E1AB973AF6BA72B"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Уолтера Уайта немає"
+			tasks: [
+				{
+					id: "63A4DB390AD9436F"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "01AB9B3608A01190"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			title: "Коксова фабрика"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2FD82017BD59F84F"]
+			description: ["Отримай креозот за допомогою коксової печі. Ця рідина, яка утворюється під час процесу виробництва коксового вугілля, стане важливим компонентом для подальших технологій, включаючи виготовлення різних хімічних продуктів та матеріалів."]
+			id: "18D05AD588D67BB7"
+			rewards: [
+				{
+					count: 64
+					id: "0A918B78A86E932A"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					id: "0CCFEA285FE6EBE7"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Окунись в рідке золото(майже)"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:creosote"
+				id: "716BF03D1020AB5C"
+				type: "fluid"
+			}]
+			title: "Креозот"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["18D05AD588D67BB7"]
+			id: "097FA40530FE52E1"
+			rewards: [
+				{
+					count: 4
+					id: "60167B1B9F489443"
+					item: "oceansdelight:baked_tentacle_on_a_stick"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35D95C85162E53AD"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			subtitle: "Витрачено"
+			tasks: [{
+				count: 8L
+				id: "5816939F93CDA036"
+				item: { Count: 8, id: "gtceu:treated_wood_planks" }
+				type: "item"
+			}]
+			title: "Оброблено"
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FD82017BD59F84F"]
+			description: ["Здобудь коксове вугілля, переробивши вугілля в коксовій печі. Цей потужний ресурс стане основою для багатьох виробничих процесів і відкриє нові можливості для роботи з іншими матеріалами."]
+			id: "75E2D5027C939475"
+			rewards: [{
+				count: 4
+				id: "02A65920C79E8860"
+				item: "gtceu:coke_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0E60D9336AB78255"
+				item: { Count: 16, id: "gtceu:coke_gem" }
+				type: "item"
+			}]
+			title: "Кокоси"
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29A0824239C724EC"]
+			description: ["Створи коксову цеглу, використовуючи спеціальні матеріали та технології обробки. Цей міцний будівельний матеріал стане основою для створення коксової печі та інших важливих конструкцій!"]
+			hide_until_deps_complete: false
+			id: "591432EB7B5D0375"
+			rewards: [
+				{
+					count: 4
+					id: "4134E3640E969B41"
+					item: "endersdelight:chorus_pie_slice"
+					type: "item"
+				}
+				{
+					id: "4084457B9E612DBE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Вкрадено в Китаї"
+			tasks: [{
+				count: 8L
+				id: "67712F2F5E94D464"
+				item: { Count: 8, id: "gtceu:coke_oven_bricks" }
+				type: "item"
+			}]
+			title: "Цегла з кокосів"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["591432EB7B5D0375"]
+			description: ["Побудуй вогняну плавильню — мультиблок, який стане першим кроком до парової епохи. Ця плавильня дозволить отримати звичайну бронзу, що стане основою для нових технологій і конструкцій."]
+			icon: "gtceu:fire_smalter"
+			id: "6CA909D8560F04C1"
+			rewards: [
+				{
+					id: "18792BA4934DA777"
+					item: "gtceu:ulv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "332FDEB7D7E7887A"
+					item: "minecraft:copper_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B4114CD59137110"
+					item: "gtceu:tin_ore"
+					type: "item"
+				}
+				{
+					id: "44F32BF728DA5C3D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "22126C64E1F5DA3D"
+					item: "honeydelight:honey_bar"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79B7B616110F2196"
+					item: "gtceu:fire_smalter"
+					type: "item"
+				}
+				{
+					id: "72BBA653B6A48F3C"
+					item: "gtceu:ulv_item_import_hatch_fire"
+					type: "item"
+				}
+				{
+					id: "71B218EDC6B6C4F5"
+					item: "gtceu:ulv_item_export_hatch_fire"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4C37785A56DD9F26"
+					item: { Count: 3, id: "kubejs:fire_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0DACB0507A1D05B9"
+					item: { Count: 4, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			title: "Плавильня вогню"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6CA909D8560F04C1"]
+			description: ["Створи свій перший злиток бронзи, відкриваючи нові можливості для виготовлення інструментів, механізмів та конструкцій. Це лише початок — бронза стане основою для наступних технологічних проривів, які допоможуть тобі досягти нових висот у розвитку та створенні потужніших матеріалів."]
+			id: "55848E5168F93234"
+			rewards: [
+				{
+					count: 32
+					id: "2253FE0CDE67491E"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "37B2A2EC9ED85F00"
+					item: "expandedstorage:obsidian_chest"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E22B4C5A0D993CE"
+					item: "kubejs:copper_voltage_coil"
+					type: "item"
+				}
+				{
+					id: "33A43E1E9D2667A6"
+					item: {
+						Count: 1
+						id: "gtceu:titanium_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 1535
+								ToolSpeed: 12.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				count: 32L
+				id: "3A244426DF1B2A53"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "&l&5Бронзова епоха"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"55848E5168F93234"
+				"102BE4BEE444A5E7"
+			]
+			description: ["Створи бронзовий ранець, використовуючи бронзові пластини та шкіру. Цей міцний і надійний предмет дозволить носити більше ресурсів та збільшити твої можливості для досліджень і будівництва. Бронза забезпечить йому довговічність, а зручний дизайн стане незамінним помічником у подорожах."]
+			hide_until_deps_visible: true
+			id: "747DF6D6744A558B"
+			rewards: [{
+				id: "1FDDF1BB65DD16DD"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40C75E73EB82DCEA"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			icon: "expandedstorage:iron_chest"
+			id: "42374F8A0862EE2B"
+			rewards: [
+				{
+					count: 4
+					id: "7ECD1FF30836B749"
+					item: "oceansdelight:cooked_guardian_tail"
+					type: "item"
+				}
+				{
+					id: "59ECA7E2EC8514C7"
+					item: "expandedstorage:iron_mini_chest"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "513A985D6C38EEE4"
+					item: "expandedstorage:iron_chest"
+					type: "item"
+				}
+				{
+					id: "6BFE01ADF02ED7F6"
+					item: "expandedstorage:wood_to_iron_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "624E695BC7D1176E"
+					item: "expandedstorage:iron_barrel"
+					type: "item"
+				}
+			]
+			title: "Залізні скрині"
+			x: 7.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42374F8A0862EE2B"]
+			icon: "expandedstorage:gold_chest"
+			id: "3BF29A0A78230C12"
+			rewards: [
+				{
+					id: "0A2AA8E83595D891"
+					item: "expandedstorage:gold_mini_chest"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D64E022E8111414"
+					item: "oceansdelight:bowl_of_guardian_soup"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3949A21A4A28BC72"
+					item: "expandedstorage:gold_chest"
+					type: "item"
+				}
+				{
+					id: "7BC1AA0E978F4316"
+					item: "expandedstorage:iron_to_gold_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "0E74A9521FC83439"
+					item: "expandedstorage:gold_barrel"
+					type: "item"
+				}
+			]
+			title: "Золоті скрині"
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3BF29A0A78230C12"]
+			icon: "expandedstorage:diamond_chest"
+			id: "0EC7EB6CF8FDC1C3"
+			rewards: [
+				{
+					id: "2562FA6E92770720"
+					item: "expandedstorage:diamond_mini_chest"
+					type: "item"
+				}
+				{
+					id: "2F7D8B5AF66EE2ED"
+					item: "nethersdelight:magma_gelatin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "792DFE27A2B52069"
+					item: "expandedstorage:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "2553442E04A8408E"
+					item: "expandedstorage:gold_to_diamond_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "3B0C2BD76AC1C61D"
+					item: "expandedstorage:diamond_barrel"
+					type: "item"
+				}
+			]
+			title: "Діамантові скрині"
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0EC7EB6CF8FDC1C3"]
+			icon: "expandedstorage:obsidian_chest"
+			id: "743664D42A228EB5"
+			rewards: [{
+				count: 4
+				id: "0DD94458B02219A6"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4602383DCF9B7E7A"
+					item: "expandedstorage:obsidian_chest"
+					type: "item"
+				}
+				{
+					id: "71B2CE9D815185F1"
+					item: "expandedstorage:diamond_to_obsidian_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "6B8627016366F41A"
+					item: "expandedstorage:obsidian_barrel"
+					type: "item"
+				}
+			]
+			title: "Обсидіанові скрині"
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["743664D42A228EB5"]
+			icon: "expandedstorage:netherite_chest"
+			id: "4B15EDB42A148029"
+			rewards: [
+				{
+					id: "61771236E707DD28"
+					item: "expandedstorage:netherite_mini_chest"
+					type: "item"
+				}
+				{
+					id: "23D0C707C16D2F6C"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C61A8EDF74E1C01"
+					item: "expandedstorage:netherite_chest"
+					type: "item"
+				}
+				{
+					id: "4B72DBDEF7C487F2"
+					item: "expandedstorage:obsidian_to_netherite_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "79A3D3063C865D2E"
+					item: "expandedstorage:netherite_barrel"
+					type: "item"
+				}
+			]
+			title: "Незеритові скрині"
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"612DA27A848BA9F1"
+				"0ADB40DEFA754AFA"
+			]
+			description: [
+				"Вогонь горить, і кремінь в твоїх руках готовий до перетворення. За допомогою цього природного матеріалу, ти можеш створити маленькі камінці, що стануть основою для створення більш складних кам'яних виробів. "
+				""
+				"Потрібно розпалити вогнище і ретельно обробити кремінь, щоб отримати дрібні камінці. Ці камінці стануть тобі в нагоді для створення більш потужних і стійких кремневих інструментів або навіть для побудови основи твоїх конструкцій."
+			]
+			id: "0801A74F593ECAC2"
+			rewards: [{
+				count: 8
+				id: "6F2B95869A000217"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			tasks: [{
+				count: 18L
+				id: "2DCF48E27BD9BF02"
+				item: { Count: 18, id: "kubejs:chunk_stone" }
+				type: "item"
+			}]
+			title: "Камінчики"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Створи кремневий меч, обробляючи кремінь та камінь(?), щоб отримати гостре і міцне лезо для першого бою."]
+			id: "64EFF0A77707AE49"
+			rewards: [{
+				id: "1B0CE1508E3CE74E"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24DDF09CEE91FB69"
+				item: {
+					Count: 1
+					id: "gtceu:flint_sword"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 4.0f
+							AttackSpeed: -2.4f
+							Damage: 0
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Кремневий меч"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FD82017BD59F84F"]
+			description: ["Створи спеціальний люк для коксової печі, який здатен приймати та видавати предмети, а також видавати рідини. Цей блок дозволяє автоматизувати процеси подачі вугілля в пічь, виведення креозоту та коксового вугілля, значно полегшуючи управління ресурсами в печі."]
+			id: "077B3770A413D8BA"
+			rewards: [{
+				id: "6046413ECD26514A"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "401F8EB97BFE9AE5"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			title: "Люк коксової печі"
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Зроби кременеву лопату — простий, але ефективний інструмент для роботи з ґрунтом і піском. Ця лопата стане твоїм першим кроком у освоєнні земель і полегшить шлях до майбутніх звершень."]
+			id: "65D99F9E580F33C4"
+			tasks: [{
+				id: "12DC9C5463D67BE8"
+				item: {
+					Count: 1
+					id: "gtceu:flint_shovel"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 63
+							ToolSpeed: 5.5f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Кременева лопата"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B49FE215A18ACC9"]
+			description: ["Створи кременеву сокиру — надійний інструмент для швидкого збирання деревини та будівництва. Вона стане твоїм першим помічником у створенні притулку та дослідженні світу"]
+			id: "7C5E30992B51CB45"
+			tasks: [{
+				id: "4A59CAFFBD81CA99"
+				item: {
+					Count: 1
+					id: "gtceu:flint_axe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							DisableShields: 1b
+							TreeFelling: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 63
+							ToolSpeed: 3.5f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Кременева сокира"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["442B9556CED98BF7"]
+			description: ["Створи резервуар зі збідненої бронзи, здатний вмістити до двох відер рідини. Це твій перший переносний резервуар, який стане в нагоді для зберігання та транспортування води, лави чи інших рідких ресурсів."]
+			id: "292840F7051D6B61"
+			rewards: [
+				{
+					count: 4
+					id: "4E9829C422475E48"
+					item: "gtceu:bad_bronze_plate"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "500092C159FBDA5C"
+					item: "miners_delight:beef_stew_cup"
+					type: "item"
+				}
+			]
+			subtitle: "Танк чи резервуар?"
+			tasks: [{
+				id: "4340EFB4AA78FFD9"
+				item: "fluidtank:tank_wood"
+				type: "item"
+			}]
+			title: "Відро з собою"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["442B9556CED98BF7"]
+			description: ["Сковорідка та каструля стануть незамінними інструментами для приготування різних страв. Нагрівати каструлю найзручніше на кухонній плиті але можна й на кострі при необхідності, забезпечуючи рівномірний розподіл тепла для найсмачніших кулінарних шедеврів!"]
+			id: "46894CE38C0C5055"
+			rewards: [
+				{
+					count: 16
+					id: "2397F46164767CE0"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "360C370A3CE8B2CA"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A1965B9ECAF95AD"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "2E6D683BA59FD086"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Кухонне приладдя"
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["591432EB7B5D0375"]
+			description: ["Кухонна плита — це зручний спосіб нагрівати каструлю чи сковорідку, забезпечуючи швидке та рівномірне приготування. Якщо плита недоступна, багаття стане альтернативою, але з плитою процес буде значно простішим і безпечнішим!"]
+			id: "6531D50AB2B2925F"
+			rewards: [
+				{
+					count: 16
+					id: "18BC79E300909E7B"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					id: "63AFA1702B5E2566"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "1365627620757955"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+	]
+	title: "Глава І: Кам'яний вік"
+}

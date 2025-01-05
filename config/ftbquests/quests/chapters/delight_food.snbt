@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "delight_food"
+	group: ""
+	id: "398854B40B298E4F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Delight food W.I.P"
+}

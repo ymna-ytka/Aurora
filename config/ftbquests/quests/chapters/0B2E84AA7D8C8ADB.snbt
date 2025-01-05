@@ -1,0 +1,470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0B2E84AA7D8C8ADB"
+	group: ""
+	icon: "gtceu:assembly_line_unit"
+	id: "0B2E84AA7D8C8ADB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["442B9556CED98BF7"]
+			description: ["Мультиблок? Мультиблок! Потрібен вам для коксового вугілля."]
+			hide_until_deps_complete: true
+			icon: "gtceu:fire_bath"
+			id: "5DE23157963C0518"
+			rewards: [{
+				id: "5EE03256B61605FD"
+				item: "gtceu:ulv_energy_input_hatch"
+				type: "item"
+			}]
+			subtitle: "Вогняні муки"
+			tasks: [
+				{
+					id: "250E1AE3C843D40A"
+					item: "gtceu:fire_bath"
+					type: "item"
+				}
+				{
+					id: "5960061281655812"
+					item: "gtceu:ulv_item_import_hatch_fire"
+					type: "item"
+				}
+				{
+					id: "3130D9D11C397201"
+					item: "gtceu:ulv_item_export_hatch_fire"
+					type: "item"
+				}
+				{
+					id: "7EF290DCE097DC14"
+					item: "gtceu:ulv_fluid_input_hatch_fire"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "3CE480160501A410"
+					item: { Count: 34, id: "kubejs:fire_casing" }
+					type: "item"
+				}
+			]
+			title: "Баня вогню"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29A0824239C724EC"]
+			hide_until_deps_complete: true
+			icon: "gtceu:coke_oven"
+			id: "0B6CAA0B85D0B884"
+			subtitle: "Уолтера Уайта немає"
+			tasks: [
+				{
+					id: "3472C25277152F3D"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "73DB07C8718CC53C"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			title: "Коксова фабрика"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["097FA40530FE52E1"]
+			hide_until_deps_complete: true
+			icon: "gtceu:primitive_pump"
+			id: "0C4F572F54A6C05A"
+			tasks: [
+				{
+					id: "182271C6912C8213"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "328D84F4F7F56546"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0A93C28EF5FEC5E4"
+					item: { Count: 10, id: "gtceu:pump_deck" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0C180B059B8D26E3"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+			]
+			title: "Водяна помпа"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["097FA40530FE52E1"]
+			hide_until_deps_complete: true
+			icon: "gtceu:wooden_multiblock_tank"
+			id: "21F3C05A1643E65A"
+			subtitle: "Майже танкер"
+			tasks: [
+				{
+					count: 25L
+					id: "495CF0EF0633BAEE"
+					item: { Count: 25, id: "gtceu:wood_wall" }
+					type: "item"
+				}
+				{
+					id: "777E86167501140C"
+					item: "gtceu:wooden_multiblock_tank"
+					type: "item"
+				}
+			]
+			title: "Танк"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A644B2AF0D328C1"]
+			icon: "gtceu:steam_oven"
+			id: "5E42FC9396D95C44"
+			subtitle: "Пиріжки прямо як в бабусі"
+			tasks: [
+				{
+					id: "030A942C71BC9176"
+					item: "gtceu:steam_oven"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6CBE4B255D2D5641"
+					item: { Count: 8, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "473D37B8696F60E5"
+					item: { Count: 8, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					id: "675A4B3C6801290B"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6E0597E2CA7746DB"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "48C28C30610C5728"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+			]
+			title: "Парова пічка"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A644B2AF0D328C1"]
+			icon: "gtceu:steam_grinder"
+			id: "76827B3C1E44FEE0"
+			tasks: [
+				{
+					id: "308B34B66D1D6A3E"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "59660D66D57923DF"
+					item: { Count: 22, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "672868CDB0CF79EB"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "79F32C0F0BA331E2"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "21FB06A1CF20E6A9"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+			]
+			title: "Парова дробарка"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"558F79BC5CD79FC9"
+				"3C54B4175F664C22"
+			]
+			description: ["Можливо, воно зможе синтезувати необіхідний мені камінь чи щось подібне...."]
+			icon: "gtceu:steam_magic_bath"
+			id: "636764BEFCDF6432"
+			tasks: [
+				{
+					id: "37965BA6F68F017A"
+					item: "gtceu:steam_magic_bath"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "750A90043AEA39E1"
+					item: { Count: 4, id: "gtceu:steel_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "55D5B31E204B4AED"
+					item: { Count: 4, id: "gtceu:steel_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "7AC59FCB180028AC"
+					item: { Count: 48, id: "kubejs:ferabrass_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "562764E37DFDB6B9"
+					item: { Count: 9, id: "gtceu:ferabrass_block" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2ACCEFCE3384013F"
+					item: { Count: 9, id: "gtceu:ferabrass_frame" }
+					type: "item"
+				}
+			]
+			title: "Магічна ваночка"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"591432EB7B5D0375"
+				"5DE23157963C0518"
+			]
+			icon: "gtceu:fire_smalter"
+			id: "13AD7B3FA72D4B58"
+			rewards: [{
+				id: "500BEBA99084509E"
+				item: "gtceu:ulv_energy_input_hatch"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A07E2B55A584C62"
+					item: "gtceu:fire_smalter"
+					type: "item"
+				}
+				{
+					id: "7AFBDC86D4F0DCD2"
+					item: "gtceu:ulv_item_import_hatch_fire"
+					type: "item"
+				}
+				{
+					id: "6FBCD1E316492ADD"
+					item: "gtceu:ulv_item_export_hatch_fire"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3072527542B53BC6"
+					item: { Count: 3, id: "kubejs:fire_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E185984AF52C225"
+					item: { Count: 4, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			title: "Плавильня вогню"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C9FA71CBF573809"]
+			description: ["Вітаю!!! Це ваша сталь, перша законо зроблена сталь! Вітаю вас з новими можливостями."]
+			hide_until_deps_complete: true
+			icon: "gtceu:primitive_blast_furnace"
+			id: "02322C538D777E2F"
+			tasks: [
+				{
+					id: "22DF27C63ED46E14"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "160A72631BB2C6B8"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			title: "Примітивна доменна піч"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02322C538D777E2F"]
+			description: ["Можливо вам буде потрібено більше сталі, чим ви можете собі уявити..."]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "061E04CF78BD128C"
+			tasks: [
+				{
+					count: 4L
+					id: "5187A3A6042D3186"
+					item: { Count: 4, id: "gtceu:primitive_blast_furnace" }
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "5A4782655AE09690"
+					item: { Count: 128, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			title: "Дім"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02322C538D777E2F"]
+			description: ["Якщо хочете чогось не такого."]
+			icon: "gtceu:steam_blast_furnace"
+			id: "26B9E086868D3AB9"
+			tasks: [
+				{
+					id: "5D6374A3659F5ABA"
+					item: "gtceu:steam_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1305668A02F69C4B"
+					item: { Count: 4, id: "gtceu:steel_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1075D8EA433B446D"
+					item: { Count: 4, id: "gtceu:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "289E37A1E649BBD5"
+					item: { Count: 8, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6C5E1E1CD81B3D7D"
+					item: { Count: 2, id: "gtceu:steel_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 29L
+					id: "2563A27CB6050321"
+					item: { Count: 29, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					id: "2B1527BCC4166856"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "04ADF5E94D2C8590"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "7BAEFF727421CA22"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B6CAA0B85D0B884"]
+			description: ["Більше коксу!"]
+			icon: "gtceu:steam_coke_oven"
+			id: "79409E31F5725080"
+			tasks: [
+				{
+					id: "6B3E7967072AD059"
+					item: "gtceu:steam_coke_oven"
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "3ED0DA6F35726752"
+					item: { Count: 51, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1AB67A65134B28A4"
+					item: { Count: 8, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4423830654566205"
+					item: { Count: 4, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["21F3C05A1643E65A"]
+			description: ["Кращий, ніж дерев'яний."]
+			icon: "gtceu:steel_multiblock_tank"
+			id: "78673879518C259A"
+			tasks: [
+				{
+					id: "126496A82867F03C"
+					item: "gtceu:steel_multiblock_tank"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "6EFFF3546317FA54"
+					item: { Count: 25, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+			]
+			title: "Сталевий танк"
+			x: -7.0d
+			y: 1.5d
+		}
+	]
+	title: "Мультиблоки"
+}
