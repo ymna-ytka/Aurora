@@ -1,0 +1,1 @@
+//GTCEuStartupEvents.registry('gtceu:element', event => {event.create('netherite', 166, 250, -1, null, 'Nz', false) })
