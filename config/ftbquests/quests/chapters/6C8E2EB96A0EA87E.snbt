@@ -125,7 +125,7 @@
 				""
 				"P.s для крафту використовуйте ножі з GregTech."
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "44B8C7D9C5005282"
 			rewards: [
 				{
