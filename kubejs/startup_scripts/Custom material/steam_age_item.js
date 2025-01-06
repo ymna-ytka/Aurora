@@ -9,17 +9,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_GEAR, 
             GTMaterialFlags.GENERATE_ROD
     )
-
-//    event.create('netherite')
-//        .ingot()
-//        .element(GTElements.get("netherite"))   
-//        .color(0x31292a)
-//        .iconSet(GTMaterialIconSet.SHINY)
-//        .flags(
-//            GTMaterialFlags.GENERATE_PLATE,
-//            GTMaterialFlags.NO_SMELTING,
-//            GTMaterialFlags.GENERATE_BOLT_SCREW,   
-//    )
     
     event.create('ferabrass')
         .ingot()

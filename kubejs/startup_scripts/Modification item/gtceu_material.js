@@ -12,4 +12,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.Obsidian.addFlags(GTMaterialFlags.GENERATE_ROD)
     GTMaterials.Obsidian.addFlags(GTMaterialFlags.GENERATE_BOLT_SCREW)
 
+    //Netherite
+    GTMaterials.Netherite.addFlags(GTMaterialFlags.GENERATE_PLATE)
+    GTMaterials.Netherite.addFlags(GTMaterialFlags.GENERATE_BOLT_SCREW)
+    
 });

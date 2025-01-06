@@ -9,26 +9,5 @@ ServerEvents.recipes(event=>{
 
     )
 
-    event.shaped("compressium:netherite_1",
-
-        [
-            "III",
-            "III",
-            "III"
-        ],
-
-        {
-            I:"gtceu:netherite_block"
-        }
-
-    )
-
-    event.shapeless("gtceu:netherite_block",
-
-        [
-            "compressium:netherite_1"
-        ]
-
-    )
 
 })

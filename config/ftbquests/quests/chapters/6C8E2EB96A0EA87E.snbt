@@ -1258,27 +1258,27 @@
 					item: "gtceu:bad_bronze_block"
 					type: "item"
 				}
+				{
+					id: "0BBD593A0469D82C"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+				{
+					id: "5EC0BCD3113F07E7"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+				{
+					id: "635847D7D128E09D"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
 			]
 			subtitle: "Вогняні муки"
 			tasks: [
 				{
 					id: "1CF47BB6C4EA44B2"
 					item: "gtceu:fire_bath"
-					type: "item"
-				}
-				{
-					id: "47D94462FEAAD80E"
-					item: "gtceu:ulv_item_import_hatch_fire"
-					type: "item"
-				}
-				{
-					id: "5AB2C1E6B02F083D"
-					item: "gtceu:ulv_item_export_hatch_fire"
-					type: "item"
-				}
-				{
-					id: "2F37E31F2FFCD243"
-					item: "gtceu:ulv_fluid_input_hatch_fire"
 					type: "item"
 				}
 				{
@@ -1599,14 +1599,13 @@
 					type: "item"
 				}
 				{
-					id: "44F32BF728DA5C3D"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "624322B6D3F66B63"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
 				}
 				{
-					count: 8
-					id: "22126C64E1F5DA3D"
-					item: "honeydelight:honey_bar"
+					id: "64507382B8213322"
+					item: "gtceu:ulv_output_bus"
 					type: "item"
 				}
 			]
@@ -1614,16 +1613,6 @@
 				{
 					id: "79B7B616110F2196"
 					item: "gtceu:fire_smalter"
-					type: "item"
-				}
-				{
-					id: "72BBA653B6A48F3C"
-					item: "gtceu:ulv_item_import_hatch_fire"
-					type: "item"
-				}
-				{
-					id: "71B218EDC6B6C4F5"
-					item: "gtceu:ulv_item_export_hatch_fire"
 					type: "item"
 				}
 				{

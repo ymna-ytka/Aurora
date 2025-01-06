@@ -118,5 +118,18 @@ ServerEvents.recipes(event=>{
         }
 
     )
+
+    event.recipes.gtceu.compressor('compresor_netherite_block')
+    
+    .itemInputs(
+        "9x minecraft:netherite_ingot",
+      )
+  
+    .itemOutputs(
+        "minecraft:netherite_block"
+      )
+  
+    .duration(300)
+    .EUt(2)
     
 })
