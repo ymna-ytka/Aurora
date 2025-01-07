@@ -48,5 +48,10 @@ ServerEvents.recipes(event=>{
 
     event.remove( { id: "gtceu:shapeless/nugget_disassembling_iron" } )
 
+    event.remove( { id: "gtceu:cutter/cut_diamond_block_to_plate" } )
+
+    event.remove( { id: "gtceu:cutter/cut_diamond_block_to_plate_distilled_water" } )
+
+    event.remove( { id: "gtceu:cutter/cut_diamond_block_to_plate_water" } )
 
 })

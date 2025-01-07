@@ -2,6 +2,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('tumbaga')
         .ingot()
+        .components('3x copper', '7x gold',)       
         .color(0xfabd52)
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(
@@ -12,6 +13,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     
     event.create('ferabrass')
         .ingot()
+        .components('5x steel', '1x silicon', '3x brass')       
         .color(0xc4a87b)
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(
@@ -21,6 +23,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('constantan')
         .ingot()
+        .components('2x copper', '1x nickel',)       
         .color(0xcc9966)
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(
