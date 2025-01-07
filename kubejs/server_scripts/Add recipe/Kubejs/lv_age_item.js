@@ -1,4 +1,4 @@
-ServerEvents.recipes(event=>{
+ServerEvents.recipes( event=> {
 
     event.shaped("kubejs:carbide_silicon_orb",
 
@@ -26,8 +26,9 @@ ServerEvents.recipes(event=>{
     .itemOutputs(
         "kubejs:carbide_silicon_orb"
     )
-    .duration(400)
-    .EUt(32)
+
+    .duration (400)
+    .EUt      (32)
 
 
     event.recipes.gtceu.canner('graphite_orb_fill')
@@ -40,8 +41,9 @@ ServerEvents.recipes(event=>{
     .itemOutputs(
         "kubejs:carbide_silicon_fill_orb"
     )
-    .duration(1600)
-    .EUt(16)
+
+    .duration (1600)
+    .EUt      (16)
 
     event.shaped("kubejs:wrough_iron_bender_path",
 
@@ -77,7 +79,103 @@ ServerEvents.recipes(event=>{
     .itemOutputs(
         "kubejs:wrough_iron_bender_path"
     )
-    .duration(400)
-    .EUt(32)
+
+    .duration (400)
+    .EUt      (32)
+
+    event.recipes.gtceu.autoclave('plant_fibers_autoclave_biomass')
+
+    .itemInputs(
+        "16x gtceu:plant_ball",
+    )
+
+    .inputFluids(
+        Fluid.of("gtceu:biomass", 8)
+    )
+    
+    .chancedOutput(
+        "kubejs:plant_fibers", 3300, 150    
+    )
+
+    .duration (200)
+    .EUt      (20)
+
+    event.recipes.gtceu.autoclave('plant_fibers_autoclave_methanol')
+
+    .itemInputs(
+        "16x gtceu:plant_ball",
+    )
+
+    .inputFluids(
+        Fluid.of("gtceu:methanol", 8)
+    )
+
+    .chancedOutput(
+        "kubejs:plant_fibers", 5000, 150    
+    )
+
+    .duration (150)
+    .EUt      (20)
+
+    event.recipes.gtceu.autoclave('plant_fibers_autoclave_diesel')
+
+    .itemInputs(
+        "16x gtceu:plant_ball",
+    )
+
+    .inputFluids(
+        Fluid.of("gtceu:diesel", 8)
+    )
+
+    .chancedOutput(
+        "kubejs:plant_fibers", 8000, 150    
+    )
+
+    .duration (100)
+    .EUt      (20)
+
+    event.recipes.gtceu.autoclave('plant_fibers_autoclave_b_diesel')
+
+    .itemInputs(
+        "16x gtceu:plant_ball",
+    )
+
+    .inputFluids(
+        Fluid.of("gtceu:cetane_boosted_diesel", 8)
+    )
+
+    .itemOutputs(
+        "kubejs:plant_fibers"
+    )
+
+    .duration (50)
+    .EUt      (20)
+
+    event.recipes.gtceu.assembler('plant_fiber_mesh_assemb')
+
+    .itemInputs(
+        "2x kubejs:plant_fibers",
+    )
+
+    .itemOutputs(
+        "kubejs:plant_fiber_mesh"
+    )
+
+    .duration (50)
+    .circuit  (2)
+    .EUt      (GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.electric_blast_furnace('plant_fiber_mesh_ebf')
+
+    .itemInputs(
+        "kubejs:plant_fiber_mesh",
+    )
+
+    .itemOutputs(
+        "gtceu:carbon_fiber_mesh"
+    )
+    
+    .duration (50)
+    .EUt      (20)
 
 })
