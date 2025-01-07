@@ -126,5 +126,18 @@ ServerEvents.recipes(event => {
 
     )
 
+    event.replaceInput( { id: "gtceu:shaped/lv_rock_crusher" },
+
+        "minecraft:diamond",
+        "#gtceu:grinding_head"
+
+    )
+
+    event.replaceInput( { id: "gtceu:shaped/lv_electrolyzer" },
+
+        "minecraft:glass",
+        "gtceu:lv_voltage_coil"
+
+    )
 
 })
