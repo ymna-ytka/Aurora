@@ -118,5 +118,6 @@ ServerEvents.recipes(event => {
     .EUt(28)    
   //
 
+  event.blasting("gtceu:bad_bronze_ingot", "gtceu:bad_bronze_dust")
 })
 

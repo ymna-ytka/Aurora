@@ -1490,10 +1490,9 @@
 			]
 			subtitle: "Окунись в рідке золото(майже)"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:creosote"
-				id: "716BF03D1020AB5C"
-				type: "fluid"
+				id: "3053EECDD7BD9F38"
+				item: "gtceu:creosote_bucket"
+				type: "item"
 			}]
 			title: "Креозот"
 			x: 15.0d
@@ -1601,6 +1600,7 @@
 					type: "item"
 				}
 				{
+					count: 2
 					id: "624322B6D3F66B63"
 					item: "gtceu:ulv_input_bus"
 					type: "item"
