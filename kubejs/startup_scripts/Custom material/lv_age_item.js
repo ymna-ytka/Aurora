@@ -9,7 +9,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_FOIL,
         )
-        .blastTemp(1800, 'highest')
+        .blastTemp(1800, 'low')
     
         
 
