@@ -10,7 +10,7 @@ ServerEvents.recipes( event=> {
 
         {
             S:"gtceu:gold_screw",
-            D:"gtceu:gold_plate",
+            D:"gtceu:double_gold_plate",
             I:"gtceu:iron_plate",
             H:"#forge:tools/hammers",
             C:"#forge:tools/screwdrivers"
@@ -82,7 +82,7 @@ ServerEvents.recipes( event=> {
 
         {
             S:"gtceu:iron_screw",
-            D:"gtceu:iron_plate",
+            D:"gtceu:double_iron_plate",
             I:"#minecraft:planks",
             H:"#forge:tools/hammers",
             C:"#forge:tools/screwdrivers"

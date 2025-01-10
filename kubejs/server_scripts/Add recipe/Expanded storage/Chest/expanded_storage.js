@@ -91,45 +91,155 @@ ServerEvents.recipes( event=> {
 
     )
 
-    event.shapeless("expandedstorage:iron_mini_chest",
+    event.shaped("4x expandedstorage:iron_mini_chest",
 
         [
-            "expandedstorage:iron_chest"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:iron_chest"
+        }
 
     )
 
-    event.shapeless("expandedstorage:gold_mini_chest",
+    event.shaped("4x expandedstorage:gold_mini_chest",
 
         [
-            "expandedstorage:gold_chest"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:gold_chest"
+        }
 
     )
 
-    event.shapeless("expandedstorage:diamond_mini_chest",
+    event.shaped("4x expandedstorage:diamond_mini_chest",
 
         [
-            "expandedstorage:diamond_chest"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:diamond_chest"
+        }
 
     )
 
-    event.shapeless("expandedstorage:obsidian_mini_chest",
+    event.shaped("4x expandedstorage:obsidian_mini_chest",
 
         [
-            "expandedstorage:obsidian_chest"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:obsidian_chest"
+        }
 
     )
 
-    event.shapeless("expandedstorage:netherite_mini_chest",
+    event.shaped("4x expandedstorage:netherite_mini_chest",
 
         [
-            "expandedstorage:netherite_chest"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:netherite_chest"
+        }
 
     )
+
+    event.recipes.gtceu.assembler("iron_chest_assemb")
+
+    .itemInputs(
+        "minecraft:chest",
+        "4x gtceu:double_iron_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:iron_chest"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.LV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("gold_chest_assemb")
+
+    .itemInputs(
+        "minecraft:chest",
+        "4x gtceu:double_gold_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:gold_chest"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.MV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("diamond_chest_assemb")
+
+    .itemInputs(
+        "minecraft:chest",
+        "4x gtceu:diamond_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:diamond_chest"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.MV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("obsidian_chest_assemb")
+
+    .itemInputs(
+        "minecraft:chest",
+        "4x gtceu:obsidian_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:obsidian_chest"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.MV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("netherite_chest_assemb")
+
+    .itemInputs(
+        "minecraft:chest",
+        "4x gtceu:netherite_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:netherite_chest"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.HV])
+    .circuit(4)
 
     //
     
@@ -224,45 +334,155 @@ ServerEvents.recipes( event=> {
 
     )
 
-    event.shapeless("expandedstorage:iron_mini_barrel",
+    event.shaped("4x expandedstorage:iron_mini_barrel",
 
         [
-            "expandedstorage:iron_barrel"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:iron_barrel"
+        }
 
     )
 
-    event.shapeless("expandedstorage:gold_mini_barrel",
+    event.shaped("4x expandedstorage:gold_mini_barrel",
 
         [
-            "expandedstorage:gold_barrel"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:gold_barrel"
+        }
 
     )
 
-    event.shapeless("expandedstorage:diamond_mini_barrel",
+    event.shaped("4x expandedstorage:diamond_mini_barrel",
 
         [
-            "expandedstorage:diamond_barrel"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:diamond_barrel"
+        }
 
     )
 
-    event.shapeless("expandedstorage:obsidian_mini_barrel",
+    event.shaped("4x expandedstorage:obsidian_mini_barrel",
 
         [
-            "expandedstorage:obsidian_barrel"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:obsidian_barrel"
+        }
 
     )
 
-    event.shapeless("expandedstorage:netherite_mini_barrel",
+    event.shaped("4x expandedstorage:netherite_mini_barrel",
 
         [
-            "expandedstorage:netherite_barrel"
-        ]
+            " P ",
+            "PCP",
+            " P "
+        ],
+
+        {
+            P:"minecraft:paper",
+            C:"expandedstorage:netherite_barrel"
+        }
 
     )
+
+    event.recipes.gtceu.assembler("iron_barrel_assemb")
+
+    .itemInputs(
+        "minecraft:barrel",
+        "4x gtceu:double_iron_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:iron_barrel"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.LV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("gold_barrel_assemb")
+
+    .itemInputs(
+        "minecraft:barrel",
+        "4x gtceu:double_gold_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:gold_barrel"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.MV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("diamond_barrel_assemb")
+
+    .itemInputs(
+        "minecraft:barrel",
+        "4x gtceu:diamond_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:diamond_barrel"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.MV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("obsidian_barrel_assemb")
+
+    .itemInputs(
+        "minecraft:barrel",
+        "4x gtceu:obsidian_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:obsidian_barrel"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.MV])
+    .circuit(4)
+
+    event.recipes.gtceu.assembler("netherite_barrel_assemb")
+
+    .itemInputs(
+        "minecraft:barrel",
+        "4x gtceu:netherite_plate"
+    )
+
+    .itemOutputs(
+        "expandedstorage:netherite_barrel"
+    )
+
+    .duration(800)
+    .EUt(GTValues.VA[GTValues.HV])
+    .circuit(4)
 
 //
 

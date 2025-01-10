@@ -119,5 +119,12 @@ ServerEvents.recipes(event => {
   //
 
   event.blasting("gtceu:bad_bronze_ingot", "gtceu:bad_bronze_dust")
+
+  event.blasting("gtceu:tumbaga_ingot", "gtceu:tumbaga_dust")
+
+  event.blasting("gtceu:ferabrass_ingot", "gtceu:ferabrass_dust")
+
+  event.blasting("gtceu:constantan_ingot", "gtceu:constantan_dust")
+
 })
 

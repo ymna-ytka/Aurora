@@ -833,6 +833,7 @@
 		{
 			dependencies: ["5A2CC08526EFCA51"]
 			description: ["Попавши в незер, ви відкриїте собі доступ до багатьох мінералів, деяких данжів необхідних, просто блоків та багато іншого."]
+			icon: "minecraft:crying_obsidian"
 			id: "5C7EF6ECB2AD8CF3"
 			tasks: [
 				{
@@ -1209,8 +1210,8 @@
 					type: "item"
 				}
 				{
-					id: "3878765D6BE362CD"
-					item: "gtceu:ulv_input_bus"
+					id: "6003A766CD53F6DE"
+					item: "gtceu:steam_input_bus"
 					type: "item"
 				}
 			]
@@ -1245,8 +1246,8 @@
 					type: "item"
 				}
 				{
-					id: "3A0914B52A715977"
-					item: "gtceu:ulv_input_bus"
+					id: "7D7F25488BB7AB0F"
+					item: "gtceu:steam_input_bus"
 					type: "item"
 				}
 			]

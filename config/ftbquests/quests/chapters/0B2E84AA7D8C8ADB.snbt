@@ -126,6 +126,12 @@
 					item: "gtceu:wooden_multiblock_tank"
 					type: "item"
 				}
+				{
+					count: 2L
+					id: "19CC28480CE9430C"
+					item: "gtceu:wooden_tank_valve"
+					type: "item"
+				}
 			]
 			title: "Танк"
 			x: -6.0d
@@ -458,6 +464,12 @@
 					count: 25L
 					id: "6EFFF3546317FA54"
 					item: { Count: 25, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4925D31E3647E894"
+					item: { Count: 2, id: "gtceu:steel_tank_valve" }
 					type: "item"
 				}
 			]
