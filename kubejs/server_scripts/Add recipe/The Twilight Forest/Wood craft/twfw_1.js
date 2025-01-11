@@ -3,7 +3,7 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:twilight_oak_planks',
 
         [
-          'twilightforest:twilight_oak_log'  
+          '#twilightforest:twilight_oak_logs'  
         ]
     )
 
@@ -18,7 +18,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('twilight_oak_lubricant')
 
         .itemInputs(
-            'twilightforest:twilight_oak_log',  
+            '#twilightforest:twilight_oak_logs',  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('twilight_oak_dist_water')
 
         .itemInputs(
-            "twilightforest:twilight_oak_log"
+            '#twilightforest:twilight_oak_logs'  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('twilight_oak_plank_water')
 
         .itemInputs(
-            "twilightforest:twilight_oak_log"
+            '#twilightforest:twilight_oak_logs'  
         )
 
         .inputFluids(

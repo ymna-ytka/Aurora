@@ -477,6 +477,48 @@
 			x: -7.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["55848E5168F93234"]
+			icon: "gtceu:fire_saw"
+			id: "2E2ADE531427D9B4"
+			tasks: [
+				{
+					id: "2B3F7234B0AF24DC"
+					item: "gtceu:fire_saw"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3F05E38FB6975541"
+					item: { Count: 16, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3320C1822B047147"
+					item: { Count: 17, id: "kubejs:fire_casing" }
+					type: "item"
+				}
+				{
+					id: "1BBC55DDB1BFFBEC"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "5AB7385C0B5F737C"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4EEC9D230B181F16"
+					item: { Count: 8, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
 	]
 	title: "Мультиблоки"
 }

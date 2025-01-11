@@ -3,14 +3,14 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:mangrove_planks',
 
         [
-          'twilightforest:mangrove_log'  
+          '#twilightforest:mangrove_logs'  
         ]
     )
 
     event.shapeless('4x twilightforest:mangrove_planks',
 
         [
-          'twilightforest:mangrove_log',  
+          '#twilightforest:mangrove_logs',  
           "#forge:tools/saws"  
         ]
     )
@@ -18,7 +18,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('mangrove_lubricant')
 
         .itemInputs(
-            'twilightforest:mangrove_log',  
+            '#twilightforest:mangrove_logs'  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('mangrove_dist_water')
 
         .itemInputs(
-            "twilightforest:mangrove_log"
+            '#twilightforest:mangrove_logs'  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('mangrove_plank_water')
 
         .itemInputs(
-            "twilightforest:mangrove_log"
+            '#twilightforest:mangrove_logs'  
         )
 
         .inputFluids(

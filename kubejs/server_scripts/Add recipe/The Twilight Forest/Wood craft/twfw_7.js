@@ -3,14 +3,14 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:mining_planks',
 
         [
-          'twilightforest:mining_log'  
+          '#twilightforest:mining_logs'  
         ]
     )
 
     event.shapeless('4x twilightforest:mining_planks',
 
         [
-          'twilightforest:mining_log',  
+          '#twilightforest:mining_logs',  
           "#forge:tools/saws"  
         ]
     )
@@ -18,7 +18,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('mining_lubricant')
 
         .itemInputs(
-            'twilightforest:mining_log',  
+            '#twilightforest:mining_logs'  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('mining_dist_water')
 
         .itemInputs(
-            "twilightforest:mining_log"
+            '#twilightforest:mining_logs'  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('mining_plank_water')
 
         .itemInputs(
-            "twilightforest:mining_log"
+            '#twilightforest:mining_logs'  
         )
 
         .inputFluids(

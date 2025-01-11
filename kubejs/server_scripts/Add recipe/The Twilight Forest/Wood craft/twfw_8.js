@@ -3,22 +3,22 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:sorting_planks',
 
         [
-          'twilightforest:sorting_log'  
+          '#twilightforest:sortwood_logs'  
         ]
     )
 
     event.shapeless('4x twilightforest:sorting_planks',
 
         [
-          'twilightforest:sorting_log',  
-          "#forge:tools/saws"  
+            '#twilightforest:sortwood_logs',  
+            "#forge:tools/saws"  
         ]
     )
 
     event.recipes.gtceu.cutter('sorting_lubricant')
 
         .itemInputs(
-            'twilightforest:sorting_log',  
+            '#twilightforest:sortwood_logs'  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('sorting_dist_water')
 
         .itemInputs(
-            "twilightforest:sorting_log"
+            '#twilightforest:sortwood_logs'  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('sorting_plank_water')
 
         .itemInputs(
-            "twilightforest:sorting_log"
+            '#twilightforest:sortwood_logs'  
         )
 
         .inputFluids(

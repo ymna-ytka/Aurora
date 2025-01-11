@@ -3,14 +3,14 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:time_planks',
 
         [
-          'twilightforest:time_log'  
+          '#twilightforest:timewood_logs'  
         ]
     )
 
     event.shapeless('4x twilightforest:time_planks',
 
         [
-          'twilightforest:time_log',  
+          '#twilightforest:timewood_logs',  
           "#forge:tools/saws"  
         ]
     )
@@ -18,7 +18,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('time_lubricant')
 
         .itemInputs(
-            'twilightforest:time_log',  
+            '#twilightforest:timewood_logs'  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('time_dist_water')
 
         .itemInputs(
-            "twilightforest:time_log"
+            '#twilightforest:timewood_logs'  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('time_plank_water')
 
         .itemInputs(
-            "twilightforest:time_log"
+            '#twilightforest:timewood_logs'  
         )
 
         .inputFluids(

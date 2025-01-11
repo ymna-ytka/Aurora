@@ -208,7 +208,11 @@
 		}
 		{
 			dependencies: ["44F31F01076453DA"]
-			description: ["Ваш перший ранець, ви можете як і покращити його різними апгрейдами, так і розширити його місткість за рахунок оброблення різними металами."]
+			description: [
+				"Ваш перший ранець, ви можете як і покращити його різними апгрейдами, так і розширити його місткість за рахунок оброблення різними металами."
+				""
+				"&9P.s Варто вийняти речі перед покращенням ранця)"
+			]
 			id: "5D4505BAA089C6A7"
 			rewards: [
 				{
@@ -2178,6 +2182,50 @@
 			title: "Мисливець"
 			x: 2.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["55848E5168F93234"]
+			description: ["Вам набридло використовувати пилу для виготовлення дошок? Вам в допому пилорама, яка не потребує нічого крім вашого дорогоцінного часу! Кладіть дерево, й на виході ви зможете здобути 4 дошки."]
+			icon: "gtceu:fire_saw"
+			id: "307A9B469E34BF92"
+			tasks: [
+				{
+					id: "55261F3C2F09E550"
+					item: "gtceu:fire_saw"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "29BEFCDF2A81D911"
+					item: { Count: 16, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "0B9E4BD215C12805"
+					item: { Count: 17, id: "kubejs:fire_casing" }
+					type: "item"
+				}
+				{
+					id: "734598B8B36F3167"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "53DAFAA623599B57"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "38551E7B83210C5A"
+					item: { Count: 8, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+			]
+			title: "Пилорама вогню"
+			x: 19.5d
+			y: 6.0d
 		}
 	]
 	title: "Глава І: Кам'яний вік"

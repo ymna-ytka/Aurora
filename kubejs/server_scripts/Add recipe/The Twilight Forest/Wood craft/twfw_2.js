@@ -3,14 +3,14 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:canopy_planks',
 
         [
-          'twilightforest:canopy_log'  
+          '#twilightforest:canopy_logs'  
         ]
     )
 
     event.shapeless('4x twilightforest:canopy_planks',
 
         [
-          'twilightforest:canopy_log',  
+          '#twilightforest:canopy_logs',  
           "#forge:tools/saws"  
         ]
     )
@@ -18,7 +18,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('canopy_lubricant')
 
         .itemInputs(
-            'twilightforest:canopy_log',  
+            '#twilightforest:canopy_logs',  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('canopy_dist_water')
 
         .itemInputs(
-            "twilightforest:canopy_log"
+            '#twilightforest:canopy_logs',  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('canopy_plank_water')
 
         .itemInputs(
-            "twilightforest:canopy_log"
+            '#twilightforest:canopy_logs',  
         )
 
         .inputFluids(

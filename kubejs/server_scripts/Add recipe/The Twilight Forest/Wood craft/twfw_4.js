@@ -3,14 +3,14 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:dark_planks',
 
         [
-          'twilightforest:dark_log'  
+          '#twilightforest:darkwood_logs'  
         ]
     )
 
     event.shapeless('4x twilightforest:dark_planks',
 
         [
-          'twilightforest:dark_log',  
+          '#twilightforest:darkwood_logs',  
           "#forge:tools/saws"  
         ]
     )
@@ -18,7 +18,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('dark_lubricant')
 
         .itemInputs(
-            'twilightforest:dark_log',  
+            '#twilightforest:darkwood_logs'  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('dark_dist_water')
 
         .itemInputs(
-            "twilightforest:dark_log"
+            '#twilightforest:darkwood_logs'  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('dark_plank_water')
 
         .itemInputs(
-            "twilightforest:dark_log"
+            '#twilightforest:darkwood_logs'  
         )
 
         .inputFluids(

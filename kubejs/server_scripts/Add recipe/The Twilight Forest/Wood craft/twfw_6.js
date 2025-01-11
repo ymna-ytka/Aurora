@@ -3,14 +3,14 @@ ServerEvents.recipes( event=> {
     event.shapeless('2x twilightforest:transformation_planks',
 
         [
-          'twilightforest:transformation_log'  
+          '#twilightforest:transwood_logs'  
         ]
     )
 
     event.shapeless('4x twilightforest:transformation_planks',
 
         [
-          'twilightforest:transformation_log',  
+          '#twilightforest:transwood_logs',  
           "#forge:tools/saws"  
         ]
     )
@@ -18,7 +18,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('transformation_lubricant')
 
         .itemInputs(
-            'twilightforest:transformation_log',  
+            '#twilightforest:transwood_logs'  
         )
 
         .inputFluids(
@@ -35,7 +35,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('transformation_dist_water')
 
         .itemInputs(
-            "twilightforest:transformation_log"
+            '#twilightforest:transwood_logs'  
         )
 
         .inputFluids(
@@ -52,7 +52,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.cutter('transformation_plank_water')
 
         .itemInputs(
-            "twilightforest:transformation_log"
+            '#twilightforest:transwood_logs'  
         )
 
         .inputFluids(
