@@ -1,15 +1,5 @@
 ServerEvents.recipes(event=>{
 
-    event.shapeless("gtceu:flint_dust",
-
-        [
-            "#forge:tools/mortars",
-            "minecraft:flint"
-        ]
-
-    )
-
-
     event.recipes.gtceu.cutter('diamond_block_to_plate_lubricant')
 
     .itemInputs(

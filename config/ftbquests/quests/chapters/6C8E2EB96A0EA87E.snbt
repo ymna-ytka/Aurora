@@ -2151,6 +2151,34 @@
 			x: 3.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["19C055DF52BD57CD"]
+			description: ["Ви м'ясоїд? З радістю! Заріжте свою першу коровку, свинку та курочку! Прийдеться пересилити себе, та нашкодити цім невиним тваринкам...."]
+			id: "022EEF0A0B531C98"
+			tasks: [
+				{
+					count: 16L
+					id: "1901B3828A798357"
+					item: { Count: 16, id: "minecraft:porkchop" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0EDA9C872A2B49AE"
+					item: { Count: 16, id: "minecraft:chicken" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0E068B351C40543C"
+					item: "minecraft:beef"
+					type: "item"
+				}
+			]
+			title: "Мисливець"
+			x: 2.5d
+			y: 0.0d
+		}
 	]
 	title: "Глава І: Кам'яний вік"
 }

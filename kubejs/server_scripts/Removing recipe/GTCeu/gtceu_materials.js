@@ -8,8 +8,6 @@ ServerEvents.recipes(event=>{
 
     event.remove( { id: "gtceu:shaped/quartz_sand" } )
 
-    event.remove( { id: "gtceu:shaped/gem_to_dust_flint_gem" } )
-
     event.remove( { id: "gtceu:primitive_blast_furnace/steel_from_coal_gem_wrought" } )
 
     event.remove( { id: "gtceu:primitive_blast_furnace/steel_from_coal_dust_wrought" } )

@@ -1525,6 +1525,27 @@
 			x: 6.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			id: "2472FFF830B32A59"
+			tasks: [
+				{
+					count: 16L
+					id: "61B4400F44BE9BBE"
+					item: { Count: 16, id: "simplylight:illuminant_block_on" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "29115F4369BC620B"
+					item: { Count: 16, id: "simplylight:illuminant_block" }
+					type: "item"
+				}
+			]
+			title: "Світло в кожен дім"
+			x: 10.0d
+			y: 3.0d
+		}
 	]
 	title: "Глава ІІ: Парова епоха"
 }

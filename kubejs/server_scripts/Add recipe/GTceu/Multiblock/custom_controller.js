@@ -29,7 +29,27 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            P:"gtceu:treated_wood_planks",
+            P:"gtceu:coke_oven_bricks",
+            R:"gtceu:bad_bronze_ring",
+            W:"#forge:tools/wrench",
+            C:"kubejs:fire_casing",
+            H:"#forge:tools/hammers",
+            S:"gtceu:bad_bronze_screw",
+            G:"gtceu:bad_bronze_gear"  
+        }
+     
+    )
+
+    event.shaped("gtceu:fire_saw",
+        
+        [
+            "PRP",
+            "WCH",
+            "SGS" 
+        ],
+        
+        {
+            P:"gtceu:bad_bronze_block",
             R:"gtceu:bad_bronze_ring",
             W:"#forge:tools/wrench",
             C:"kubejs:fire_casing",

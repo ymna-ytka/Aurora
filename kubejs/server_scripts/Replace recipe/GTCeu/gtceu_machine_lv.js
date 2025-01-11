@@ -140,4 +140,12 @@ ServerEvents.recipes(event => {
 
     )
 
+    event.replaceInput( { id: "gtceu:shaped/lv_canner" },
+
+        "minecraft:glass",
+        "kubejs:empty_flask"
+
+    )
+
+
 })

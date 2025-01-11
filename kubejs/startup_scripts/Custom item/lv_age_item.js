@@ -20,4 +20,8 @@ StartupEvents.registry('item', event=>{
     .displayName('Органічна тканина')
     .texture('kubejs:item/lv_age/plant_fiber_mesh') 
 
+    event.create('empty_flask')
+    .displayName('Порожня колба')
+    .texture('kubejs:item/lv_age/empty_flask') 
+
 })

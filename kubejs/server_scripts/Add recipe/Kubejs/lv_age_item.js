@@ -178,4 +178,33 @@ ServerEvents.recipes( event=> {
     .duration (50)
     .EUt      (20)
 
+    event.recipes.gtceu.bender("empty_flask_bender_hull")
+
+    .itemInputs(
+        "gtceu:lv_battery_hull"
+    )
+
+    .itemOutputs(
+        "kubejs:empty_flask"
+    )
+
+    .duration(200)
+    .EUt(GTValues.VA[GTValues.ULV])
+    .circuit(4)
+
+    event.recipes.gtceu.bender("empty_flask_bender_tin")
+
+    .itemInputs(
+        "2x gtceu:tin_plate"
+    )
+
+    .itemOutputs(
+        "kubejs:empty_flask"
+    )
+
+    .duration(200)
+    .EUt(GTValues.VA[GTValues.MV])
+    .circuit(4)
+
+
 })
