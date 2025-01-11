@@ -1,24 +1,24 @@
 ServerEvents.recipes( event=> {
 
-    event.shapeless('2x twilightforest:mangrove_planks',
+    event.shapeless('2x twilightforest:sorting_planks',
 
         [
-          'twilightforest:mangrove_log'  
+          'twilightforest:sorting_log'  
         ]
     )
 
-    event.shapeless('4x twilightforest:mangrove_planks',
+    event.shapeless('4x twilightforest:sorting_planks',
 
         [
-          'twilightforest:mangrove_log',  
+          'twilightforest:sorting_log',  
           "#forge:tools/saws"  
         ]
     )
 
-    event.recipes.gtceu.cutter('mangrove_lubricant')
+    event.recipes.gtceu.cutter('sorting_lubricant')
 
         .itemInputs(
-            'twilightforest:mangrove_log',  
+            'twilightforest:sorting_log',  
         )
 
         .inputFluids(
@@ -26,16 +26,16 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "6x twilightforest:mangrove_planks",
+            "6x twilightforest:sorting_planks",
             "2x gtceu:wood_dust"
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.recipes.gtceu.cutter('mangrove_dist_water')
+    event.recipes.gtceu.cutter('sorting_dist_water')
 
         .itemInputs(
-            "twilightforest:mangrove_log"
+            "twilightforest:sorting_log"
         )
 
         .inputFluids(
@@ -43,16 +43,16 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "6x twilightforest:mangrove_planks",
+            "6x twilightforest:sorting_planks",
             "2x gtceu:wood_dust"
         )
         .duration(350)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.recipes.gtceu.cutter('mangrove_plank_water')
+    event.recipes.gtceu.cutter('sorting_plank_water')
 
         .itemInputs(
-            "twilightforest:mangrove_log"
+            "twilightforest:sorting_log"
         )
 
         .inputFluids(
@@ -60,21 +60,21 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "6x twilightforest:mangrove_planks",
+            "6x twilightforest:sorting_planks",
             "2x gtceu:wood_dust"
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.ULV])
     
-    event.recipes.farmersdelight.cutting("twilightforest:mangrove_door", "#minecraft:axes", ["twilightforest:mangrove_planks"] )    
+    event.recipes.farmersdelight.cutting("twilightforest:sorting_door", "#minecraft:axes", ["twilightforest:sorting_planks"] )    
 
-    event.recipes.farmersdelight.cutting("twilightforest:mangrove_trapdoor", "#minecraft:axes", ["twilightforest:mangrove_planks"] )
+    event.recipes.farmersdelight.cutting("twilightforest:sorting_trapdoor", "#minecraft:axes", ["twilightforest:sorting_planks"] )
 
-    event.recipes.farmersdelight.cutting("twilightforest:mangrove_sign", "#minecraft:axes", ["twilightforest:mangrove_planks"] )
+    event.recipes.farmersdelight.cutting("twilightforest:sorting_sign", "#minecraft:axes", ["twilightforest:sorting_planks"] )
 
-    event.recipes.farmersdelight.cutting("twilightforest:mangrove_hanging_sign", "#minecraft:axes", ["twilightforest:mangrove_planks"] )
+    event.recipes.farmersdelight.cutting("twilightforest:sorting_hanging_sign", "#minecraft:axes", ["twilightforest:sorting_planks"] )
 
-    event.shaped("twilightforest:mangrove_sign",
+    event.shaped("twilightforest:sorting_sign",
 
         [
             "SSS",
@@ -83,9 +83,9 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            S:"twilightforest:mangrove_slab",
+            S:"twilightforest:sorting_slab",
             C:"gtceu:iron_screw",
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             T:"#balm:wooden_rods",
             A:"#forge:tools/saws",
             R:"#forge:tools/screwdrivers"
@@ -93,7 +93,7 @@ ServerEvents.recipes( event=> {
 
     )
 
-    event.shaped("2x twilightforest:mangrove_sign",
+    event.shaped("2x twilightforest:sorting_sign",
 
         [
             "SSS",
@@ -102,9 +102,9 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            S:"twilightforest:mangrove_slab",
+            S:"twilightforest:sorting_slab",
             C:"gtceu:steel_screw",
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             T:"#balm:wooden_rods",
             A:"#forge:tools/saws",
             R:"#forge:tools/screwdrivers"
@@ -112,10 +112,10 @@ ServerEvents.recipes( event=> {
 
     )
 
-    event.recipes.gtceu.assembler("mangrove_sign_assemb")
+    event.recipes.gtceu.assembler("sorting_sign_assemb")
 
         .itemInputs(
-            "twilightforest:mangrove_slab",
+            "twilightforest:sorting_slab",
             "#balm:wooden_rods",
         )
 
@@ -124,16 +124,16 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "3x twilightforest:mangrove_sign"
+            "3x twilightforest:sorting_sign"
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(4)
 
-    event.recipes.gtceu.assembler("mangrove_sign_steel_assemb")
+    event.recipes.gtceu.assembler("sorting_sign_steel_assemb")
 
         .itemInputs(
-            "twilightforest:mangrove_slab",
+            "twilightforest:sorting_slab",
             "#balm:wooden_rods",
         )
 
@@ -142,13 +142,13 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "5x twilightforest:mangrove_sign"
+            "5x twilightforest:sorting_sign"
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(4)
 
-    event.shaped("twilightforest:mangrove_hanging_sign",
+    event.shaped("twilightforest:sorting_hanging_sign",
 
         [
             "SSS",
@@ -157,7 +157,7 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            S:"twilightforest:mangrove_slab",
+            S:"twilightforest:sorting_slab",
             C:"minecraft:chain",
             R:"gtceu:iron_ring",
             I:"balm:wooden_rods"
@@ -165,7 +165,7 @@ ServerEvents.recipes( event=> {
 
     )    
 
-    event.shaped("2x twilightforest:mangrove_hanging_sign",
+    event.shaped("2x twilightforest:sorting_hanging_sign",
 
         [
             "SSS",
@@ -174,7 +174,7 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            S:"twilightforest:mangrove_slab",
+            S:"twilightforest:sorting_slab",
             C:"minecraft:chain",
             R:"gtceu:steel_ring",
             I:"balm:wooden_rods"
@@ -182,22 +182,22 @@ ServerEvents.recipes( event=> {
 
     )    
 
-    event.recipes.gtceu.assembler("mangrove_hanging_sign_assemb")
+    event.recipes.gtceu.assembler("sorting_hanging_sign_assemb")
 
         .itemInputs(
-            "3x twilightforest:mangrove_slab",
-            "twilightforest:mangrove_sign",
+            "3x twilightforest:sorting_slab",
+            "twilightforest:sorting_sign",
             "minecraft:chain"
         )
 
         .itemOutputs(
-            "twilightforest:mangrove_hanging_sign"
+            "twilightforest:sorting_hanging_sign"
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(5)
 
-    event.shaped("twilightforest:mangrove_boat",
+    event.shaped("twilightforest:sorting_boat",
 
         [
             "PSP",
@@ -206,28 +206,28 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             S:"#minecraft:shovels",
             K:"#forge:tools/knives",
-            L:"twilightforest:mangrove_slab"
+            L:"twilightforest:sorting_slab"
         }
 
     )    
 
-    event.recipes.gtceu.assembler("mangrove_boat_assemb")
+    event.recipes.gtceu.assembler("sorting_boat_assemb")
 
         .itemInputs(
-            "5x twilightforest:mangrove_planks",
+            "5x twilightforest:sorting_planks",
         )
 
         .itemOutputs(
-            "twilightforest:mangrove_boat"
+            "twilightforest:sorting_boat"
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(15)
 
-    event.shaped("twilightforest:mangrove_chest_boat",
+    event.shaped("twilightforest:sorting_chest_boat",
 
         [
             " B ",
@@ -236,29 +236,29 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            B:"twilightforest:mangrove_boat",
+            B:"twilightforest:sorting_boat",
             O:"gtceu:wood_bolt",
             C:"minecraft:chest",
             W:"#forge:tools/wrenches"
         }
 
     )
-    event.recipes.gtceu.assembler("mangrove_chest_boat_assemb")
+    event.recipes.gtceu.assembler("sorting_chest_boat_assemb")
 
         .itemInputs(
-            "5x twilightforest:mangrove_planks",
+            "5x twilightforest:sorting_planks",
             "minecraft:chest"
         )
 
         .itemOutputs(
-            "twilightforest:mangrove_chest_boat"
+            "twilightforest:sorting_chest_boat"
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(16)
     
 
-    event.shaped("twilightforest:mangrove_door",
+    event.shaped("twilightforest:sorting_door",
 
         [
             "PTS",
@@ -267,8 +267,8 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks",
-            T:"twilightforest:mangrove_trapdoor",
+            P:"twilightforest:sorting_planks",
+            T:"twilightforest:sorting_trapdoor",
             R:"gtceu:iron_ring",
             I:"gtceu:iron_screw",
             S:"#forge:tools/screwdrivers",
@@ -276,11 +276,11 @@ ServerEvents.recipes( event=> {
         }
     )
 
-    event.recipes.gtceu.assembler('mangrove_door_assemb')
+    event.recipes.gtceu.assembler('sorting_door_assemb')
 
         .itemInputs(
-            "4x twilightforest:mangrove_planks",
-            "twilightforest:mangrove_trapdoor",
+            "4x twilightforest:sorting_planks",
+            "twilightforest:sorting_trapdoor",
         )
 
         .inputFluids(
@@ -288,12 +288,12 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "twilightforest:mangrove_door",
+            "twilightforest:sorting_door",
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.shaped("twilightforest:mangrove_trapdoor",
+    event.shaped("twilightforest:sorting_trapdoor",
 
         [
             "IPT",
@@ -302,14 +302,14 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             T:"#balm:wooden_rods",
             I:"gtceu:iron_bolt",
             S:"#forge:tools/screwdrivers"
         }
     )
    
-    event.shaped("2x twilightforest:mangrove_trapdoor",
+    event.shaped("2x twilightforest:sorting_trapdoor",
 
         [
             "IPT",
@@ -318,17 +318,17 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             T:"#balm:wooden_rods",
             I:"gtceu:steel_bolt",
             S:"#forge:tools/screwdrivers"
         }
     )    
 
-    event.recipes.gtceu.assembler('mangrove_trapdoor_assemb')
+    event.recipes.gtceu.assembler('sorting_trapdoor_assemb')
 
         .itemInputs(
-            "2x twilightforest:mangrove_planks",
+            "2x twilightforest:sorting_planks",
         )
 
         .inputFluids(
@@ -336,16 +336,16 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "twilightforest:mangrove_trapdoor",
+            "twilightforest:sorting_trapdoor",
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(3)
     
-    event.recipes.gtceu.assembler('mangrove_trapdoor_steel_assemb')
+    event.recipes.gtceu.assembler('sorting_trapdoor_steel_assemb')
 
         .itemInputs(
-            "2x twilightforest:mangrove_planks",
+            "2x twilightforest:sorting_planks",
         )
 
         .inputFluids(
@@ -353,13 +353,13 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "2x twilightforest:mangrove_trapdoor",
+            "2x twilightforest:sorting_trapdoor",
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(3)
 
-    event.shaped("twilightforest:mangrove_fence",
+    event.shaped("twilightforest:sorting_fence",
 
         [
             "PTP",
@@ -368,38 +368,38 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             T:"#balm:wooden_rods"
         }
     )    
 
-    event.recipes.gtceu.assembler('mangrove_fence_assemb')
+    event.recipes.gtceu.assembler('sorting_fence_assemb')
 
         .itemInputs(
-            "twilightforest:mangrove_planks",
+            "twilightforest:sorting_planks",
         )
 
         .itemOutputs(
-            "twilightforest:mangrove_fence",
+            "twilightforest:sorting_fence",
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(13)
 
-    event.recipes.gtceu.assembler('mangrove_stairs_assemb')
+    event.recipes.gtceu.assembler('sorting_stairs_assemb')
 
         .itemInputs(
-            "3x twilightforest:mangrove_planks",
+            "3x twilightforest:sorting_planks",
         )
 
         .itemOutputs(
-            "4x twilightforest:mangrove_stairs",
+            "4x twilightforest:sorting_stairs",
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(7)
 
-    event.shaped("twilightforest:mangrove_fence_gate",
+    event.shaped("twilightforest:sorting_fence_gate",
 
         [
             "F F",
@@ -408,13 +408,13 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             T:"#balm:wooden_rods",
             F:"minecraft:flint"
         }
     )    
 
-    event.shaped("2x twilightforest:mangrove_fence_gate",
+    event.shaped("2x twilightforest:sorting_fence_gate",
 
         [
             "SDS",
@@ -423,39 +423,39 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks",
+            P:"twilightforest:sorting_planks",
             T:"#balm:wooden_rods",
             S:"gtceu:iron_screw",
             D:"#forge:tools/screwdrivers"
         }
     )    
 
-    event.recipes.gtceu.assembler('mangrove_fence_gate_assemb')
+    event.recipes.gtceu.assembler('sorting_fence_gate_assemb')
 
         .itemInputs(
-            "2x twilightforest:mangrove_planks",
+            "2x twilightforest:sorting_planks",
             "2x #balm:wooden_rods"
         )
 
         .itemOutputs(
-            "twilightforest:mangrove_fence_gate",
+            "twilightforest:sorting_fence_gate",
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(2)
 
-    event.shapeless('2x twilightforest:mangrove_slab',
+    event.shapeless('2x twilightforest:sorting_slab',
 
         [
-            "twilightforest:mangrove_planks",
+            "twilightforest:sorting_planks",
             "#forge:tools/saws"
         ]
     )
 
-    event.recipes.gtceu.cutter('mangrove_slab_lubricant')
+    event.recipes.gtceu.cutter('sorting_slab_lubricant')
 
         .itemInputs(
-            "twilightforest:mangrove_planks"
+            "twilightforest:sorting_planks"
         )
 
         .inputFluids(
@@ -463,15 +463,15 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(   
-            "2x twilightforest:mangrove_slab",
+            "2x twilightforest:sorting_slab",
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.recipes.gtceu.cutter('mangrove_slab_dist_water')
+    event.recipes.gtceu.cutter('sorting_slab_dist_water')
 
         .itemInputs(
-            "twilightforest:mangrove_planks"
+            "twilightforest:sorting_planks"
         )
 
         .inputFluids(
@@ -479,15 +479,15 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "2x twilightforest:mangrove_slab",
+            "2x twilightforest:sorting_slab",
         )
         .duration(350)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.recipes.gtceu.cutter('mangrove_slab_water')
+    event.recipes.gtceu.cutter('sorting_slab_water')
 
         .itemInputs(
-            "twilightforest:mangrove_planks"
+            "twilightforest:sorting_planks"
         )
 
         .inputFluids(
@@ -495,12 +495,12 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "2x twilightforest:mangrove_slab",
+            "2x twilightforest:sorting_slab",
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.shaped("twilightforest:mangrove_pressure_plate",
+    event.shaped("twilightforest:sorting_pressure_plate",
 
         [
             "BSB",
@@ -511,17 +511,31 @@ ServerEvents.recipes( event=> {
         {
             B:"gtceu:wood_bolt",
             S:"#forge:tools/mallets",
-            L:"twilightforest:mangrove_slab",
+            L:"twilightforest:sorting_slab",
             P:"gtceu:iron_spring",
             R:"#forge:tools/screwdrivers"
         }
 
     )    
 
-    event.recipes.gtceu.cutter('mangrove_button_lubricant')
+    event.recipes.gtceu.assembler('sorting_pressure_plate')
 
         .itemInputs(
-            "twilightforest:mangrove_pressure_plate"
+            "2x twilightforest:sorting_planks",
+            "gtceu:iron_spring"
+        )
+        
+        .itemOutputs(
+            "twilightforest:sorting_pressure_plate",
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ULV])
+        .circuit(7)
+
+    event.recipes.gtceu.cutter('sorting_button_lubricant')
+
+        .itemInputs(
+            "twilightforest:sorting_pressure_plate"
         )
 
         .inputFluids(
@@ -529,15 +543,15 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(   
-            "12x twilightforest:mangrove_button",
+            "12x twilightforest:sorting_button",
         )
         .duration(250)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.recipes.gtceu.cutter('mangrove_button_dist_water')
+    event.recipes.gtceu.cutter('sorting_button_dist_water')
 
         .itemInputs(
-            "twilightforest:mangrove_pressure_plate"
+            "twilightforest:sorting_pressure_plate"
         )
 
         .inputFluids(
@@ -545,15 +559,15 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "12x twilightforest:mangrove_button",
+            "12x twilightforest:sorting_button",
         )
         .duration(375)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.recipes.gtceu.cutter('mangrove_button_water')
+    event.recipes.gtceu.cutter('sorting_button_water')
 
         .itemInputs(
-            "twilightforest:mangrove_pressure_plate"
+            "twilightforest:sorting_pressure_plate"
         )
 
         .inputFluids(
@@ -561,30 +575,30 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            "12x twilightforest:mangrove_button",
+            "12x twilightforest:sorting_button",
         )
         .duration(450)
         .EUt(GTValues.VA[GTValues.ULV])
       
-    event.shapeless("6x twilightforest:mangrove_button",
+    event.shapeless("6x twilightforest:sorting_button",
 
         [
             "#forge:tools/saws",
-            "twilightforest:mangrove_pressure_plate"
+            "twilightforest:sorting_pressure_plate"
         ]
 
     )    
  
-    event.shapeless("twilightforest:mangrove_chest",
+    event.shapeless("twilightforest:sorting_chest",
 
         [
             "minecraft:chest",
-            "twilightforest:mangrove_planks"
+            "twilightforest:sorting_planks"
         ]
 
-    )
-    
-    event.shaped("4x twilightforest:mangrove_stairs",
+    )    
+  
+    event.shaped("4x twilightforest:sorting_stairs",
 
         [
             "P  ",
@@ -593,23 +607,9 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            P:"twilightforest:mangrove_planks"
+            P:"twilightforest:sorting_planks"
         }
 
     )
     
-    event.recipes.gtceu.assembler('mangrove_pressure_plate')
-
-        .itemInputs(
-            "2x twilightforest:mangrove_planks",
-            "gtceu:iron_spring",
-        )
-        
-        .itemOutputs(
-            "twilightforest:mangrove_pressure_plate",
-        )
-        .duration(100)
-        .EUt(GTValues.VA[GTValues.ULV])
-        .circuit(7)
-
 })

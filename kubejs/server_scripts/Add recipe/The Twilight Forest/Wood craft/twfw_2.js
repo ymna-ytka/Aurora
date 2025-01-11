@@ -414,7 +414,7 @@ ServerEvents.recipes( event=> {
         }
     )    
 
-    event.shaped("twilightforest:canopy_fence_gate",
+    event.shaped("2x twilightforest:canopy_fence_gate",
 
         [
             "SDS",

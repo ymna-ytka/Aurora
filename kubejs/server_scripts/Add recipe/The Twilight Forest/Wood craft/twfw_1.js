@@ -414,7 +414,7 @@ ServerEvents.recipes( event=> {
         }
     )    
 
-    event.shaped("twilightforest:twilight_oak_fence_gate",
+    event.shaped("2x twilightforest:twilight_oak_fence_gate",
 
         [
             "SDS",
@@ -599,18 +599,17 @@ ServerEvents.recipes( event=> {
 
     )
 
-//for some reason it doesn't work
-//     event.recipes.gtceu.assembler('twilight_oak_pressure_plate')
-//
-//        .itemInputs(
-//            "2x twilightforest:twilight_oak_planks",
-//            "gtceu:iron_spring")
-//        
-//        .itemOutputs(
-//            "twilightforest:twilight_oak_pressure_plate",
-//        )
-//        .duration(100)
-//        .EUt(GTValues.VA[GTValues.ULV])
-//        .circuit(7)
+    event.recipes.gtceu.assembler('twilight_oak_pressure_plate')
+
+        .itemInputs(
+            "2x twilightforest:twilight_oak_planks",
+            "gtceu:iron_spring")
+        
+        .itemOutputs(
+            "twilightforest:twilight_oak_pressure_plate",
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ULV])
+        .circuit(7)
     
 })
