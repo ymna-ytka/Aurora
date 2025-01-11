@@ -80,22 +80,7 @@ ServerEvents.recipes(event=>{
   
     .duration(100)
     .EUt(7)
-    
-    event.shaped("minecraft:bookshelf",
-
-        [
-            "WWW",
-            "BBB",
-            "WWW"
-        ],
-
-        {
-            B:"minecraft:book",
-            W:"gtceu:wood_plate",
-        }
-
-    )
-    
+        
     event.shapeless("3x minecraft:flint",
         
         [

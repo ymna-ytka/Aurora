@@ -28,11 +28,9 @@ ServerEvents.recipes(event=>{
 
     event.remove({ id:"minecraft:piston"})
 
-    event.remove( { id:"minecraft:book" } )
-
     event.remove( { id: "farmersdelight:paper_from_tree_bark" } )
 
-    event.remove( { id:"minecraft:enchanting_table" } )
+    event.remove( { id:"gtceu:shaped/enchanting_table" } )
 
     event.remove( { id:"gtceu:assembler/enchanting_table" } )
 
