@@ -201,7 +201,7 @@ ServerEvents.recipes( event=>{
     event.recipes.gtceu.fire_saw("sorting_plank_fire_bath")
 
         .itemInputs(
-            "twilightforest:sortwood_logs"
+            "#twilightforest:sortwood_logs"
         )
 
         .itemOutputs(
