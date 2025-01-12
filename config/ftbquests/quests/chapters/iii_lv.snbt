@@ -120,8 +120,8 @@
 				type: "item"
 			}]
 			title: "Конвеєр"
-			x: 2.0d
-			y: 3.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["45A40E87395CF1D3"]
@@ -150,8 +150,8 @@
 				type: "item"
 			}]
 			title: "Кварцит"
-			x: 1.0d
-			y: -3.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -178,8 +178,8 @@
 				}
 			]
 			title: "Жила кварциту"
-			x: 2.0d
-			y: -2.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -226,11 +226,11 @@
 				type: "item"
 			}]
 			title: "Виробництво зплавів?"
-			x: -4.0d
-			y: -1.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["70FC723F2E62F927"]
+			dependencies: ["15003FAAC7949FB0"]
 			description: ["Автоклав — це механізм, здатний працювати з матеріалами під високим тиском, відкриваючи шлях до створення високотехнологічних компонентів. Він допоможе тобі створювати чисті кристали, спеціальні волокна та чіпи для найскладніших мікросхем."]
 			hide_until_deps_complete: true
 			id: "574E3472BD7AE2FE"
@@ -240,7 +240,7 @@
 				item: "gtceu:lv_autoclave"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 7.0d
 		}
 		{
@@ -276,7 +276,7 @@
 				type: "item"
 			}]
 			title: "Мистецтво Згину"
-			x: 7.0d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -300,8 +300,8 @@
 				type: "item"
 			}]
 			title: "Консерватор"
-			x: -8.0d
-			y: 4.5d
+			x: -7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -339,8 +339,8 @@
 				type: "item"
 			}]
 			title: "Бання?"
-			x: 2.5d
-			y: 5.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -356,7 +356,7 @@
 				type: "item"
 			}]
 			title: "Хімія 11-класс"
-			x: -4.0d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -370,8 +370,8 @@
 				type: "item"
 			}]
 			title: "Сила під тиском"
-			x: 6.0d
-			y: 0.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["15003FAAC7949FB0"]
@@ -384,8 +384,8 @@
 				type: "item"
 			}]
 			title: "Гнемо спирт"
-			x: -1.5d
-			y: 3.0d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -401,8 +401,8 @@
 				type: "item"
 			}]
 			title: "Електрофікація"
-			x: -4.0d
-			y: 4.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["15003FAAC7949FB0"]
@@ -433,8 +433,8 @@
 				type: "item"
 			}]
 			title: "Міксування"
-			x: -5.0d
-			y: 0.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["503C473FEC3CD5C7"]
@@ -446,8 +446,8 @@
 				type: "item"
 			}]
 			title: "Випромінення"
-			x: 0.5d
-			y: -4.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["503C473FEC3CD5C7"]
@@ -459,8 +459,8 @@
 				type: "item"
 			}]
 			title: "Телевізор?"
-			x: 1.5d
-			y: -4.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -475,8 +475,8 @@
 				type: "item"
 			}]
 			title: "Проскануйся"
-			x: 0.0d
-			y: -6.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["45A40E87395CF1D3"]
@@ -489,8 +489,8 @@
 				type: "item"
 			}]
 			title: "Точність у деталях"
-			x: 5.0d
-			y: -3.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["45A40E87395CF1D3"]
@@ -507,8 +507,8 @@
 				type: "item"
 			}]
 			title: "Сила форми"
-			x: 6.5d
-			y: -1.5d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["45A40E87395CF1D3"]
@@ -521,8 +521,8 @@
 				type: "item"
 			}]
 			title: "Потужний удар"
-			x: 3.5d
-			y: -1.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["15003FAAC7949FB0"]
@@ -563,8 +563,8 @@
 				type: "item"
 			}]
 			title: "Ферментація"
-			x: -1.5d
-			y: 4.0d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["45A40E87395CF1D3"]
@@ -577,7 +577,7 @@
 				type: "item"
 			}]
 			title: "Сила форми"
-			x: 6.0d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -594,8 +594,8 @@
 				type: "item"
 			}]
 			title: "Екстракція"
-			x: 1.5d
-			y: 2.0d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["22B1FE7AEA2DA7FC"]
@@ -608,7 +608,7 @@
 			}]
 			title: "Як магніт з піском"
 			x: 4.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -620,8 +620,8 @@
 				type: "item"
 			}]
 			title: "Магнітик на холодильник"
-			x: -2.5d
-			y: -4.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["45A40E87395CF1D3"]
@@ -634,8 +634,8 @@
 				type: "item"
 			}]
 			title: "Скарби крізь сито"
-			x: 3.5d
-			y: -2.5d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -647,7 +647,7 @@
 				type: "item"
 			}]
 			title: "Теплий кондиціонер"
-			x: -5.0d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
@@ -666,7 +666,7 @@
 			}]
 			title: "Мацератор?"
 			x: 5.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["15003FAAC7949FB0"]
@@ -701,8 +701,8 @@
 				type: "item"
 			}]
 			title: "Копірувальник"
-			x: 5.0d
-			y: 2.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["15003FAAC7949FB0"]
@@ -732,8 +732,8 @@
 				type: "item"
 			}]
 			title: "Палимо на всю"
-			x: -5.0d
-			y: -5.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -749,8 +749,8 @@
 				type: "item"
 			}]
 			title: "Газ в маси"
-			x: -4.0d
-			y: -5.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3446E0E0663DAEAE"]
@@ -772,8 +772,8 @@
 				}
 			]
 			title: "Інваровий? Точно?"
-			x: -6.5d
-			y: -1.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -785,8 +785,8 @@
 				type: "item"
 			}]
 			title: "Трансформер"
-			x: -6.5d
-			y: -3.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -818,8 +818,8 @@
 				}
 			]
 			title: "Жила тетраедриту"
-			x: -6.0d
-			y: 3.0d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["14F512DF649C4806"]
@@ -833,8 +833,8 @@
 				type: "item"
 			}]
 			title: "Батарейка(сира)"
-			x: -7.0d
-			y: 3.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["764257CAF4D8EAE2"]
@@ -855,8 +855,8 @@
 				type: "item"
 			}]
 			title: "Збирай енергію!"
-			x: -8.5d
-			y: 3.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["740CB4A058C8162F"]
@@ -869,8 +869,8 @@
 				type: "item"
 			}]
 			title: "Екстракція кадмію"
-			x: -10.5d
-			y: 3.0d
+			x: -9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -892,8 +892,8 @@
 				type: "item"
 			}]
 			title: "Шлях до натрію"
-			x: -10.5d
-			y: 4.0d
+			x: -9.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["740CB4A058C8162F"]
@@ -931,8 +931,8 @@
 				}
 			]
 			title: "Жила олівіну"
-			x: -9.5d
-			y: 4.0d
+			x: -8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["740CB4A058C8162F"]
@@ -972,8 +972,8 @@
 				}
 			]
 			title: "Жила ляпісу"
-			x: -9.5d
-			y: 3.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0C0AA1EFB7E86040"]
@@ -992,8 +992,8 @@
 				type: "item"
 			}]
 			title: "Літій: Відкриття елемента"
-			x: -10.5d
-			y: 2.0d
+			x: -9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["740CB4A058C8162F"]
@@ -1032,8 +1032,8 @@
 				}
 			]
 			title: "Жила солі"
-			x: -9.5d
-			y: 2.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["28AABF805CC33232"]
@@ -1049,8 +1049,8 @@
 				type: "item"
 			}]
 			title: "Вогонь і Кисень"
-			x: -8.0d
-			y: 6.5d
+			x: -7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["697916E02B00D030"]
@@ -1065,8 +1065,8 @@
 				item: "kubejs:carbide_silicon_fill_orb"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.5d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1081,8 +1081,8 @@
 				type: "item"
 			}]
 			title: "Складмен"
-			x: 5.5d
-			y: 5.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1097,8 +1097,8 @@
 				type: "item"
 			}]
 			title: "Верстак на колещатах"
-			x: 3.5d
-			y: 3.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1114,8 +1114,8 @@
 				type: "item"
 			}]
 			title: "Проривні мікросхеми"
-			x: 5.5d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["22B1FE7AEA2DA7FC"]
@@ -1128,7 +1128,7 @@
 			}]
 			title: "Фрезеровщик"
 			x: 3.0d
-			y: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["740CB4A058C8162F"]
@@ -1146,8 +1146,8 @@
 				type: "item"
 			}]
 			title: "Бібліотека єу"
-			x: -7.5d
-			y: 2.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["15003FAAC7949FB0"]
@@ -1159,8 +1159,8 @@
 				type: "item"
 			}]
 			title: "Помповитий"
-			x: -2.5d
-			y: 6.5d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1179,8 +1179,8 @@
 				type: "item"
 			}]
 			title: "Риболов"
-			x: -1.5d
-			y: 7.5d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -1192,8 +1192,8 @@
 				type: "item"
 			}]
 			title: "Зарядочка зранку"
-			x: 3.0d
-			y: -4.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -1205,8 +1205,8 @@
 				type: "item"
 			}]
 			title: "Зламався бедрок"
-			x: -1.0d
-			y: -4.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["16BB7335C3605E0F"]
@@ -1222,8 +1222,8 @@
 				type: "item"
 			}]
 			title: "Шахтерське діло"
-			x: 1.5d
-			y: -6.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1239,7 +1239,7 @@
 			}]
 			title: "Буферизуйся"
 			x: 2.0d
-			y: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["740CB4A058C8162F"]
@@ -1261,8 +1261,8 @@
 				type: "item"
 			}]
 			title: "Бойова одиниця"
-			x: -8.5d
-			y: 1.0d
+			x: -8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0056B524A340D953"]
@@ -1278,8 +1278,21 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.0d
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C2665E916366971"]
+			description: ["Якщо ви встигли прокачати свій ранець, то ви встигли побачити не звичні ячейки, в які насправді можна покласти покращення, які зможуть покращити(?) вашу скриню на плечах:)"]
+			id: "70BA5EA31172314F"
+			tasks: [{
+				id: "7AF7B2AFDE48ABF2"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "База"
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 	title: "Глава III: LV напруга"

@@ -14,31 +14,11 @@
 			hide_until_deps_complete: true
 			icon: "gtceu:fire_bath"
 			id: "5DE23157963C0518"
-			rewards: [{
-				id: "5EE03256B61605FD"
-				item: "gtceu:ulv_energy_input_hatch"
-				type: "item"
-			}]
 			subtitle: "Вогняні муки"
 			tasks: [
 				{
 					id: "250E1AE3C843D40A"
 					item: "gtceu:fire_bath"
-					type: "item"
-				}
-				{
-					id: "5960061281655812"
-					item: "gtceu:ulv_item_import_hatch_fire"
-					type: "item"
-				}
-				{
-					id: "3130D9D11C397201"
-					item: "gtceu:ulv_item_export_hatch_fire"
-					type: "item"
-				}
-				{
-					id: "7EF290DCE097DC14"
-					item: "gtceu:ulv_fluid_input_hatch_fire"
 					type: "item"
 				}
 				{
@@ -272,25 +252,10 @@
 			]
 			icon: "gtceu:fire_smalter"
 			id: "13AD7B3FA72D4B58"
-			rewards: [{
-				id: "500BEBA99084509E"
-				item: "gtceu:ulv_energy_input_hatch"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "6A07E2B55A584C62"
 					item: "gtceu:fire_smalter"
-					type: "item"
-				}
-				{
-					id: "7AFBDC86D4F0DCD2"
-					item: "gtceu:ulv_item_import_hatch_fire"
-					type: "item"
-				}
-				{
-					id: "6FBCD1E316492ADD"
-					item: "gtceu:ulv_item_export_hatch_fire"
 					type: "item"
 				}
 				{

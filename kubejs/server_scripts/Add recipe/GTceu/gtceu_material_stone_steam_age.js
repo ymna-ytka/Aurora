@@ -118,13 +118,13 @@ ServerEvents.recipes(event => {
     .EUt(28)    
   //
 
-  event.blasting("gtceu:bad_bronze_ingot", "gtceu:bad_bronze_dust")
+  event.blasting("gtceu:bad_bronze_ingot", "gtceu:bad_bronze_dust", 0.7)
 
-  event.blasting("gtceu:tumbaga_ingot", "gtceu:tumbaga_dust")
+  event.blasting("gtceu:tumbaga_ingot", "gtceu:tumbaga_dust", 0.7)
 
-  event.blasting("gtceu:ferabrass_ingot", "gtceu:ferabrass_dust")
+  event.blasting("gtceu:ferabrass_ingot", "gtceu:ferabrass_dust", 0.7)
 
-  event.blasting("gtceu:constantan_ingot", "gtceu:constantan_dust")
+  event.blasting("gtceu:constantan_ingot", "gtceu:constantan_dust", 0.7)
 
 })
 

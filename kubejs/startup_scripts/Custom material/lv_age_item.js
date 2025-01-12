@@ -11,6 +11,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         )
         .blastTemp(1800, 'low')
     
+    event.create('sodium_carbonate')
+        .liquid()
+        .element(GTElements.get("sodium_carbonate"))
+        .color(0xcabafb2)
+        .iconSet(GTMaterialIconSet.DULL)
         
-
 })
