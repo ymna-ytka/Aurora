@@ -25,10 +25,10 @@
 		invalid = "0"
 		#Capacity of Wood
 		#Default: 4000 mB(= 324000 unit)
-		wood = "162000"
+		wood = "1944000"
 		#Capacity of Stone
 		#Default: 16000 mB(= 1296000 unit)
-		stone = "648000"
+		stone = "3888000"
 		#Capacity of Iron
 		#Default: 256000 mB(= 20736000 unit)
 		iron = "20736000"

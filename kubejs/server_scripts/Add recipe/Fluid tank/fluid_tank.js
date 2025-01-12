@@ -10,7 +10,7 @@ ServerEvents.recipes(event =>{
 
         {
             B:"minecraft:bucket",
-            P:"#minecraft:planks",
+            P:"gtceu:double_iron_plate",
             I:"gtceu:bad_bronze_plate"
         }
 

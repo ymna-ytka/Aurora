@@ -47,7 +47,7 @@
 			}]
 			title: "Дуб"
 			x: 0.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["665E80F6AE69E410"]
@@ -85,10 +85,10 @@
 			}]
 			title: "Дошки"
 			x: 0.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1F04A8A423BBC629"]
+			dependencies: ["176DEDBAB406EA45"]
 			description: ["Мало що будете ним для квестів різати, але без нього ніяк."]
 			hide_until_deps_complete: true
 			id: "19C055DF52BD57CD"
@@ -2159,6 +2159,29 @@
 			dependencies: ["19C055DF52BD57CD"]
 			description: ["Ви м'ясоїд? З радістю! Заріжте свою першу коровку, свинку та курочку! Прийдеться пересилити себе, та нашкодити цім невиним тваринкам...."]
 			id: "022EEF0A0B531C98"
+			rewards: [{
+				id: "35AA6BC2A89D129B"
+				item: {
+					Count: 1
+					id: "gtceu:iron_butchery_knife"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 3.5f
+							AttackSpeed: -1.3f
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 16L
@@ -2188,6 +2211,26 @@
 			description: ["Вам набридло використовувати пилу для виготовлення дошок? Вам в допому пилорама, яка не потребує нічого крім вашого дорогоцінного часу! Кладіть дерево, й на виході ви зможете здобути 4 дошки."]
 			icon: "gtceu:fire_saw"
 			id: "307A9B469E34BF92"
+			rewards: [
+				{
+					count: 16
+					id: "0766E01DEA0F68FE"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "03339A3B0D288CA4"
+					item: "minecraft:spruce_log"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "648292036BE2B557"
+					item: "minecraft:birch_log"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "55261F3C2F09E550"
@@ -2226,6 +2269,177 @@
 			title: "Пилорама вогню"
 			x: 19.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["0BAE68C68B7042F9"]
+			description: ["Ваш ідеальний друг! Може вас покормити, дати можливість розводити тварин, та й просто він хороша &mлюдина&r предмет :)"]
+			id: "2E82A425473031DA"
+			tasks: [{
+				count: 32L
+				id: "6A4AFB23C824F184"
+				item: { Count: 32, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			title: "Випічковий"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BAE68C68B7042F9"]
+			description: [
+				"Ви хочете якось прискорити ріст своїх рослин, та й ще не затоптати їх випадково? Тоді родючий ґрунт - це для вас!"
+				""
+				"Він буде випадково прискорювати ріст рослин (ефект аналогічний до використання кісткового борошна), а також не дозволить вам випадково смертельно пострибати по вашим грядочкам."
+			]
+			icon: "farmersdelight:rich_soil"
+			id: "3E38993D329CDD8C"
+			tasks: [
+				{
+					id: "103F35311A4B69EE"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "2831D96EA4E6F9BB"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			title: "Органіка як в селі"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			description: [
+				"Тепер ви можете створювати перший рівень покращень для ваших шухляд, що у два рази збільшать стандартне число, що зможуть тримати в собі ваше сховище. "
+				""
+				"&9P.s Якщо застосувати 1 таке покращення на ординарну шухляду, число збережених ресурсів буде рівнятись 4048."
+			]
+			id: "477BB3B9DA27FDE0"
+			tasks: [{
+				id: "09530CB56EF07B7B"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			title: "Розширена бібліотека"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F04A8A423BBC629"]
+			description: ["Зкопилось багато кругляку? Чи ваша мідна руда вже зайняла всі скрині? Тоді до ваших послух шухляди, які по замовчуванню можуть зберігати 2048 предметів 1 типу! Мало? Тоді використайте покращення, що може збільшит в 2,4,8 та навіть більше разів."]
+			id: "7F197F2EB6335C37"
+			rewards: [{
+				id: "209A4E74C4A32498"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4112B7045478FF55"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Шухлядочка"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F04A8A423BBC629"]
+			description: [
+				"Ідеальне та класичне сховище ваших ресурсів! Хоч і крафт тепер трохи важчий чим зазвичай, але не біда. А якщо не вистачає того, що"
+				"вже маєте, можете подивитись в стороу шухляд з моду Storage Drawers або ж моду на розширені скрині Expanded Storage, але для їх створення, вам треба знайти або створити ваше перше залізо. "
+			]
+			id: "545B7C6DCF12B881"
+			rewards: [{
+				count: 4
+				id: "75B66BF03F6A94C0"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7D5C18E40F70C969"
+				item: { Count: 4, id: "minecraft:chest" }
+				type: "item"
+			}]
+			title: "Рундук"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F04A8A423BBC629"]
+			description: ["Все класичне починається зі всього класичного."]
+			id: "176DEDBAB406EA45"
+			rewards: [{
+				count: 3
+				id: "7B48713AB33C938A"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4549553C2934AB38"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55848E5168F93234"]
+			description: [
+				"Вам набридло, що у вас немає портативних резервуарів для рідин? Хочете набрати з собою лави або води в дорогу, а немаєте в що?"
+				""
+				"Тоді ці бронзові діжки для рідин стануть для вас найкращим варіантом на данний час, так як більш кращі версії діжок не відкриті по прогресії ще, а інші типу резервуарі більшою ємностю вам ще не доступні."
+				" "
+			]
+			id: "40BC24E72FC91D8A"
+			rewards: [{
+				count: 4
+				id: "61C30C91513ADE0D"
+				item: "gtceu:fluid_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "679DDCDCDDD4403B"
+				item: "gtceu:bronze_drum"
+				type: "item"
+			}]
+			title: "Бронзове відро"
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			description: ["Хоче зберігати більше ніж 1 відро? Тоді до ваших послуг перші резервуари! Хоч вони й вміщають всього 16 відер рідин, але для початку цього вам вистачить, неправда?"]
+			id: "2FB5B0A5345A037C"
+			rewards: [{
+				count: 2
+				id: "1A99768110C66398"
+				item: "gtceu:fluid_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A4C2C067C9D66F"
+				item: "expandedstorage:iron_barrel"
+				type: "item"
+			}]
+			title: "Залізна (не) людина"
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["176DEDBAB406EA45"]
+			description: ["Вам потрібне ліжко, а створити його немає можливості? Вкрасти у селян також не можете? Тоді до ваших послуг спальний мішок! Поспіть де захочете, просто використавши ваш мішечок."]
+			id: "79F27BE025365EAE"
+			tasks: [{
+				id: "1A0E42006C200646"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Мішечок в дорогу"
+			x: -1.0d
+			y: 2.0d
 		}
 	]
 	title: "Глава І: Кам'яний вік"

@@ -122,5 +122,4 @@ ServerEvents.recipes( event=> {
     event.remove( { id:"twilightforest:wood/sorting_chest" } )
     event.remove( { id:"twilightforest:wood/sorting_stairs" } )
 
-
 })

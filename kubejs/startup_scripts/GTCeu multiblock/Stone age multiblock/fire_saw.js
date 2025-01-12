@@ -20,7 +20,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .build())
         .workableCasingRenderer(
             "kubejs:block/casings/firebath_casing",
-            "gtceu:block/multiblock/primitive_blast_furnace",
+            "gtceu:block/multiblock/gcym/large_cutter",
             false
         )
     

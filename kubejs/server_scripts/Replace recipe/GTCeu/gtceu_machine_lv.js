@@ -98,13 +98,6 @@ ServerEvents.recipes(event => {
 
     )
 
-    event.replaceInput( { id: "gtceu:shaped/wooden_barrel" },
-
-        "gtceu:long_iron_rod",
-        "fluidtank:tank_stone"
-
-    )
-
     event.replaceInput( { id: "gtceu:shaped/lv_lathe" },
 
         "minecraft:diamond",
