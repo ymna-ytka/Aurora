@@ -54,5 +54,6 @@ ServerEvents.recipes( event=>{
 
     event.remove({ id:"storagedrawers:personal_key_cofh" })
 
+    event.remove({ id:"storagedrawers:balance_fill_upgrade" })
 
 })

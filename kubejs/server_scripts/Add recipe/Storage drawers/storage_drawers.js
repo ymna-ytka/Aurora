@@ -319,6 +319,27 @@ ServerEvents.recipes( event=>{
 
     )
 
+    event.recipes.gtceu.assembler("balance_fill_upgrade_assemb")
+
+        .itemInputs(
+            "storagedrawers:upgrade_template",
+            "2x gtceu:gold_plate",
+            "gtceu:lv_robot_arm",
+            "gtceu:lv_electric_piston"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:redstone", 864)
+        )
+
+        .itemOutputs(
+            "storagedrawers:balance_fill_upgrade"
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+        .circuit(1)
+
 
 
 })

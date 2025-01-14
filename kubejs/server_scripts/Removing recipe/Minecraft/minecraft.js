@@ -48,4 +48,8 @@ ServerEvents.recipes(event=>{
 
     event.remove( { id:"farmersdelight:painting_from_canvas" } )
 
+    event.remove( { id:"minecraft:pumpkin_pie" } )
+
+    event.remove( { id:"naturalist:pumpkin_pie" } )
+
 })

@@ -86,6 +86,8 @@ ServerEvents.recipes(event=>{
 
     event.remove( { output:"sophisticatedbackpacks:tank_upgrade" } ) 
 
-    event.remove( { output:"sophisticatedbackpacks:feeding_upgrade" } ) 
+    event.remove( { output:"sophisticatedbackpacks:feeding_upgrade" } )
+    
+    event.remove( { id: "sophisticatedbackpacks:tool_swapper_upgrade" } )
 
 })

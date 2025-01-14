@@ -7,10 +7,14 @@ ServerEvents.recipes(event => {
             "3x gtceu:copper_dust",
             "gtceu:tin_dust"
     )
+       
+        .inputFluids(
+            Fluid.of("minecraft:lava", 150)
+        )      
 
         .itemOutputs(
             "4x gtceu:bronze_ingot"
-    )
+        )
 
         .duration(240)    
   
