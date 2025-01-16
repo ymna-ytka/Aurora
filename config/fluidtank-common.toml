@@ -58,10 +58,10 @@
 		tin = "3888000"
 		#Capacity of Bronze
 		#Default: 256000 mB(= 20736000 unit)
-		bronze = "20736000"
+		bronze = "2916000"
 		#Capacity of Lead
 		#Default: 192000 mB(= 15552000 unit)
-		lead = "15552000"
+		lead = "2592000"
 		#Capacity of Silver
 		#Default: 1024000 mB(= 82944000 unit)
 		silver = "82944000"

@@ -14,10 +14,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('F', Predicates.blocks(GTBlocks.FIREBOX_STEEL.get()))
             .where('R', Predicates.blocks("gtceu:ferabrass_frame"))
             .where('C', Predicates.blocks("kubejs:ferabrass_casing")
-                .or(Predicates.abilities(PartAbility.IMPORT_ITEMS))
-                .or(Predicates.abilities(PartAbility.EXPORT_ITEMS))
                 .or(Predicates.abilities(PartAbility.STEAM))
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS))
+                .or(Predicates.abilities(PartAbility.STEAM_EXPORT_ITEMS))
+                .or(Predicates.abilities(PartAbility.STEAM_IMPORT_ITEMS))
             )
     .build())
     .workableCasingRenderer(

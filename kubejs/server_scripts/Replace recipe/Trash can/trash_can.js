@@ -14,4 +14,12 @@ ServerEvents.recipes( event=> {
 
     )
 
+    event.replaceInput( { id:"trashcans:energy_trash_can" }, 
+
+        "#forge:cobblestone",
+        "gtceu:steel_plate"
+
+    )
+
+
 })

@@ -1,17 +1,14 @@
 ServerEvents.recipes(event => {
  
-    //Bronze  
-    event.recipes.gtceu.steam_magic_bath('bronze_stable')
+    // 
+    event.recipes.gtceu.steam_magic_bath('twilight_gem')
     
         .inputFluids(
-            Fluid.of("gtceu:steel", 720),
-            Fluid.of("gtceu:brass", 432),
-            Fluid.of("gtceu:manganese", 144),
-            Fluid.of("gtceu:steam", 256000)
+            Fluid.of("gtceu:steam", 64000)
         )    
 
         .itemInputs(
-            "gtceu:silicon_dust",
+            "gtceu:wrought_iron_dust",
             "gtceu:basic_electronic_circuit"
         )   
 
@@ -19,6 +16,56 @@ ServerEvents.recipes(event => {
             'kubejs:twilight_gem'
         )
 
-        .duration(1000)    
+        .duration(1000)
+    //
+    
+    event.recipes.gtceu.steam_magic_bath('dank_1')
+       
+        .itemInputs(
+            "8x gtceu:steel_block",
+            "minecraft:coal_block"
+        )
+
+        .inputFluids(
+             Fluid.of("gtceu:steam", 64000)
+        )
+
+        .itemOutputs(
+            "dankstorage:dank_1"
+        )
+        .duration(1000)
+
+    event.recipes.gtceu.steam_magic_bath('dank_2')
+       
+        .itemInputs(
+            "8x gtceu:red_alloy_block",
+            "dankstorage:dank_1"
+        )
+
+        .inputFluids(
+             Fluid.of("gtceu:steam", 64000)
+        )
+
+        .itemOutputs(
+            "dankstorage:dank_2"
+        )
+        .duration(1000)
+
+    event.recipes.gtceu.steam_magic_bath('1_to_2_dank')
+       
+        .itemInputs(
+            "8x gtceu:red_alloy_block",
+            "gtceu:steel_plate"
+        )
+
+        .inputFluids(
+             Fluid.of("gtceu:steam", 64000)
+        )
+
+        .itemOutputs(
+            'dankstorage:1_to_2'
+        )
+        .duration(1000)
+        
   
 })

@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     
     event.create('ferabrass')
         .ingot()
-        .components('5x steel', '1x silicon', '3x brass')       
+        .components('5x steel', '1x iron', '3x brass')       
         .color(0xc4a87b)
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(

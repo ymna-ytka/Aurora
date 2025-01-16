@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.bronze_mixer('ferabrass_dust')
 
     .itemInputs(
-      "gtceu:silicon_dust",
+      "gtceu:iron_dust",
       "5x gtceu:steel_dust",
       "3x gtceu:brass_dust"
     )

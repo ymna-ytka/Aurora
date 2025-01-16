@@ -49,7 +49,21 @@ ServerEvents.recipes( event=>{
         )
 
     .duration(200)    
-    .EUt(12)    
+    .EUt(12)
+
+    event.shaped("3x morered:stone_plate",
+
+        [
+            "   ",
+            "PPP",
+            "   "
+        ],
+
+        {
+            P:"minecraft:smooth_stone_slab"
+        }
+
+    )
 
     event.shaped("morered:bitwise_diode",
 

@@ -1617,6 +1617,11 @@
 					item: "gtceu:ulv_output_bus"
 					type: "item"
 				}
+				{
+					id: "29BCAD7142F3D48B"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -2494,6 +2499,62 @@
 			title: "Переміщуй №2"
 			x: 18.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["38FBBBAA5C0D910E"]
+			description: ["Калькулятор? Доволі корисна штука в господарстві. Тобі й кількість кругляка для кайла порахує і 2+2 обчислить вам."]
+			id: "0AFB530D0E348352"
+			tasks: [{
+				id: "1D667FCC7978B414"
+				item: {
+					Count: 1
+					id: "jecalculation:item_calculator_craft"
+					tag: {
+						jecalculation: {
+							craft: {
+								amount: ""
+								inventory: 0b
+								mode: "input"
+								overlayDepth: 0
+								overlayOpen: 0b
+								overlayPositionX: 0
+								overlayPositionY: 0
+								recents: [ ]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Калькулятор"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["55848E5168F93234"]
+			description: ["Це майже як бронзова діжка для рідини, але вона буде побільше, та немає ніяких рамок для температури рідини."]
+			id: "4B6C545AF81D65C0"
+			tasks: [{
+				id: "6FAF6E822F19273E"
+				item: "fluidtank:tank_bronze"
+				type: "item"
+			}]
+			title: "Танки"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55848E5168F93234"]
+			description: ["Вже набагато краще чим всі скрині, що вам відкриті ?"]
+			id: "5E759C302A005384"
+			tasks: [{
+				id: "6072695AEBC0C137"
+				item: "gtceu:bronze_crate"
+				type: "item"
+			}]
+			title: "Ящик в ящиках? "
+			x: 17.0d
+			y: 7.0d
 		}
 	]
 	title: "Глава І: Кам'яний вік"

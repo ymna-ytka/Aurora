@@ -827,7 +827,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -5.5d
 		}
 		{
@@ -851,7 +851,7 @@
 				}
 			]
 			title: "В недра!"
-			x: 7.5d
+			x: 8.0d
 			y: -4.5d
 		}
 		{
@@ -879,8 +879,8 @@
 				}
 			]
 			title: "Сульфурна жила"
-			x: 6.5d
-			y: -4.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -991,43 +991,8 @@
 				}
 			]
 			title: "Манґанова жила"
-			x: 11.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["20A9159FD6DB05DE"]
-			hide_until_deps_complete: true
-			icon: "gtceu:tin_ore"
-			id: "644047784D66B92F"
-			tasks: [
-				{
-					count: 48L
-					id: "32D58BD26D0EC4AD"
-					item: "gtceu:raw_cassiterite_sand"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "7D245407ABBEACED"
-					item: { Count: 32, id: "gtceu:raw_garnet_sand" }
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "70FB1A67B1C02853"
-					item: { Count: 32, id: "gtceu:raw_asbestos" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "4A8E314D4FC52BFC"
-					item: { Count: 16, id: "gtceu:raw_diatomite" }
-					type: "item"
-				}
-			]
-			title: "Жила гранатового олова"
 			x: 13.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6FF86BF3C56E02CA"]
@@ -1039,29 +1004,8 @@
 				type: "item"
 			}]
 			title: "Марганець"
-			x: 11.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["644047784D66B92F"]
-			description: [
-				""
-				""
-				""
-				""
-				""
-				"&1P.s якщо у вас виникли проблеми зі здобутком силікона, варто обробити пилинки редстоуна в центрифузі"
-			]
-			id: "629203F7E771693D"
-			tasks: [{
-				count: 8L
-				id: "2ABBABAFBBDC788D"
-				item: { Count: 8, id: "gtceu:silicon_dust" }
-				type: "item"
-			}]
-			title: "Силікон"
-			x: 13.5d
-			y: 1.0d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1075,6 +1019,12 @@
 			]
 			icon: "gtceu:steam_magic_bath"
 			id: "3D26A2F5F9F876C2"
+			rewards: [{
+				count: 4
+				id: "18724CADE59FA5DF"
+				item: "gtceu:lv_input_hatch"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1C730D954D809F2D"
@@ -1111,32 +1061,13 @@
 					item: { Count: 9, id: "gtceu:ferabrass_frame" }
 					type: "item"
 				}
-				{
-					id: "7F02DD1B4A8DBEE4"
-					item: "gtceu:lv_input_bus"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "4256E0C4813E3325"
-					item: { Count: 3, id: "gtceu:ulv_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "28342BA060F2D7F2"
-					item: "gtceu:ulv_output_bus"
-					type: "item"
-				}
 			]
 			title: "Магічна ваночка"
 			x: 14.0d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"5441CC287F2C26B4"
-				"629203F7E771693D"
-			]
+			dependencies: ["5441CC287F2C26B4"]
 			description: [""]
 			id: "3C54B4175F664C22"
 			tasks: [{
@@ -1146,8 +1077,8 @@
 				type: "item"
 			}]
 			title: "Латунна долина"
-			x: 12.5d
-			y: 0.0d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1B32D63B50B3E5F0"]
@@ -1284,7 +1215,7 @@
 				}
 			]
 			title: "Смітники"
-			x: 7.5d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -1314,7 +1245,7 @@
 				}
 			]
 			title: "Ремінь тата"
-			x: 9.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -1325,8 +1256,8 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3D26A2F5F9F876C2"]
@@ -1354,7 +1285,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4581E453DD4E8C97"]
+			dependencies: ["4020DD220D9550C9"]
+			hide_until_deps_complete: true
 			icon: "gtceu:nickel_ore"
 			id: "6DDEEF801B27D555"
 			tasks: [
@@ -1388,7 +1320,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6DDEEF801B27D555"]
+			dependencies: [
+				"6DDEEF801B27D555"
+				"4581E453DD4E8C97"
+			]
 			id: "2ED9E5EA96C1A34E"
 			tasks: [{
 				count: 16L
@@ -1486,8 +1421,8 @@
 				type: "item"
 			}]
 			title: "Лом"
-			x: 8.35d
-			y: 4.0d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["41D2FC6C489989DA"]
@@ -1514,7 +1449,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["15F012D77314A875"]
+			dependencies: ["41D2FC6C489989DA"]
 			id: "5248CFAADC8C0BA3"
 			tasks: [{
 				id: "3ACC1D62ED99F19A"
@@ -1522,7 +1457,7 @@
 				type: "item"
 			}]
 			title: "Сталева бочка"
-			x: 6.5d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -1545,6 +1480,207 @@
 			title: "Світло в кожен дім"
 			x: 10.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Іще більш покращена версія ваших діжок для ваших рідин, користуйтесь ними або іншими видами резервуарів."]
+			id: "16CA2A5F9ABE2D4B"
+			tasks: [{
+				id: "3B04BE56574AE027"
+				item: "gtceu:steel_drum"
+				type: "item"
+			}]
+			title: "Сталева спрага"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3028120B0668FAD3"]
+			description: ["Після крафту сплаву редстоуна в минулому квесті, вам відкриваються горизонти редстоун технологій. Якщо ви розумієтєсь в цьому, цей мод може для вас незаміним."]
+			id: "0343193E1281F90B"
+			tasks: [{
+				id: "13EBA2A85DE431D6"
+				title: "More red"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E9D374647491674"]
+			description: [
+				"Якщо ви вже встигли створити парові механізми, то могли побачити краєм ока решітки на одній зі сторін машини. Це вихід під відходи, що має кожен паровий механізм. Відпрацювавши цикл (1 рецепт) він виробляє відходи, які йому потрібно викинути в повітря, і якщо ж ця *решітка* буде заставлена якимось блоком, або будь-яким іншим способом їй буде перекритий доступ до повітря, машина зупиниться без можливості продовжити рецепт до поки механізм не викине в повітря відходи. "
+				""
+				"&9P.s Така ж механіка присутня з електричними пристроями, але в них це працює автоматично, та не чинить моментальної шкоди гравцю."
+			]
+			id: "66A9B3FC18CF0C57"
+			tasks: [{
+				id: "3DC402C6DC8D1D4B"
+				title: "Відходи"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C870A658F468572"]
+			description: ["Працює як предмет, що може збирати ваші великі і не тільки мульти блоки. Для більш детального розуміння як працює предмет, варто прочитати його опис."]
+			id: "0268423E36BA40E4"
+			tasks: [{
+				id: "4A90AAACC844DFA6"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			title: "Збирач заводів"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3926D5915C025161"]
+			description: ["Вам чомусь стало потрібно, щоб в шухляді було рівно стак потрібно вам предмету? Ви доволі цікава людина."]
+			id: "5C88DBB66DB493B2"
+			tasks: [{
+				id: "4455EDD4B49E3882"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			title: "Зменшення (мозку)"
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3926D5915C025161"]
+			description: ["У вашому механізмі залишилась не потрібна вам рідина, а ламати ви його не хочете? Тоді вантуз ваш новий товарищ. Він висосе всі залишки, та зробить потрібний вам предмет абсолютно чистим."]
+			id: "0DC9510E3C264932"
+			tasks: [{
+				id: "27FA6FADFF00DC9D"
+				item: {
+					Count: 1
+					id: "gtceu:rubber_plunger"
+					tag: {
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 0.0d
+							Damage: 0
+							HarvestLevel: 1
+							MaxDamage: 256
+							ToolSpeed: 4.0d
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Сантехник"
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3926D5915C025161"]
+			description: ["Далі у своєму розвитку, вам потрібно буде тримати в руках небезпечні матеріали, й це доволі небезпечно для вашого життя. На цей момент ви не маєте можливості зробити повного костюма від захисту від всього, тому поки використовуйте перевірені життям гумові рукавички, що захистять від всього, у чого є небезпека при контакті зі шкірою."]
+			id: "7621781C82CE5803"
+			tasks: [{
+				id: "350514DE0F0A8812"
+				item: {
+					Count: 1
+					id: "gtceu:rubber_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Рукавчи"
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Ви хочете збудувати платформу зі кругляка? Або поставити всю руду, що викопали за довгі години в шахті? Тоді це для вас! Вона може ставити за раз 27 блоків. Насолоджуйтеся."]
+			id: "074BDDE04D167570"
+			tasks: [{
+				id: "60B4C1B0D29437FF"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Палиця-помічниця"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["За якоюсь причиною вам стало потрібно витягнути з шухляди тільки один відсік? Цей ключ допоможе вам в цьому. Просто варто використати ключ навівшись на потрібний вам сектор шухляди."]
+			id: "2DC10C3E19D2F8C0"
+			tasks: [{
+				id: "74F1472AA138E84C"
+				item: "storagedrawers:drawer_puller"
+				type: "item"
+			}]
+			title: "Не гайковий ключ"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Покращення для сховища вже у 8 разів, вітаю."]
+			id: "6DA87350734A42E2"
+			tasks: [{
+				id: "5AC564E0AC4E2C62"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Якщо ви різко захочете закрити вашу шухлядку, щоб в ній зберігся предмет й не замінився ні на що інше, то використовуйте його з ВЕЛИКИМ задоволенням."]
+			id: "49DDA2B086E4EDD8"
+			tasks: [{
+				id: "038D479EA7B44F91"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			title: "Ключ від шухлядки"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41D2FC6C489989DA"]
+			description: ["Майже як скриня, але навіть краще."]
+			id: "565C3C001FE524CA"
+			tasks: [{
+				id: "7FBDD38933B54173"
+				item: "gtceu:steel_crate"
+				type: "item"
+			}]
+			title: "Сталева скриня?"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["558F79BC5CD79FC9"]
+			description: [
+				"Якщо станеться ситуація, що вам потрібно буде скопіювати конфігурацію машини на 10 інших її друзів, то ця картка вам з радістю допоможе."
+				""
+				"&9P.s Більш детальна інформація в описі предмета.&r"
+			]
+			id: "145D6B6AF0061216"
+			tasks: [{
+				id: "3AC2A2139FEC3557"
+				item: "gtceu:machine_memory_card"
+				type: "item"
+			}]
+			title: "Карта конфігуратор"
+			x: 11.0d
+			y: -2.5d
 		}
 	]
 	title: "Глава ІІ: Парова епоха"
