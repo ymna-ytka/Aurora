@@ -22,6 +22,11 @@ StartupEvents.registry('item', event=>{
 
     event.create('empty_flask')
     .displayName('Порожня колба')
-    .texture('kubejs:item/lv_age/empty_flask') 
+    .texture('kubejs:item/lv_age/empty_flask')
+    
+    event.create('glass_balloon')
+    .displayName('Cкляний балон')
+    .texture('kubejs:item/lv_age/glass_balloon') 
+
 
 })
