@@ -116,5 +116,35 @@ ServerEvents.recipes(event=>{
   
     .duration(300)
     .EUt(2)
+
+    event.shapeless("2x minecraft:stick",
+
+        [
+            "2x palegarden:pale_plank"
+        ]
+
+    )
+
+    event.shapeless("4x minecraft:stick",
+
+        [
+            "2x palegarden:pale_plank",
+            "#forge:tools/saws"
+        ]
+
+    )
+
+    event.recipes.gtceu.lathe('pale_stick_lathe')
+        .itemInputs(
+            "palegarden:pale_plank",
+        )
+
+        .itemOutputs(
+            "2x minecraft:stick"
+        )
+        .duration(10)
+        .EUt(GTValues.VA[GTValues.ULV])
+
+
     
 })

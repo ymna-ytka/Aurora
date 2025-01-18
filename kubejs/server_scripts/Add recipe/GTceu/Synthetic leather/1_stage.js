@@ -13,5 +13,7 @@ ServerEvents.recipes( event=>{
         .outputFluids(
             Fluid.of("gtceu:sodium_carbonate", 2000)
         )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
 
 })

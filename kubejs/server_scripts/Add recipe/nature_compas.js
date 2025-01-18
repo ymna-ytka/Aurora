@@ -10,5 +10,7 @@ ServerEvents.recipes ( event=> {
         .itemOutputs(
             "naturescompass:naturescompass"
         )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
 
 })

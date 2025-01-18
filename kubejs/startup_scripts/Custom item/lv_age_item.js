@@ -28,5 +28,8 @@ StartupEvents.registry('item', event=>{
     .displayName('Cкляний балон')
     .texture('kubejs:item/lv_age/glass_balloon') 
 
+    event.create('ballon_mold')
+    .displayName('Форма балона')
+    .texture('kubejs:item/lv_age/baloon_mold') 
 
 })

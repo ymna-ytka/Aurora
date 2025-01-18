@@ -1250,6 +1250,11 @@
 		}
 		{
 			dependencies: ["41D2FC6C489989DA"]
+			description: [
+				""
+				""
+				"&9P.s Варто вийняти речі перед покращенням ранця)"
+			]
 			id: "0FAE562F92CB96EF"
 			tasks: [{
 				id: "2911ACFE27046D31"

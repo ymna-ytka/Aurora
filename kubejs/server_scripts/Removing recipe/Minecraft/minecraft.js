@@ -52,4 +52,8 @@ ServerEvents.recipes(event=>{
 
     event.remove( { id:"naturalist:pumpkin_pie" } )
 
+    event.remove( { id:"tidal:chest" } )
+
+    event.remove( { id:"palegarden:pale_plank_sticks" } )
+
 })

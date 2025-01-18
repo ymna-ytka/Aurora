@@ -1349,6 +1349,58 @@
 			x: 4.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["728C4E1155720CC0"]
+			icon: "gtceu:electric_blast_furnace"
+			id: "3F0C74E7CD9B6F4C"
+			tasks: [
+				{
+					id: "05B2E7C31ABE9EE9"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "1263FF1A23621A43"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "0F1A3488C2EB2105"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "676B8EDAA9824699"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "5CF064C7EACDB20A"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "4BF9085E13D6BFAE"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "253A40A84C60890C"
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3692E9E8B417AB4D"
+					item: { Count: 9, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -2.5d
+		}
 	]
 	title: "Глава III: LV напруга"
 }

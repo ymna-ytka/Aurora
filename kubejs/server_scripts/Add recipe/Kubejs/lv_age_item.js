@@ -206,5 +206,37 @@ ServerEvents.recipes( event=> {
     .EUt(GTValues.VA[GTValues.MV])
     .circuit(4)
 
+    event.shaped('kubejs:ballon_mold',
+
+        [
+            "  H",
+            "   ",
+            "M  "
+        ],
+
+        {
+            H:"#forge:tools/hammers",
+            M:"gtceu:empty_mold"
+        }
+
+    )
+
+    event.recipes.gtceu.fluid_solidifier('glass_ballon_solid')
+
+        .notConsumable(
+            'kubejs:ballon_mold'
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:glass", 288)
+        )
+
+        .itemOutputs(
+            'kubejs:glass_balloon'
+        )
+        .duration(300)
+        .EUt(GTValues.VHA[GTValues.LV])
+    
+
 
 })

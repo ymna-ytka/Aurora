@@ -9,5 +9,6 @@ ServerEvents.recipes( event=>{
     event.remove( { id:"tidal:palm_trapdoor" } )
     event.remove( { id:"tidal:palm_stairs" } )
     event.remove( { id:"tidal:palm_wood" } )
+    event.remove( { id:"tidal:palmwooddoor" } )
 
 })
