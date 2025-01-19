@@ -62,6 +62,39 @@ ServerEvents.recipes(event=>{
 
     .duration(140)    
     //
+    
+    //Ecoferum casing
+    event.shaped("kubejs:ecoferum_casing",
+        
+        [
+            "PHP",
+            "PFP",
+            "PWP" 
+        ],
+        
+        {
+            P:"gtceu:ecoferum_plate",
+            W:"#forge:tools/wrench",
+            H:"#forge:tools/hammers",
+            F:"gtceu:ecoferum_frame"  
+        }
+     
+    )
 
+
+    event.recipes.gtceu.assembler('ecoferum_casing')
+
+        .itemInputs(
+            'gtceu:ecoferum_frame',
+            '6x gtceu:ecoferum_plate',
+        )
+
+        .itemOutputs(
+            'kubejs:ecoferum_casing'
+        )
+        .duration(50)
+        .EUt(GTValues.VH[GTValues.LV])
+        .circuit(6)   
+    //
      
 })
