@@ -30,6 +30,19 @@ StartupEvents.registry('item', event=>{
 
     event.create('ballon_mold')
     .displayName('Форма балона')
-    .texture('kubejs:item/lv_age/baloon_mold') 
+    .texture('kubejs:item/lv_age/baloon_mold')
+    
+    event.create('raw_aluminium_ingot')
+    .displayName('Сирий злиток алюмінія')
+    .texture('kubejs:item/lv_age/raw_aluminium_ingot') 
+
+    event.create('clean_aluminium_ingot')
+    .displayName('Очищений злиток алюмінія')
+    .texture('kubejs:item/lv_age/clean_aluminium_ingot') 
+
+    event.create('high_quality_aluminium_ingot')
+    .displayName('Високоякісний злиток алюмінія')
+    .texture('kubejs:item/lv_age/high_quality_aluminium_ingot') 
+
 
 })

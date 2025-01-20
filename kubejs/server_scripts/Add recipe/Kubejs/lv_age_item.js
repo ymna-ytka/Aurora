@@ -237,6 +237,80 @@ ServerEvents.recipes( event=> {
         .duration(300)
         .EUt(GTValues.VHA[GTValues.LV])
     
+    event.recipes.gtceu.electric_blast_furnace('raw_alum_ing')
+          
+        .itemInputs(
+            "gtceu:coke_block",
+            "2x gtceu:aluminium_dust"
+        )
+
+        .itemOutputs(
+            "kubejs:raw_aluminium_ingot"
+        )
+
+        .outputFluids(
+            Fluid.of("gtceu:carbon_dioxide", 100 )
+        )
+        .duration(1200) 
+        .EUt(GTValues.VA[GTValues.MV])
+        .blastFurnaceTemp(1800)
+
+    event.recipes.gtceu.natural_cleaner('clean_alum_ing')
+          
+        .itemInputs(
+            "kubejs:raw_aluminium_ingot",
+            "gtceu:steel_rod"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:sulfuric_acid", )
+        )
+
+        .itemOutputs(
+            "kubejs:clean_aluminium_ingot",
+        )
+
+        .chancedOutput(
+            "gtceu:silicon_dust", 1100, 400
+        )
+
+        .outputFluids(
+            Fluid.of("gtceu:carbon_dioxide", 100 )
+        )
+        .duration(600) 
+        .EUt(GTValues.VA[GTValues.MV])
+
+    event.recipes.gtceu.arc_furnace('high_qual_alum_ing')
+       
+        .itemInputs(
+            "kubejs:clean_aluminium_ingot"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:oxygen", 60)
+        )
+
+        .itemOutputs(
+            "kubejs:high_quality_aluminium_ingot"
+        )
+        .duration(60)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.assembler('alum_ing_assemb')
+       
+        .itemInputs(
+            "kubejs:high_quality_aluminium_ingot"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:lubricant", 100)
+        )
+
+        .itemOutputs(
+            "gtceu:aluminium_ingot"
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
 
 
 })

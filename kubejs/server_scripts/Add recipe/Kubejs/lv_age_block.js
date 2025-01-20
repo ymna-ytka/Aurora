@@ -21,4 +21,23 @@ ServerEvents.recipes( event=> {
         .duration(500)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.recipes.gtceu.assembler('filtering_camera_assemb')
+        
+        .itemInputs(
+            "32x gtceu:fine_silver_wire",
+            "gtceu:ecoferum_frame",
+            "gtceu:rubber_plate"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:distilled_water", 4000)
+        )
+
+        .itemOutputs(
+            "kubejs:filtering_camera"
+        )
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.LV])
+
+
 })
