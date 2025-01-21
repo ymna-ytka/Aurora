@@ -116,6 +116,23 @@ ServerEvents.recipes(event=>{
      
     )
 
+    event.shaped("gtceu:natural_cleaner",
+
+        [
+            "DDD",
+            "BCB",
+            "ABA"
+        ],
+
+        {
+            D:"gtceu:lv_distillery",
+            B:"gtceu:basic_electronic_circuit",
+            C:"kubejs:ecoferum_casing", 
+            A:"gtceu:cobalt_single_cable"
+        }
+
+    )
+
 
 
 })

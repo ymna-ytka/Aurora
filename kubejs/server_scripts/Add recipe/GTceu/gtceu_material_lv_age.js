@@ -65,4 +65,50 @@ ServerEvents.recipes(event=>{
         .EUt(GTValues.VA[GTValues.LV])
         .circuit(10)
 
+    event.recipes.gtceu.assembler('alum_ing_assemb')
+       
+        .itemInputs(
+            "kubejs:high_quality_aluminium_ingot"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:lubricant", 100)
+        )
+
+        .itemOutputs(
+            "gtceu:aluminium_ingot"
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.electric_blast_furnace('alum_blast_furn')
+      
+        .itemInputs(
+            "gtceu:aluminium_dust"
+        )
+
+        .itemOutputs(
+            "gtceu:aluminium_ingot"
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.MV])
+        .blastFurnaceTemp(1900)
+
+    event.recipes.gtceu.electric_blast_furnace('alum_blast_furn_gas')
+      
+        .itemInputs(
+            "gtceu:aluminium_dust"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:nitrogen", 100)
+        )
+
+        .itemOutputs(
+            "gtceu:aluminium_ingot"
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.MV])
+        .blastFurnaceTemp(1900)
+
 })

@@ -751,7 +751,7 @@
 		}
 		{
 			dependencies: ["3446E0E0663DAEAE"]
-			description: ["Пряма дорога до електричної доменгої печі!"]
+			description: ["Пряма дорога до електричної доменної печі!"]
 			icon: "gtceu:invar_ingot"
 			id: "728C4E1155720CC0"
 			tasks: [
@@ -769,8 +769,8 @@
 				}
 			]
 			title: "Інваровий? Точно?"
-			x: -4.5d
-			y: -2.5d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -1255,6 +1255,31 @@
 		}
 		{
 			dependencies: ["0056B524A340D953"]
+			icon: {
+				Count: 1
+				id: "gtceu:iv_bronze_drill"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 4
+						AoELayer: 8
+						AoERow: 4
+						MaxAoEColumn: 4
+						MaxAoELayer: 8
+						MaxAoERow: 4
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 1343
+						ToolSpeed: 7.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
 			id: "39A9E7CD0126FC56"
 			tasks: [{
 				id: "465ECB05DA47DB29"
@@ -1351,6 +1376,7 @@
 		}
 		{
 			dependencies: ["728C4E1155720CC0"]
+			description: ["Електрична доменна піч — це новий крок у вашому індустріальному розвитку. Цей високотехнологічний мультиблок дозволяє створювати просунуті сплави, виплавляти надзвичайно міцні матеріали та обробляти руди з максимальною ефективністю. Її ключова перевага — можливість працювати швидше за допомогою подачі спеціальних газів, таких як кисень, азот чи водень, що покращують умови плавлення."]
 			icon: "gtceu:electric_blast_furnace"
 			id: "3F0C74E7CD9B6F4C"
 			tasks: [
@@ -1398,8 +1424,149 @@
 					type: "item"
 				}
 			]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3446E0E0663DAEAE"]
+			description: ["Як залізо, тільки еко."]
+			icon: "gtceu:ecoferum_ingot"
+			id: "536C8BFAE07EEF0B"
+			tasks: [
+				{
+					count: 16L
+					id: "7CD7A537416C5F81"
+					item: "gtceu:ecoferum_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4E0F216EBF2F38D1"
+					item: { Count: 16, id: "gtceu:ecoferum_dust" }
+					type: "item"
+				}
+			]
+			title: "Екозалізо"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["536C8BFAE07EEF0B"]
+			description: ["Природний очищувач — це складний мультиблочний механізм, що є ключовою ланкою в першому здобутку алюмінія та нержавіючої сталі. Завдяки своїй структурі, він здатний обробляти великі обсяги матеріалів і забезпечувати високу чистоту ресурсів. Відкриє для вас двері в прямо в MV еру."]
+			icon: "gtceu:natural_cleaner"
+			id: "77F090E3D8094FCB"
+			tasks: [
+				{
+					id: "5F3665E71B21E162"
+					item: "gtceu:natural_cleaner"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "628F2B71DADF47BF"
+					item: { Count: 10, id: "kubejs:ecoferum_casing" }
+					type: "item"
+				}
+				{
+					id: "3C9272D678F3582D"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BF3CACB9718919C"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "0EF38A2716CCB74D"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "35B86C18965C366A"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "18E891C0C3D00BB7"
+					item: { Count: 4, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4641B70FBDC58A99"
+					item: { Count: 4, id: "kubejs:filtering_camera" }
+					type: "item"
+				}
+				{
+					id: "5B6F188D91E79C7D"
+					item: "kubejs:reactive_cleaner"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3F0C74E7CD9B6F4C"]
+			description: ["1 крок до алюмінія."]
+			id: "43D970C1F6D821EF"
+			tasks: [{
+				id: "2647D17C74B97259"
+				item: "kubejs:raw_aluminium_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"77F090E3D8094FCB"
+				"43D970C1F6D821EF"
+			]
+			description: ["2 крок до алюмінія."]
+			id: "55021B76C1C3A978"
+			tasks: [{
+				id: "3C007BCE7BB0FEFF"
+				item: "kubejs:clean_aluminium_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55021B76C1C3A978"]
+			description: ["Вже 3 крок до алюмінія."]
+			id: "14F3B83274FCBCFE"
+			tasks: [{
+				id: "3521603A11670C6D"
+				item: "kubejs:high_quality_aluminium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14F3B83274FCBCFE"]
+			description: [
+				"Алюміній – це один із найважливіших матеріалів у сучасному виробництві. Легкий, міцний і стійкий до корозії, він відкриває шлях до нових механізмів і передових технологій. Однак, його здобуття – це не лише виклик, а й перевірка ваших інженерних навичок."
+				""
+				"Після довгого процесу переробки та очищення пилу алюмінію, ви нарешті отримали свій перший злиток цього металу. Злитки алюмінію стануть основою для створення як міцних конструкцій, так і технологічних механізмів у майбутньому."
+			]
+			id: "07D869F9D9DE4F6C"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				count: 16L
+				id: "0A6F8E6156721ABC"
+				item: { Count: 16, id: "gtceu:aluminium_ingot" }
+				type: "item"
+			}]
+			title: "Алюмайт"
+			x: -7.0d
+			y: -6.0d
 		}
 	]
 	title: "Глава III: LV напруга"

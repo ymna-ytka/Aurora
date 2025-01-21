@@ -296,21 +296,6 @@ ServerEvents.recipes( event=> {
         .duration(60)
         .EUt(GTValues.VA[GTValues.LV])
 
-    event.recipes.gtceu.assembler('alum_ing_assemb')
-       
-        .itemInputs(
-            "kubejs:high_quality_aluminium_ingot"
-        )
-
-        .inputFluids(
-            Fluid.of("gtceu:lubricant", 100)
-        )
-
-        .itemOutputs(
-            "gtceu:aluminium_ingot"
-        )
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
 
 
 })
