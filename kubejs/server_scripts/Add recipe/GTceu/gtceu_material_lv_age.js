@@ -58,6 +58,10 @@ ServerEvents.recipes(event=>{
             "gtceu:rubber_dust"
         )
 
+        .inputFluids(
+            Fluid.of("gtceu:biomass", 100)
+        )
+
         .itemOutputs(
             "10x gtceu:ecoferum_dust"
         )
