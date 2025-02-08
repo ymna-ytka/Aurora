@@ -12,7 +12,7 @@ StartupEvents.registry('item', event=>{
     .displayName('Оброблена кам\'яна палиця')
     .texture('kubejs:item/stone_age/coal_stone_stick')
 
-    event.create('cleansed_leather')
+    event.create('raw_cleansed_leather')
     .displayName('Очищена шкіра')
     .texture('kubejs:item/stone_age/cleansed_leather')
      
@@ -22,6 +22,8 @@ StartupEvents.registry('item', event=>{
     
     event.create('chunk_stone')
     .displayName('Кусок каміння')
-    .texture('kubejs:item/stone_age/chunk_stone') 
+    .texture('kubejs:item/stone_age/chunk_stone')
+    
+
     
 })

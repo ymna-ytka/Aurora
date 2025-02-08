@@ -48,6 +48,9 @@ StartupEvents.registry('item', event=>{
     .displayName('Математичний кристал')
     .texture('kubejs:item/steam_age/twilight_gem')
 
+    event.create('tanning_mixture')
+    .displayName('Дубильна суміш')
+    .texture('kubejs:item/steam_age/tanning_mixture') 
     
     
 

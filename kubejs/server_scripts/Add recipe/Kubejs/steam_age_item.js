@@ -334,4 +334,14 @@ ServerEvents.recipes(event =>{
    .duration(100)
    .EUt(16)
 
+   event.shapeless("kubejs:tanning_mixture",
+
+      [
+         "minecraft:flint",
+         "minecraft:green_dye",
+         "#forge:tools/mortars"
+      ]
+
+   )
+
 })

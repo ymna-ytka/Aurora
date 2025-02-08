@@ -25,22 +25,7 @@ ServerEvents.recipes(event=>{
         }
         
     )
-
-    event.shapeless("kubejs:cleansed_leather",
-        
-        [
-              "minecraft:leather",
-              "#forge:tools/knives",
-              "minecraft:flint",
-              "minecraft:water_bucket"
-        ]
-
-    )
     
-    event.campfireCooking("kubejs:tanned_leather", "kubejs:cleansed_leather", 0, 2400)
-    
-    event.blasting("kubejs:tanned_leather", "kubejs:cleansed_leather")
-
     event.campfireCooking("kubejs:chunk_stone", "minecraft:flint", 0, 200)
 
 
