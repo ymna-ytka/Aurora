@@ -296,6 +296,20 @@ ServerEvents.recipes( event=> {
         .duration(60)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.recipes.gtceu.electric_blast_furnace('flint_dye')
+       
+        .itemInputs(
+            "minecraft:lime_dye",
+            "gtceu:flint_dust"
+        )
+
+        .itemOutputs(
+            "kubejs:flint_dye"
+        )
+        .duration(300)
+        .EUt(GTValues.VA[GTValues.LV])
+        .circuit(1)
+        .blastFurnaceTemp(900)
 
 
 })

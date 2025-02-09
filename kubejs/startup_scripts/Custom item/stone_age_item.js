@@ -13,7 +13,7 @@ StartupEvents.registry('item', event=>{
     .texture('kubejs:item/stone_age/coal_stone_stick')
 
     event.create('raw_cleansed_leather')
-    .displayName('Очищена шкіра')
+    .displayName('Сира очищена шкіра')
     .texture('kubejs:item/stone_age/cleansed_leather')
      
     event.create('tanned_leather')

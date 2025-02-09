@@ -44,5 +44,13 @@ StartupEvents.registry('item', event=>{
     .displayName('Високоякісний злиток алюмінія')
     .texture('kubejs:item/lv_age/high_quality_aluminium_ingot') 
 
+    event.create('flint_dye')
+    .displayName('Крем\'яний барвник')
+    .texture('kubejs:item/lv_age/flint_dye')
+    
+    event.create('cleansed_leather')
+    .displayName('Очищена шкіра')
+    .texture('kubejs:item/stone_age/cleansed_leather') 
+
 
 })
