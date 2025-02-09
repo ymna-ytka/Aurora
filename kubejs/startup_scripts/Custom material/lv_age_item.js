@@ -29,5 +29,15 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_FRAME
         )
         .blastTemp(1400, 'low')
+    
+    event.create('cold_quartz')
+        .gem()
+        .color(0xe6f3ff)
+        .iconSet(GTMaterialIconSet.QUARTZ)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+        )
+
+        
         
 })

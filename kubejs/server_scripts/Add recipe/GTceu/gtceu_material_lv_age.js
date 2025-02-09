@@ -115,4 +115,20 @@ ServerEvents.recipes(event=>{
         .EUt(GTValues.VA[GTValues.MV])
         .blastFurnaceTemp(1900)
 
+    event.recipes.gtceu.mixer('cold_quartz_dust')
+      
+        .itemInputs(
+            "gtceu:quartz_sand_dust",
+            "2x gtceu:ice_dust",
+            "2x gtceu:lazurite_dust"
+        )
+
+
+        .itemOutputs(
+            "2x gtceu:cold_quartz_dust"
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
+
+
 })
