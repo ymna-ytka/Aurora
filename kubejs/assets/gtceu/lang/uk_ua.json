@@ -8,6 +8,7 @@
     "material.gtceu.carbide_silicon": "Карбід кремнія",
     "material.gtceu.sodium_carbonate": "Карбонат натрію",
     "material.gtceu.ecoferum": "Екоферит",
+    "material.gtceu.cold_quartz": "Холодний кварц",
 
 
     "block.gtceu.fire_bath": "Вогняна баня",
@@ -21,7 +22,8 @@
     "block.gtceu.steam_magic_bath": "Магічна парова ванна",
     "block.gtceu.fire_saw": "Вогняна пилорама",
     "block.gtceu.natural_cleaner": "Природний очищувач",
- 
+    "block.gtceu.induction_furnace": "Індукційна піч",
+
 
     "gtceu.fire_bath": "Вогняна баня",
     "gtceu.fire_smalter": "Вогняна плавильня",
@@ -31,6 +33,7 @@
     "gtceu.steam_magic_bath":  "Магічна парова ванна",
     "gtceu.fire_saw":  "Вогняна пилорама",
     "gtceu.natural_cleaner":  "Природний очищувач",
+    "gtceu.induction_furnace":  "Індукційна піч",
 
     "gtceu.jei.ore_vein.nickel_twilight": "Жила Нікелю",
     "gtceu.jei.ore_vein.galena_nether": "Жила Галеніту",
