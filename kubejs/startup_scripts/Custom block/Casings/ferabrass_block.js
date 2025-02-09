@@ -6,6 +6,7 @@ StartupEvents.registry("block", event => {
         .resistance(3)
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")
+        .tagBlock('forge:mineable/wrench')
         .tagBlock('minecraft:needs_iron_tool')
         .textureAll('kubejs:block/casings/ferabrass_casing')            
 })

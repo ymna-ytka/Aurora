@@ -1,7 +1,6 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('natural_cleaner', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
-        .appearanceBlock(GTBlocks.CASING_PRIMITIVE_BRICKS)
         .recipeTypes(['natural_cleaner'])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCC', 'OFO', 'CCC')
