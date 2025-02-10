@@ -133,6 +133,24 @@ ServerEvents.recipes(event=>{
 
     )
 
+    event.shaped('gtceu:induction_furnace',
+
+        [
+            "BCB",
+            "OAO",
+            "CSC"
+        ],
+
+        {
+            B:"gtceu:basic_electronic_circuit",
+            C:"gtceu:tin_single_cable",
+            O:"kubejs:machine_coil_annealed",
+            A:"gtceu:lv_alloy_smelter",
+            S:"kubejs:induction_casing"
+        }
+
+    )
+
 
 
 })

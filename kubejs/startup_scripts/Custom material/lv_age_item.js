@@ -36,6 +36,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.QUARTZ)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_FRAME,
+            GTMaterialFlags.GENERATE_ROD
         )
 
         

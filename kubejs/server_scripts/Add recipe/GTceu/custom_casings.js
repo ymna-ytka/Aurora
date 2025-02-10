@@ -97,4 +97,20 @@ ServerEvents.recipes(event=>{
         .circuit(6)   
     //
      
+    //Induction casing
+    event.recipes.gtceu.assembler('induction_casing')
+
+        .itemInputs(
+            "gtceu:cold_quartz_frame",
+            "2x gtceu:lazurite_plate",
+            "2x gtceu:silver_foil"
+        )
+
+        .itemOutputs(
+            'kubejs:induction_casing'
+        )
+        .duration(300)
+        .EUt(GTValues.VA[GTValues.LV])
+        .circuit(2)
+     
 })
