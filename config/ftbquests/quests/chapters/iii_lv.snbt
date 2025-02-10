@@ -425,6 +425,7 @@
 		{
 			dependencies: ["70FC723F2E62F927"]
 			description: ["Міксер – це ключовий механізм для створення складних сплавів, матеріалів і навіть для роботи з рідинами. Він дозволяє змішувати пилинки металів у точних пропорціях для отримання нових сплавів, а також поєднувати рідини для створення необхідних сумішей. Цей механізм стане незамінним для тих, хто прагне розширити свої виробничі можливості та досягти технологічного прогресу."]
+			hide_until_deps_complete: true
 			id: "3446E0E0663DAEAE"
 			subtitle: "не mixine"
 			tasks: [{
@@ -752,7 +753,8 @@
 		{
 			dependencies: ["3446E0E0663DAEAE"]
 			description: ["Пряма дорога до електричної доменної печі!"]
-			icon: "gtceu:invar_ingot"
+			hide_until_deps_complete: true
+			icon: "gtceu:invar_dust"
 			id: "728C4E1155720CC0"
 			tasks: [
 				{
@@ -763,14 +765,14 @@
 				}
 				{
 					count: 16L
-					id: "7EAC49F8D7CD0EA7"
-					item: { Count: 16, id: "gtceu:invar_ingot" }
+					id: "42BBE6D7BA236D82"
+					item: { Count: 16, id: "gtceu:cupronickel_dust" }
 					type: "item"
 				}
 			]
-			title: "Інваровий? Точно?"
-			x: -3.5d
-			y: -3.0d
+			title: "Майже гарячий пил"
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["70FC723F2E62F927"]
@@ -1375,8 +1377,9 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["728C4E1155720CC0"]
+			dependencies: ["3F9BFBDB97E82BF5"]
 			description: ["Електрична доменна піч — це новий крок у вашому індустріальному розвитку. Цей високотехнологічний мультиблок дозволяє створювати просунуті сплави, виплавляти надзвичайно міцні матеріали та обробляти руди з максимальною ефективністю. Її ключова перевага — можливість працювати швидше за допомогою подачі спеціальних газів, таких як кисень, азот чи водень, що покращують умови плавлення."]
+			hide_until_deps_complete: true
 			icon: "gtceu:electric_blast_furnace"
 			id: "3F0C74E7CD9B6F4C"
 			tasks: [
@@ -1424,28 +1427,21 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -4.0d
+			title: "Електрична духовка"
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3446E0E0663DAEAE"]
 			description: ["Як залізо, тільки еко."]
 			icon: "gtceu:ecoferum_ingot"
 			id: "536C8BFAE07EEF0B"
-			tasks: [
-				{
-					count: 16L
-					id: "7CD7A537416C5F81"
-					item: "gtceu:ecoferum_ingot"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "4E0F216EBF2F38D1"
-					item: { Count: 16, id: "gtceu:ecoferum_dust" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "4E0F216EBF2F38D1"
+				item: { Count: 16, id: "gtceu:ecoferum_dust" }
+				type: "item"
+			}]
 			title: "Екозалізо"
 			x: -4.5d
 			y: -2.0d
@@ -1567,6 +1563,68 @@
 			title: "Алюмайт"
 			x: -7.0d
 			y: -6.0d
+		}
+		{
+			dependencies: [
+				"728C4E1155720CC0"
+				"77C0426BC8BED447"
+			]
+			description: ["Ви вже знайомі з базовими методами обробки ресурсів, але що робити, коли звичайні печі стають недостатньо ефективними? Настав час перейти на новий рівень технологій! Індукційна піч — це потужний механізм, який використовує електромагнітне поле для нагрівання матеріалів. Вона дозволяє швидко і ефективно обробляти руду, сплави та інші ресурси. Але для її побудови вам знадобляться рідкісні матеріали та точне планування. Готові стати майстром індукції?"]
+			hide_until_deps_complete: true
+			icon: "gtceu:induction_furnace"
+			id: "3F9BFBDB97E82BF5"
+			tasks: [
+				{
+					id: "3819307E1ABFD452"
+					item: "gtceu:induction_furnace"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "63E71AED93C21670"
+					item: { Count: 35, id: "kubejs:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1AC1F6C4E85CABB9"
+					item: { Count: 8, id: "kubejs:machine_coil_annealed" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "68ACDD23BF8E02DF"
+					item: { Count: 12, id: "gtceu:tempered_glass" }
+					type: "item"
+				}
+				{
+					id: "370B89D797236D6D"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "39E2557EF995D6DA"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "7CD1DF325A222433"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "35A9BABF908DA439"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "1E541CC17786D9CF"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
 		}
 	]
 	title: "Глава III: LV напруга"

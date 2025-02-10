@@ -484,6 +484,68 @@
 			x: -6.0d
 			y: -4.0d
 		}
+		{
+			dependencies: [
+				"728C4E1155720CC0"
+				"77C0426BC8BED447"
+			]
+			description: ["Ви вже знайомі з базовими методами обробки ресурсів, але що робити, коли звичайні печі стають недостатньо ефективними? Настав час перейти на новий рівень технологій! Індукційна піч — це потужний механізм, який використовує електромагнітне поле для нагрівання матеріалів. Вона дозволяє швидко і ефективно обробляти руду, сплави та інші ресурси. Але для її побудови вам знадобляться рідкісні матеріали та точне планування. Готові стати майстром індукції?"]
+			hide_until_deps_complete: true
+			icon: "gtceu:induction_furnace"
+			id: "542D99BD03BBBEA7"
+			tasks: [
+				{
+					id: "3A7D68D09D664092"
+					item: "gtceu:induction_furnace"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "2B693A0D4664CAC3"
+					item: { Count: 35, id: "kubejs:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1B6814D7BE621089"
+					item: { Count: 8, id: "kubejs:machine_coil_annealed" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "05822F2DBC6A5E2D"
+					item: { Count: 12, id: "gtceu:tempered_glass" }
+					type: "item"
+				}
+				{
+					id: "1815911EACC7445B"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6922D4682E5E8CB9"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "27D8447234E6E7C8"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "03E54B3FF074C993"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "58A65A16346D748E"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
 	]
 	title: "Мультиблоки"
 }

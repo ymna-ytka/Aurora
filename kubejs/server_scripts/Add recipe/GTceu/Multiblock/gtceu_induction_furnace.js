@@ -39,4 +39,18 @@ ServerEvents.recipes( event=> {
         .duration(160)
         .EUt(GTValues.VH[GTValues.LV])
 
+    event.recipes.gtceu.induction_furnace('ecoferum_ingot')
+      
+        .itemInputs(
+            'gtceu:ecoferum_dust'
+        )
+
+
+        .itemOutputs(
+            'gtceu:ecoferum_ingot'
+        )
+        .duration(160)
+        .EUt(GTValues.VA[GTValues.LV])
+
+
 })
