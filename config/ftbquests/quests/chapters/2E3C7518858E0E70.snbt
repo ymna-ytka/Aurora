@@ -1684,7 +1684,7 @@
 				type: "item"
 			}]
 			title: "Карта конфігуратор"
-			x: 11.0d
+			x: 10.5d
 			y: -2.5d
 		}
 		{
@@ -1725,6 +1725,23 @@
 			title: "Майстер декорації"
 			x: 8.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["558F79BC5CD79FC9"]
+			id: "615B6FBF5D4838F9"
+			tasks: [{
+				id: "63373C3568862FFC"
+				item: {
+					Count: 1
+					id: "gtceu:programmed_circuit"
+					tag: {
+						Configuration: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
 		}
 	]
 	title: "Глава ІІ: Парова епоха"
