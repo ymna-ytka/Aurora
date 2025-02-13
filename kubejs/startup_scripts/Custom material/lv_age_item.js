@@ -39,6 +39,69 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD
         )
 
+    event.create('vitalized_iron')
+        .ingot()
+        .color(0x75f096)
+        .secondaryColor(0xc5e8cf)
+        .iconSet(GTMaterialIconSet.DULL)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+        )
         
+    event.create('infused_iron')
+        .ingot()
+        .color(0x0fd146)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(
+            GTMaterialFlags.FORCE_GENERATE_BLOCK,
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_FRAME,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR
+        )
+
+    event.create('sky_iron')
+        .ingot()
+        .color(0x7ab8fa)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(
+            GTMaterialFlags.FORCE_GENERATE_BLOCK,
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_FRAME,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR
+        )
+        
+    event.create('tained_gold')
+        .ingot()
+        .color(0xe87410)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(
+            GTMaterialFlags.FORCE_GENERATE_BLOCK,
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_FRAME,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR
+        )
+ 
+    event.create('depth_iron')
+        .ingot()
+        .color(0x5f3c85)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(
+            GTMaterialFlags.FORCE_GENERATE_BLOCK,
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_FRAME,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR
+        )
         
 })
