@@ -151,6 +151,55 @@ ServerEvents.recipes(event=>{
 
     )
 
+    event.shaped('gtceu:steam_compressor',
 
+        [
+            "CCC",
+            "AMA",
+            "GCG"
+        ],
+
+        {
+            C:"gtceu:steam_machine_casing",
+            A:"minecraft:anvil",
+            M:"gtceu:lp_steam_compressor",
+            G:"gtceu:tumbaga_gear"
+        }
+
+    )
+
+    event.shaped('gtceu:steam_centrifuge',
+
+        [
+            "CCC",
+            "AMA",
+            "GCG"
+        ],
+
+        {
+            C:"gtceu:steam_machine_casing",
+            A:"gtceu:bronze_gearbox",
+            M:"gtceu:lp_steam_mixer",
+            G:"gtceu:tumbaga_gear"
+        }
+
+    )
+        
+    event.shaped('gtceu:steam_alloy_smelter',
+
+        [
+            "CCC",
+            "AMA",
+            "GCG"
+        ],
+
+        {
+            C:"gtceu:steam_machine_casing",
+            A:"gtceu:bronze_firebox_casing",
+            M:"gtceu:lp_steam_alloy_smelter",
+            G:"gtceu:tumbaga_gear"
+        }
+
+    )
 
 })
