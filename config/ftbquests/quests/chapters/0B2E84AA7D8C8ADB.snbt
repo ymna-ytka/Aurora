@@ -151,8 +151,8 @@
 					type: "item"
 				}
 				{
-					id: "48C28C30610C5728"
-					item: "gtceu:ulv_input_bus"
+					id: "4C9BD9E50631D0FD"
+					item: "gtceu:steam_input_bus"
 					type: "item"
 				}
 			]
@@ -187,8 +187,8 @@
 					type: "item"
 				}
 				{
-					id: "21FB06A1CF20E6A9"
-					item: "gtceu:ulv_input_bus"
+					id: "6ED4BF62733D2911"
+					item: "gtceu:steam_input_bus"
 					type: "item"
 				}
 			]
@@ -240,10 +240,25 @@
 					item: { Count: 9, id: "gtceu:ferabrass_frame" }
 					type: "item"
 				}
+				{
+					id: "02DF38B22B45DB5D"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "4C9618ECEE772493"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "7582E4D89C771CB0"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
 			]
 			title: "Магічна ваночка"
-			x: -3.0d
-			y: -3.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -543,8 +558,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -3.0d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5A2CC08526EFCA51"]
@@ -567,6 +582,138 @@
 			title: "Вогонь і дерево"
 			x: -6.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["5A644B2AF0D328C1"]
+			icon: "gtceu:steam_compressor"
+			id: "3719F298348EF36E"
+			tasks: [
+				{
+					id: "74869D4E8CAF5243"
+					item: "gtceu:steam_compressor"
+					type: "item"
+				}
+				{
+					count: 38L
+					id: "039BE24AEA93410B"
+					item: { Count: 38, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "569C58E959BCB9C3"
+					item: { Count: 2, id: "minecraft:anvil" }
+					type: "item"
+				}
+				{
+					id: "7C80348E20676F6F"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6EDCB8D287148EAD"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "701401A8CE5CA82D"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "4B138AAFAAA91F75"
+					item: "gtceu:bronze_gearbox"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A644B2AF0D328C1"]
+			icon: "gtceu:steam_centrifuge"
+			id: "6EB3F4734ACA8687"
+			tasks: [
+				{
+					id: "15FC196C1DACEEC2"
+					item: "gtceu:steam_centrifuge"
+					type: "item"
+				}
+				{
+					id: "779A502CA5C25E71"
+					item: "gtceu:bronze_gearbox"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "3C0555894FB5E457"
+					item: { Count: 18, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "2A99A40363668E0B"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "796823667555FC9F"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "1C97BE8062798253"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "490C3FBD5A43975D"
+					item: "gtceu:bronze_pipe_casing"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A644B2AF0D328C1"]
+			icon: "gtceu:steam_alloy_smelter"
+			id: "510A223D4923C500"
+			tasks: [
+				{
+					id: "00D4751AE99054E3"
+					item: "gtceu:steam_alloy_smelter"
+					type: "item"
+				}
+				{
+					id: "1A7F025DD8AF8BFC"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "1FD8CB2B059F6288"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "27EE7DB54E34BD38"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "2A20CFE0E3C7011B"
+					item: { Count: 15, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7462FF267AC95B01"
+					item: { Count: 3, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
 		}
 	]
 	title: "Мультиблоки"

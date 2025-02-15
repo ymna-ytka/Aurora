@@ -1061,6 +1061,21 @@
 					item: { Count: 9, id: "gtceu:ferabrass_frame" }
 					type: "item"
 				}
+				{
+					id: "53D6A7E61209F355"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "647090358FB0830D"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "519E5729BC8A4978"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
 			]
 			title: "Магічна ваночка"
 			x: 14.0d
