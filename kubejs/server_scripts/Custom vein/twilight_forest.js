@@ -19,7 +19,7 @@ GTCEuServerEvents.oreVeins(event => {
         )
     )
 
-    event.add('gtceu:mica_nether', vein => vein
+    event.add('gtceu:mica_twilight', vein => vein
         .weight(20).clusterSize(32).density(0.25)
         .layer('twilight')
         .heightRangeUniform(-25, -5)
@@ -33,6 +33,24 @@ GTCEuServerEvents.oreVeins(event => {
         )
         .surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.Mica)
+            .density(0.2)
+            .radius(3)
+        )
+    )
+
+    event.add('gtceu:twilight_gold', vein => vein
+        .weight(15).clusterSize(32).density(0.25)
+        .layer('twilight')
+        .heightRangeUniform(-25, -5)
+        .layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).block(() => Block.getBlock('gtceu:twilight_gold_ore')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Gold).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Iron).size(1, 1))
+            )
+        )
+        .surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Gold)
             .density(0.2)
             .radius(3)
         )
