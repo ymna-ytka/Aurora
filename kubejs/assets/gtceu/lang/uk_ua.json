@@ -2,7 +2,6 @@
     
     "material.gtceu.bad_bronze": "Збіднена бронза",
     "material.gtceu.tumbaga": "Тумбага",
-    "material.gtceu.netherite": "Незерит",
     "material.gtceu.ferabrass": "Латунна сталь",
     "material.gtceu.constantan": "Константан",
     "material.gtceu.carbide_silicon": "Карбід кремнія",
@@ -15,6 +14,8 @@
     "material.gtceu.sky_iron": "Небесне залізо",
     "material.gtceu.tained_gold": "Зіпсоване золото",
     "material.gtceu.depth_iron": "Глибоке залізо",
+    "material.gtceu.twilight_gas": "Сутінкове повітря",
+    "material.gtceu.liquid_twilight_gas": "Рідке сутінкове повітря",
 
 
     "block.gtceu.fire_bath": "Вогняна баня",
@@ -46,7 +47,8 @@
 
     "gtceu.jei.ore_vein.nickel_twilight": "Жила Нікелю",
     "gtceu.jei.ore_vein.galena_nether": "Жила Галеніту",
-    "gtceu.jei.ore_vein.mica_nether": "Жила Слюди"
+    "gtceu.jei.ore_vein.mica_twilight": "Жила Слюди",
+    "gtceu.jei.ore_vein.twilight_gold": "Жила Сутінкового золота"
 
 
 
