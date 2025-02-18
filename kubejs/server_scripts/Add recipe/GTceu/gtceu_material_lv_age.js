@@ -130,5 +130,14 @@ ServerEvents.recipes(event=>{
         .duration(400)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.recipes.gtceu.gas_collector('twilight_gas')
+    
+        .outputFluids(
+           Fluid.of("gtceu:twilight_gas", 10000)
+        )
+        .duration(200)
+        .EUt(GTValues.V[GTValues.MV])
+        .circuit(4)
+
 
 })

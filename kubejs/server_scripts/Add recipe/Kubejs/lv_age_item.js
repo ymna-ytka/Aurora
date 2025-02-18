@@ -311,5 +311,16 @@ ServerEvents.recipes( event=> {
         .circuit(1)
         .blastFurnaceTemp(900)
 
+    event.recipes.gtceu.compressor('trophy_tablet')
+    
+        .itemInputs(
+            "9x gtceu:twilight_gold_plate"
+        )
+
+        .itemOutputs(
+            'kubejs:trophy_tablet'
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
 
 })
