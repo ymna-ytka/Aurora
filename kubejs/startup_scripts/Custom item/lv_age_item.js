@@ -50,7 +50,11 @@ StartupEvents.registry('item', event=>{
     
     event.create('cleansed_leather')
     .displayName('Очищена шкіра')
-    .texture('kubejs:item/stone_age/cleansed_leather') 
+    .texture('kubejs:item/stone_age/cleansed_leather')
+    
+    event.create('trophy_tablet')
+    .displayName('Трофейна пластина')
+    .texture('kubejs:item/lv_age/trophy_tablet') 
 
 
 })
