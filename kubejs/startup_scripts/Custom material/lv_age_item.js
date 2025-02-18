@@ -103,5 +103,16 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_FOIL,
             GTMaterialFlags.GENERATE_GEAR
         )
+
+    event.create('twilight_gold')
+        .ingot()
+        .ore()
+        .color(0x9c7106)
+        .iconSet(GTMaterialIconSet.BRIGHT)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+        )
+        .blastTemp(1400, 'low', 100, 400)
+    
         
 })
