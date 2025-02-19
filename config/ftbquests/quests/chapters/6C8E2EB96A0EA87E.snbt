@@ -1444,7 +1444,7 @@
 			]
 			subtitle: "Обходимо кордони"
 			tasks: [{
-				count: 100L
+				count: 116L
 				id: "26BEF03BBC47368F"
 				item: "gtceu:coke_oven_brick"
 				type: "item"

@@ -7,6 +7,101 @@
 	id: "7497BD714E51CB1D"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3677A37E3341F851"]
+			description: ["Темніше ночі, але все так же цікаво(ні)."]
+			id: "7A4672139FCF1636"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:magic_beans"
+				id: "13F615ABF8FD95D3"
+				type: "dimension"
+			}]
+			title: "Ліс темряви"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A4672139FCF1636"]
+			id: "369B902DDB7CCB93"
+			tasks: [{
+				id: "3F0143284386D507"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			icon: "twilightforest:naga_trophy"
+			id: "75C65DC5BC672DBA"
+			tasks: [
+				{
+					id: "5F7DA90D30D3F1DF"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "445DD3396E109A94"
+					item: { Count: 4, id: "twilightforest:naga_scale" }
+					type: "item"
+				}
+				{
+					id: "1C9B6E92E8CF6536"
+					item: "kubejs:essence_naga"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A4672139FCF1636"]
+			id: "77EC62A3D9A402C9"
+			tasks: [{
+				id: "1D8C6C0CCEEEAD3A"
+				item: "kubejs:essence_naga"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["77EC62A3D9A402C9"]
+			icon: "gregtech:infuser"
+			id: "259D6D74BA84C7AF"
+			tasks: [
+				{
+					id: "7B2CA71A4BA38CCE"
+					item: "gregtech:infuser"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7D4454E18C1AC391"
+					item: { Count: 8, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6BF2A8B9A38E26D2"
+					item: { Count: 16, id: "chipped:offset_stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "7DBB5981AF7A4FFD"
+					item: { Count: 13, id: "chipped:offset_mossy_stone_bricks_bricks" }
+					type: "item"
+				}
+			]
+			title: "Інфузер"
+			x: 3.0d
+			y: 0.5d
+		}
+	]
 	title: "Twilight Forest W.I.P"
 }
