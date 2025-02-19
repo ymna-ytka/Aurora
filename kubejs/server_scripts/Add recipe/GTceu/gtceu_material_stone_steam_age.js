@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
     .EUt(28)    
   //
  
-  //Ferabrass
+  //Constantan
   event.recipes.gtceu.bronze_mixer('constantan_dust')
 
     .itemInputs(
@@ -115,7 +115,22 @@ ServerEvents.recipes(event => {
     )
     
     .duration(500)
+    .EUt(28)
+  
+  event.recipes.gtceu.mixer('constantan_dust')
+
+    .itemInputs(
+      "gtceu:nickel_dust",
+      "2x gtceu:copper_dust",
+    )
+
+    .itemOutputs(
+      "3x gtceu:constantan_dust"
+    )
+    
+    .duration(500)
     .EUt(28)    
+    
   //
 
   event.blasting("gtceu:bad_bronze_ingot", "gtceu:bad_bronze_dust", 0.7)
