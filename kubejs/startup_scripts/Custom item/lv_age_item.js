@@ -53,7 +53,7 @@ StartupEvents.registry('item', event=>{
     .texture('kubejs:item/stone_age/cleansed_leather')
     
     event.create('trophy_tablet')
-    .displayName('Трофейна пластина')
+    .displayName('Основа трофея')
     .texture('kubejs:item/lv_age/trophy_tablet') 
 
 
