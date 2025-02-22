@@ -1,17 +1,5 @@
 StartupEvents.registry('item', event=>{
 
-    event.create('coal_chunk')
-    .displayName('Солом\'яне вугілля')
-    .texture('kubejs:item/stone_age/coal_chunk')
-
-    event.create('stone_stick')
-    .displayName('Кам\'яна палиця')
-    .texture('kubejs:item/stone_age/stone_stick') 
-
-    event.create('coal_stone_stick')
-    .displayName('Оброблена кам\'яна палиця')
-    .texture('kubejs:item/stone_age/coal_stone_stick')
-
     event.create('raw_cleansed_leather')
     .displayName('Сира очищена шкіра')
     .texture('kubejs:item/stone_age/cleansed_leather')
