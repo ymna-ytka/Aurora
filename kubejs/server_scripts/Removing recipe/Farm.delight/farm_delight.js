@@ -16,4 +16,6 @@ ServerEvents.recipes(event => {
 
     event.remove( { output: "farmersdelight:golden_knife" } )
 
+    event.remove( { output: "farmersdelight:rope" } )
+
 })

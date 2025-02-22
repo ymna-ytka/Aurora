@@ -48,4 +48,19 @@ ServerEvents.recipes(event=>{
      
     )
 
+    event.shaped("2x farmersdelight:rope",
+
+        [
+            " SR",
+            "SRS",
+            "RS "
+        ],
+
+        {
+            S:"2x farmersdelight:straw",
+            R:"2x kubejs:piece_wooden_rubber"
+        }
+
+    )
+
 })

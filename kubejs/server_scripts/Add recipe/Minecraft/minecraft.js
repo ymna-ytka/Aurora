@@ -81,15 +81,6 @@ ServerEvents.recipes(event=>{
     .duration(100)
     .EUt(7)
         
-    event.shapeless("3x minecraft:flint",
-        
-        [
-            "kubejs:chunk_stone",
-            "3x minecraft:gravel"
-        ]
-
-    )
- 
     event.shaped("minecraft:stone",
 
         [
@@ -145,6 +136,29 @@ ServerEvents.recipes(event=>{
         .duration(10)
         .EUt(GTValues.VA[GTValues.ULV])
 
+    event.shapeless("minecraft:flint",
 
-    
+        [
+            "4x kubejs:mini_cobblestone"
+        ]
+
+    )
+
+    event.shaped('minecraft:clay',
+
+        [
+            "CCC",
+            "CCC",
+            "CCH"
+        ],
+
+        {
+            C:"minecraft:clay_ball",
+            H:"kubejs:bad_stone_hammer"
+        }
+
+    )
+
+    event.campfireCooking('minecraft:terracotta', 'minecraft:clay', 5, 600)  
+
 })
