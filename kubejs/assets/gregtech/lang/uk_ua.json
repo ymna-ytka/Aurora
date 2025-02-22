@@ -1,5 +1,9 @@
 {
 
-    "block.gregtech.infuser": "Інфузер"
+    "block.gregtech.infuser": "Інфузер",
+    "block.gregtech.primitive_furnace": "Керамічна піч",
+
+    "gregtech.infuser": "Інфузія",
+    "gregtech.primitive_furnace": "Обгорання"
 
 }
