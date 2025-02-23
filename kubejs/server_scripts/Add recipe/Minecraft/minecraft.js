@@ -157,8 +157,24 @@ ServerEvents.recipes(event=>{
             H:"kubejs:bad_stone_hammer"
         }
 
-    )
+    ).damageIngredient('kubejs:bad_stone_hammer')
 
-    event.campfireCooking('minecraft:terracotta', 'minecraft:clay', 5, 600)  
+
+    event.campfireCooking('minecraft:terracotta', 'compressium:clay_1', 5, 600)
+    
+    event.shaped("minecraft:cobblestone_slab",
+
+        [
+            "   ",
+            "CCC",
+            "CCC"
+        ],
+
+        {
+            C:"kubejs:mini_cobblestone"
+        }
+
+    )
+    
 
 })

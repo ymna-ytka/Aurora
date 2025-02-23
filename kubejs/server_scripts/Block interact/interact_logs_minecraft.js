@@ -1,4 +1,5 @@
 BlockEvents.rightClicked("minecraft:logs", (event) => {
+
     const { player, item, block } = event;
 
     if (item.id === "gtceu:sticky_resin") {
@@ -9,4 +10,5 @@ BlockEvents.rightClicked("minecraft:logs", (event) => {
 
         event.cancel();
     }
+
 });

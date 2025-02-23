@@ -18,4 +18,6 @@ ServerEvents.recipes(event => {
 
     event.remove( { output: "farmersdelight:rope" } )
 
+    event.remove( { output: "farmersdelight:wheat_dough" } )
+
 })

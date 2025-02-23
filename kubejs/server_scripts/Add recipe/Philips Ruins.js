@@ -12,6 +12,13 @@ ServerEvents.recipes( event=>{
         )
         .duration(40)
         .EUt(GTValues.VHA[GTValues.ULV])
-        
+
+    event.shapeless("philipsruins:obsidian_brick_slab",
+
+        [
+           "philipsruins:obsidian_brick",
+           "#forge:tools/saws"    
+        ]
+    )    
 
 })

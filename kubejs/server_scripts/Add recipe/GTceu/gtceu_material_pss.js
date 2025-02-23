@@ -141,5 +141,14 @@ ServerEvents.recipes(event => {
 
   event.blasting("gtceu:constantan_ingot", "gtceu:constantan_dust", 0.7)
 
+  event.shapeless("gtceu:clay_dust",
+
+    [
+      'minecraft:clay',
+      'kubejs:bad_stone_hammer'
+    ]
+
+  ).damageIngredient('kubejs:bad_stone_hammer')
+
 })
 
