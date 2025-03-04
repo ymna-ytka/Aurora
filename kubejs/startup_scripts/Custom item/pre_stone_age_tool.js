@@ -18,7 +18,7 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_sword', 'sword')
     .texture('kubejs:item/pre_stone_age/stone_sword')
-    .displayName('Кам\'яна меч')
+    .displayName('Кам\'яний меч')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(3)
@@ -34,7 +34,7 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_shovel', 'shovel')
     .texture('kubejs:item/pre_stone_age/stone_shovel')
-    .displayName('Кам\'яний лопата')
+    .displayName('Кам\'яна лопата')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(1.5)
@@ -42,11 +42,10 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_hoe', 'hoe')
     .texture('kubejs:item/pre_stone_age/stone_hoe')
-    .displayName('Кам\'яний мотика')
+    .displayName('Кам\'яна мотика')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(-1)
     .speedBaseline(-2)
-
 
 })

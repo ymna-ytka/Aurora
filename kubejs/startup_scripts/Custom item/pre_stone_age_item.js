@@ -14,7 +14,6 @@ StartupEvents.registry('item', event=> {
 
     event.create('wood_mold')
     .displayName('Дерев\'яна форма')
-    .maxDamage(64)
     .texture('kubejs:item/pre_stone_age/wood_mold')
 
     event.create('stone_ingot')
@@ -27,10 +26,11 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_mold')
     .displayName('Кам\'яний форма')
-    .maxDamage(256)
     .texture('kubejs:item/pre_stone_age/stone_mold')
 
-
+    event.create('stone_mold_block')
+    .displayName('Кам\'яна форма: Блок')
+    .texture('kubejs:item/pre_stone_age/stone_mold_block')
 
 
 })
