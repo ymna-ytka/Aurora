@@ -10,7 +10,7 @@ ServerEvents.recipes( event=>{
     event.replaceInput ( { id:"miners_delight:copper_pot" },
 
         "minecraft:copper_ingot",
-        "gtceu:bad_bronze_ingot"
+        "gtceu:sponge_metal_ingot"
 
     )
 

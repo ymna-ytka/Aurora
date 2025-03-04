@@ -10,7 +10,7 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            P:"gtceu:bad_bronze_plate",
+            P:"gtceu:sponge_metal_plate",
             W:"#forge:tools/wrench"  
         }
      

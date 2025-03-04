@@ -20,15 +20,15 @@ ServerEvents.recipes(event=>{
     event.shaped("minecraft:furnace",
 
         [
-            "DLD",
-            "DCD",
+            "DDD",
+            "LSL",
             "DDD"
         ],
 
         {
             D:"minecraft:cobblestone",
             L:"minecraft:cobbled_deepslate",
-            C:"gtceu:raw_coal"      
+            S:"gtceu:sponge_metal_ingot"      
         }
     )
 
@@ -81,20 +81,6 @@ ServerEvents.recipes(event=>{
     .duration(100)
     .EUt(7)
         
-    event.shaped("minecraft:stone",
-
-        [
-            "WWW",
-            "WWW",
-            "WWW"
-        ],
-
-        {
-            W:"kubejs:chunk_stone"
-        }
-
-    )
-
     event.recipes.gtceu.compressor('compresor_netherite_block')
     
     .itemInputs(

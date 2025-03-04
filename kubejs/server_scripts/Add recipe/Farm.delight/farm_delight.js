@@ -10,7 +10,7 @@ ServerEvents.recipes(event=>{
         
         {
             P:"gtceu:iron_plate",
-            R:"gtceu:bad_bronze_rod" 
+            R:"gtceu:sponge_metal_rod" 
         }
      
     )
@@ -25,7 +25,7 @@ ServerEvents.recipes(event=>{
         
         {
             P:"gtceu:iron_plate",
-            R:"gtceu:bad_bronze_rod" 
+            R:"gtceu:sponge_metal_rod" 
         }
      
     )
