@@ -578,7 +578,7 @@
 			}]
 			title: "Екстрадиція"
 			x: 4.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["16749D0C0D220359"]
@@ -591,7 +591,7 @@
 			}]
 			title: "Сталевий екстрактор"
 			x: 4.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["72106D3381A32C15"]
@@ -770,7 +770,7 @@
 			}]
 			title: "Резинове дерево"
 			x: 5.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6BDD1352AFDEEC5E"]
@@ -792,7 +792,7 @@
 			]
 			title: "Сира резина"
 			x: 5.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -808,7 +808,7 @@
 			}]
 			title: "Резинова пульпа"
 			x: 5.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["41D2FC6C489989DA"]
@@ -828,7 +828,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A2CC08526EFCA51"]
@@ -852,7 +852,7 @@
 			]
 			title: "В недра!"
 			x: 8.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5C7EF6ECB2AD8CF3"]
@@ -879,8 +879,8 @@
 				}
 			]
 			title: "Сульфурна жила"
-			x: 8.0d
-			y: -3.5d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -898,7 +898,7 @@
 			}]
 			title: "Резинка"
 			x: 6.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3926D5915C025161"]
@@ -1566,7 +1566,7 @@
 			}]
 			title: "Зменшення (мозку)"
 			x: 5.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3926D5915C025161"]
@@ -1593,7 +1593,7 @@
 			}]
 			title: "Сантехник"
 			x: 6.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3926D5915C025161"]
@@ -1612,7 +1612,7 @@
 			}]
 			title: "Рукавчи"
 			x: 7.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["41D2FC6C489989DA"]
@@ -1722,7 +1722,7 @@
 			]
 			title: "Вогонь і дерево"
 			x: 9.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["41D2FC6C489989DA"]
@@ -1758,6 +1758,131 @@
 			title: "Програмування"
 			x: 11.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["1F135D7110A671F5"]
+			description: ["Цей квест дасть тобі можливість дізнатися всі секрети здобуття та обробки шкіри, щоб створювати дублену шкіру — матеріал, який стане основою для виготовлення високоякісних виробів, таких як броня, сумки, ремені та багато іншого."]
+			hide_until_deps_visible: true
+			id: "44B8C7D9C5005282"
+			rewards: [
+				{
+					count: 4
+					id: "60270630B0A0EAD5"
+					item: "kubejs:raw_cleansed_leather"
+					type: "item"
+				}
+				{
+					id: "680AF1D84F92EC93"
+					item: {
+						Count: 1
+						id: "gtceu:flint_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 1.0f
+								AttackSpeed: 3.0f
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Шкіряний"
+			tasks: [
+				{
+					count: 8L
+					id: "1B65CF6FBB3E439C"
+					item: { Count: 8, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7ACA62DE8D05F745"
+					item: { Count: 8, id: "kubejs:raw_cleansed_leather" }
+					type: "item"
+				}
+			]
+			title: "Шкіряний магнат"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44B8C7D9C5005282"]
+			description: [
+				"Шкіра — це універсальний матеріал, однак, щоб вона стала по-справжньому міцною та стійкою до часу, її потрібно пройти через процес дублення. У цьому квесті ти дізнаєшся, як перетворити звичайну шкіру на дублену шкіру, що стане основою для виготовлення важливих предметів. Ти зможеш створювати ремені, ранці, підсумки, броню та багато іншого, що допоможе тобі на шляху до досягнення великих цілей."
+				""
+				"Для того, щоб отримати дублену шкіру, тобі потрібно буде пройти кілька етапів: спочатку здобути сировину — шкіру, а потім за допомогою спеціальних методів обробки перетворити її в цей міцний та стійкий матеріал. Дублену шкіру можна використовувати не лише для створення різних аксесуарів, а й для важливих броньових елементів."
+			]
+			id: "44F31F01076453DA"
+			rewards: [
+				{
+					count: 2
+					id: "07AA9F3C5863BC05"
+					item: "kubejs:tanned_leather"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7F65A61E3231F89F"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "250508E4EA059C17"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+			]
+			subtitle: "Шуба"
+			tasks: [{
+				count: 8L
+				id: "342B07BFF1949371"
+				item: "kubejs:tanned_leather"
+				type: "item"
+			}]
+			title: "Мистецтво дублення"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44F31F01076453DA"]
+			description: [
+				"Ваш перший ранець, ви можете як і покращити його різними апгрейдами, так і розширити його місткість за рахунок оброблення різними металами."
+				""
+				"&9P.s Варто вийняти речі перед покращенням ранця)"
+			]
+			id: "5D4505BAA089C6A7"
+			rewards: [
+				{
+					count: 4
+					id: "1A3A61CA653F98BB"
+					item: "kubejs:tanned_leather"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B265CE16B436D7F"
+					item: "oceansdelight:squid_rings"
+					type: "item"
+				}
+			]
+			subtitle: "Переїзд."
+			tasks: [{
+				id: "102BE4BEE444A5E7"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	title: "Глава ІІ: Парова епоха"
