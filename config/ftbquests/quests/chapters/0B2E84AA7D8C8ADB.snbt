@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["49E319666B44FA41"]
 			description: ["Мультиблок? Мультиблок! Потрібен вам для коксового вугілля."]
 			hide_until_deps_complete: true
 			icon: "gtceu:fire_bath"
