@@ -39,7 +39,7 @@
 	#If the Aura Imbalance effect of breathlessness if Aura levels are too low should occur
 	breathlessEffect = false
 	#If the Aura Imbalance effect of passive mobs being angered if Aura levels are too low should occur
-	angerEffect = false
+	angerEffect = true
 	#If the Aura Imbalance effect of farm animals being affected in positive ways if Aura levels are too high should occur
 	animalEffect = true
 	#If the Aura Imbalance effect of ores spawning in the area if Aura levels are too high should occur
