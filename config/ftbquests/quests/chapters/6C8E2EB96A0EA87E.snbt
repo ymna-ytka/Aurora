@@ -1130,7 +1130,7 @@
 		}
 		{
 			dependencies: ["38FBBBAA5C0D910E"]
-			icon: "expandedstorage:iron_chest"
+			icon: "ironchest:iron_chest"
 			id: "42374F8A0862EE2B"
 			rewards: [
 				{
@@ -1140,174 +1140,92 @@
 					type: "item"
 				}
 				{
-					id: "59ECA7E2EC8514C7"
-					item: "expandedstorage:iron_mini_chest"
+					id: "4F0812883C95B9C8"
+					item: "ironchest:wood_to_iron_chest_upgrade"
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "513A985D6C38EEE4"
-					item: "expandedstorage:iron_chest"
-					type: "item"
-				}
-				{
-					id: "6BFE01ADF02ED7F6"
-					item: "expandedstorage:wood_to_iron_conversion_kit"
-					type: "item"
-				}
-				{
-					id: "624E695BC7D1176E"
-					item: "expandedstorage:iron_barrel"
-					type: "item"
-				}
-			]
-			title: "Залізні скрині"
+			tasks: [{
+				id: "513A985D6C38EEE4"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["42374F8A0862EE2B"]
-			icon: "expandedstorage:gold_chest"
+			icon: "ironchest:gold_chest"
 			id: "3BF29A0A78230C12"
 			rewards: [
-				{
-					id: "0A2AA8E83595D891"
-					item: "expandedstorage:gold_mini_chest"
-					type: "item"
-				}
 				{
 					count: 4
 					id: "3D64E022E8111414"
 					item: "oceansdelight:bowl_of_guardian_soup"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "3949A21A4A28BC72"
-					item: "expandedstorage:gold_chest"
-					type: "item"
-				}
-				{
-					id: "7BC1AA0E978F4316"
-					item: "expandedstorage:iron_to_gold_conversion_kit"
-					type: "item"
-				}
-				{
-					id: "0E74A9521FC83439"
-					item: "expandedstorage:gold_barrel"
+					id: "1D1BC2AFA96D35BD"
+					item: "ironchest:iron_to_gold_chest_upgrade"
 					type: "item"
 				}
 			]
-			title: "Золоті скрині"
+			tasks: [{
+				id: "6D8D951C4C0CF38D"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["3BF29A0A78230C12"]
-			icon: "expandedstorage:diamond_chest"
+			icon: "ironchest:diamond_chest"
 			id: "0EC7EB6CF8FDC1C3"
 			rewards: [
-				{
-					id: "2562FA6E92770720"
-					item: "expandedstorage:diamond_mini_chest"
-					type: "item"
-				}
 				{
 					id: "2F7D8B5AF66EE2ED"
 					item: "nethersdelight:magma_gelatin"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "792DFE27A2B52069"
-					item: "expandedstorage:diamond_chest"
-					type: "item"
-				}
-				{
-					id: "2553442E04A8408E"
-					item: "expandedstorage:gold_to_diamond_conversion_kit"
-					type: "item"
-				}
-				{
-					id: "3B0C2BD76AC1C61D"
-					item: "expandedstorage:diamond_barrel"
+					id: "2D3DFA5F690E2016"
+					item: "ironchest:gold_to_diamond_chest_upgrade"
 					type: "item"
 				}
 			]
-			title: "Діамантові скрині"
+			tasks: [{
+				id: "792DFE27A2B52069"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["0EC7EB6CF8FDC1C3"]
-			icon: "expandedstorage:obsidian_chest"
+			icon: "ironchest:obsidian_chest"
 			id: "743664D42A228EB5"
-			rewards: [{
-				count: 4
-				id: "0DD94458B02219A6"
-				item: "farmersdelight:melon_juice"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4602383DCF9B7E7A"
-					item: "expandedstorage:obsidian_chest"
-					type: "item"
-				}
-				{
-					id: "71B2CE9D815185F1"
-					item: "expandedstorage:diamond_to_obsidian_conversion_kit"
-					type: "item"
-				}
-				{
-					id: "6B8627016366F41A"
-					item: "expandedstorage:obsidian_barrel"
-					type: "item"
-				}
-			]
-			title: "Обсидіанові скрині"
-			x: 2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["743664D42A228EB5"]
-			icon: "expandedstorage:netherite_chest"
-			id: "4B15EDB42A148029"
 			rewards: [
 				{
-					id: "61771236E707DD28"
-					item: "expandedstorage:netherite_mini_chest"
+					count: 4
+					id: "0DD94458B02219A6"
+					item: "farmersdelight:melon_juice"
 					type: "item"
 				}
 				{
-					id: "23D0C707C16D2F6C"
-					item: "farmersdelight:honey_glazed_ham_block"
+					id: "2673223202B90901"
+					item: "ironchest:diamond_to_obsidian_chest_upgrade"
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1C61A8EDF74E1C01"
-					item: "expandedstorage:netherite_chest"
-					type: "item"
-				}
-				{
-					id: "4B72DBDEF7C487F2"
-					item: "expandedstorage:obsidian_to_netherite_conversion_kit"
-					type: "item"
-				}
-				{
-					id: "79A3D3063C865D2E"
-					item: "expandedstorage:netherite_barrel"
-					type: "item"
-				}
-			]
-			title: "Незеритові скрині"
-			x: 2.0d
-			y: 12.0d
+			tasks: [{
+				id: "4602383DCF9B7E7A"
+				item: "ironchest:obsidian_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2FD82017BD59F84F"]
@@ -1818,7 +1736,7 @@
 				type: "item"
 			}]
 			title: "Калькулятор"
-			x: 1.0d
+			x: 0.5d
 			y: 10.5d
 		}
 		{
@@ -1885,7 +1803,7 @@
 				item: "minecraft:cauldron"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 10.5d
 		}
 		{
@@ -2350,6 +2268,30 @@
 			title: "Губчасте все"
 			x: 0.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["0EC7EB6CF8FDC1C3"]
+			id: "6C75DA61D105A427"
+			rewards: [
+				{
+					count: 4
+					id: "4F51B1CBA7F27760"
+					item: "oceansdelight:cooked_stuffed_cod"
+					type: "item"
+				}
+				{
+					id: "6096DC56AE47EAD0"
+					item: "ironchest:diamond_to_crystal_chest_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6136A80A6AE649A4"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
 		}
 	]
 	title: "Глава І: Кам'яний вік"
