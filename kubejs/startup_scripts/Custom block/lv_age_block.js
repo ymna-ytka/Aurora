@@ -7,7 +7,7 @@ StartupEvents.registry('block', event => {
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")
         .tagBlock('minecraft:needs_iron_tool')
-        .textureAll('kubejs:block/lv_age/reactive_cleaner')            
+        .textureAll('kubejs:block/lv_age_block/reactive_cleaner')            
     
     event.create('filtering_camera')
         .displayName('Фільтрувальна камера')
@@ -16,7 +16,7 @@ StartupEvents.registry('block', event => {
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")
         .tagBlock('minecraft:needs_iron_tool')
-        .textureAll('kubejs:block/lv_age/filtering_camera')            
+        .textureAll('kubejs:block/lv_age_block/filtering_camera')            
     
 })
 
