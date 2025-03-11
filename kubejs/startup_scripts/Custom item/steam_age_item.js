@@ -52,9 +52,6 @@ StartupEvents.registry('item', event=>{
     .displayName('Дубильна суміш')
     .texture('kubejs:item/steam_age/tanning_mixture') 
     
-    event.create('essence_naga')
-    .displayName('Есенція наги')
-    .texture('kubejs:item/steam_age/essence_naga') 
     
 
 })
