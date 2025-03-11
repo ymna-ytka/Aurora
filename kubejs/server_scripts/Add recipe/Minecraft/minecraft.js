@@ -161,6 +161,41 @@ ServerEvents.recipes(event=>{
         }
 
     )
+
+    event.recipes.gtceu.cooler('gtceu:cooler/snowball')
+
+        .itemInputs(
+            "gtceu:ball_casting_mold"
+        )
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 72)
+        )
+
+        .itemOutputs(
+            "minecraft:snowball"
+        )
+
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.cooler('gtceu:cooler/snow_block')
+
+        .itemInputs(
+            "gtceu:block_casting_mold"
+        )
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 642)
+        )
+
+        .itemOutputs(
+            "minecraft:snow_block"
+        )
+
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.LV])
+        
     
 
 })

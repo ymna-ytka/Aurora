@@ -139,5 +139,96 @@ ServerEvents.recipes(event=>{
         .EUt(GTValues.V[GTValues.MV])
         .circuit(4)
 
+    event.recipes.gtceu.vacuum_freezer('liquid_twilight_gas')
+    
+        .inputFluids(
+            Fluid.of('gtceu:twilight_gas', 4000)
+        )
 
+        .outputFluids(
+            Fluid.of("gtceu:liquid_twilight_gas", 4000)
+        )
+
+        .duration(80)
+        .EUt(GTValues.V[GTValues.MV])
+ 
+    event.recipes.gtceu.cooler('gtceu:cooler/cooled_water')    
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 72)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:cold_water', 72)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.vacuum_freezer('gtceu:vacuum_freezer/cooled_water')    
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 7200)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:cold_water', 7200)
+        )
+
+        .duration(600)
+        .EUt(GTValues.V[GTValues.MV])
+
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_twilight_gas')    
+
+        .inputFluids(
+            Fluid.of("gtceu:twilight_gas", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_twilight_gas', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_air')    
+
+        .inputFluids(
+            Fluid.of("gtceu:air", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_air', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_nether_air')    
+
+        .inputFluids(
+            Fluid.of("gtceu:nether_air", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_nether_air', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_ender_air')    
+
+        .inputFluids(
+            Fluid.of("gtceu:ender_air", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_ender_air', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.MV])
+        
 })
