@@ -139,5 +139,163 @@ ServerEvents.recipes(event=>{
         .EUt(GTValues.V[GTValues.MV])
         .circuit(4)
 
+    event.recipes.gtceu.vacuum_freezer('liquid_twilight_gas')
+    
+        .inputFluids(
+            Fluid.of('gtceu:twilight_gas', 4000)
+        )
 
+        .outputFluids(
+            Fluid.of("gtceu:liquid_twilight_gas", 4000)
+        )
+
+        .duration(80)
+        .EUt(GTValues.V[GTValues.MV])
+ 
+    event.recipes.gtceu.cooler('gtceu:cooler/cooled_water')    
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 72)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:cold_water', 72)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.vacuum_freezer('gtceu:vacuum_freezer/cooled_water')    
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 7200)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:cold_water', 7200)
+        )
+
+        .duration(600)
+        .EUt(GTValues.V[GTValues.MV])
+
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_twilight_gas')    
+
+        .inputFluids(
+            Fluid.of("gtceu:twilight_gas", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_twilight_gas', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_air')    
+
+        .inputFluids(
+            Fluid.of("gtceu:air", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_air', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_nether_air')    
+
+        .inputFluids(
+            Fluid.of("gtceu:nether_air", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_nether_air', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.air_cooler('gtceu:air_cooler/liquid_ender_air')    
+
+        .inputFluids(
+            Fluid.of("gtceu:ender_air", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:liquid_ender_air', 45)
+        )
+
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.MV])
+
+    event.recipes.gtceu.distillery('gtceu:distillery/magical_essence')    
+
+        .inputFluids(
+            Fluid.of("gtceu:liquid_twilight_gas", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:magical_essence', 25)
+        )
+
+        .duration(200)
+        .EUt(GTValues.V[GTValues.MV])
+
+    event.recipes.gtceu.chemical_reactor('vitalized_iron_dust_chemical_reactor')
+            
+        .itemInputs(
+            "4x gtceu:magnetic_steel_dust"
+        )
+
+        .inputFluids(
+            Fluid.of('gtceu:beryllium', 192),
+            Fluid.of('gtceu:magical_essence', 72)
+        )
+
+        .itemOutputs(
+            "4x gtceu:vitalized_iron_dust"
+        )
+
+        .duration(400)
+        .EUt(GTValues.VHA[GTValues.LV])
+
+        event.recipes.gtceu.chemical_reactor('infused_iron_dust_chemical_reactor')
+            
+        .itemInputs(
+            "4x gtceu:vitalized_iron_dust"
+        )
+
+        .inputFluids(
+            Fluid.of('gtceu:salt_water', 192),
+            Fluid.of('gtceu:magical_essence', 72)
+        )
+
+        .itemOutputs(
+            "4x gtceu:infused_iron_dust"
+        )
+
+        .duration(260)
+        .EUt(GTValues.V[GTValues.MV])
+
+        event.recipes.gtceu.mixer('tained_gold_dust')
+            
+        .itemInputs(
+            "4x gtceu:netherrack_dust",
+            "2x gtceu:gold_dust",
+            "2x gtceu:vitalized_iron_dust",
+            "2x gtceu:copper_dust",
+            "2x gtceu:charcoal_dust",
+        )
+
+        .itemOutputs(
+            "11x gtceu:tained_gold_dust"
+        )
+
+        .duration(210)
+        .EUt(GTValues.V[GTValues.MV])
+       
 })
+
