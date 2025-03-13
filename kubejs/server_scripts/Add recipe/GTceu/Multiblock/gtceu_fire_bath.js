@@ -18,10 +18,10 @@ ServerEvents.recipes(event => {
         .duration(100)
     
     //Bad bronze alternative 
-    event.recipes.gtceu.fire_bath('bad_bronze_alternative')
+    event.recipes.gtceu.fire_bath('sponge_metal_alternative')
     
         .itemInputs(
-            "3x gtceu:copper_dust",
+            "gtceu:copper_dust",
             "gtceu:tin_dust"
     )
 
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
     )
 
         .itemOutputs(
-            "4x gtceu:bad_bronze_ingot"
+            "2x gtceu:sponge_metal_ingot"
     )
 
         .duration(80)    

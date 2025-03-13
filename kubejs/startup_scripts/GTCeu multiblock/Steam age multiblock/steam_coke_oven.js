@@ -1,8 +1,10 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('steam_coke_oven', 'multiblock')
+        .machine((holder) => new $SteamMulti(holder, 8))
         .rotationState(RotationState.NON_Y_AXIS)
         .appearanceBlock(GTBlocks.CASING_COKE_BRICKS)
         .recipeTypes(['steam_coke_oven'])
+        .recipeModifier((machine, recipe) => $SteamMulti.recipeModifier(machine, recipe), true)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCCC', 'CCCC', 'CCCC', 'CCCC')
             .aisle('CBBC', 'CPPC', 'CPPC', 'CCCC')

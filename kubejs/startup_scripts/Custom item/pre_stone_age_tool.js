@@ -2,7 +2,7 @@ StartupEvents.registry('item', event=> {
 
     event.create('bad_stone_hammer', 'shovel')
     .texture('kubejs:item/pre_stone_age/bad_stone_hammer')
-    .displayName('Кам\'яний молот')
+    .displayName('Давній кам\'яний молот')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(1)
@@ -10,7 +10,7 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_pickaxe', 'pickaxe')
     .texture('kubejs:item/pre_stone_age/stone_pickaxe')
-    .displayName('Кам\'яне кайло')
+    .displayName('Давня кам\'яне кайло')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(1)
@@ -18,7 +18,7 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_sword', 'sword')
     .texture('kubejs:item/pre_stone_age/stone_sword')
-    .displayName('Кам\'яна меч')
+    .displayName('Давня кам\'яний меч')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(3)
@@ -26,7 +26,7 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_axe', 'axe')
     .texture('kubejs:item/pre_stone_age/stone_axe')
-    .displayName('Кам\'яна сокира')
+    .displayName('Давня кам\'яна сокира')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(7)
@@ -34,7 +34,7 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_shovel', 'shovel')
     .texture('kubejs:item/pre_stone_age/stone_shovel')
-    .displayName('Кам\'яний лопата')
+    .displayName('Давня кам\'яна лопата')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(1.5)
@@ -42,11 +42,10 @@ StartupEvents.registry('item', event=> {
 
     event.create('stone_hoe', 'hoe')
     .texture('kubejs:item/pre_stone_age/stone_hoe')
-    .displayName('Кам\'яний мотика')
+    .displayName('Давня кам\'яна мотика')
     .tier('stone')
     .maxDamage(131)
     .attackDamageBaseline(-1)
     .speedBaseline(-2)
-
 
 })

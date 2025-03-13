@@ -6,12 +6,7 @@ StartupEvents.registry('item', event=>{
      
     event.create('tanned_leather')
     .displayName('Дублена шкіра')
-    .texture('kubejs:item/stone_age/tanned_leather')
-    
-    event.create('chunk_stone')
-    .displayName('Кусок каміння')
-    .texture('kubejs:item/stone_age/chunk_stone')
-    
+    .texture('kubejs:item/stone_age/tanned_leather')    
 
     
 })

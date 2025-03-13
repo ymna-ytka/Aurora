@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle('CKC','CBC','CBC', 'TBT')
             .where('K', Predicates.controller(Predicates.blocks(definition.get())))
             .where('B', Predicates.blocks('minecraft:glass'))
-            .where('L', Predicates.blocks("gtceu:bad_bronze_block"))
+            .where('L', Predicates.blocks("gtceu:sponge_metal_block"))
             .where('T', Predicates.blocks("gtceu:treated_wood_frame"))
             .where('C', Predicates.blocks('kubejs:fire_casing')
             .or(Predicates.abilities(PartAbility.STEAM_IMPORT_ITEMS))

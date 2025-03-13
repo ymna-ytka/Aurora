@@ -1,15 +1,4 @@
 ServerEvents.recipes(event => {
-
-  //Bad Bronze
-  event.shapeless("3x gtceu:bad_bronze_dust",
-
-    [
-      "3x gtceu:copper_dust",
-      "gtceu:tin_dust"
-    ]         
-
-  )
-  //
    
   //Fireclay Dust
   event.recipes.gtceu.bronze_mixer('fireclay_dust')
@@ -133,7 +122,6 @@ ServerEvents.recipes(event => {
     
   //
 
-  event.blasting("gtceu:bad_bronze_ingot", "gtceu:bad_bronze_dust", 0.7)
 
   event.blasting("gtceu:tumbaga_ingot", "gtceu:tumbaga_dust", 0.7)
 
@@ -149,6 +137,22 @@ ServerEvents.recipes(event => {
     ]
 
   ).damageIngredient('kubejs:bad_stone_hammer')
+
+  event.shaped("gtceu:stone_dust",
+
+    [
+      "CCC",
+      "CCC",
+      "CCH"
+    ],
+
+    {
+      C:"kubejs:mini_cobblestone",
+      H:"kubejs:bad_stone_hammer"
+    }
+
+  ).damageIngredient('kubejs:bad_stone_hammer')
+
 
 })
 

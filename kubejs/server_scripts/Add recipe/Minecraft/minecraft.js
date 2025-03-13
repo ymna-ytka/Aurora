@@ -20,15 +20,15 @@ ServerEvents.recipes(event=>{
     event.shaped("minecraft:furnace",
 
         [
-            "DLD",
-            "DCD",
+            "DDD",
+            "LSL",
             "DDD"
         ],
 
         {
             D:"minecraft:cobblestone",
             L:"minecraft:cobbled_deepslate",
-            C:"gtceu:raw_coal"      
+            S:"gtceu:sponge_metal_ingot"      
         }
     )
 
@@ -81,20 +81,6 @@ ServerEvents.recipes(event=>{
     .duration(100)
     .EUt(7)
         
-    event.shaped("minecraft:stone",
-
-        [
-            "WWW",
-            "WWW",
-            "WWW"
-        ],
-
-        {
-            W:"kubejs:chunk_stone"
-        }
-
-    )
-
     event.recipes.gtceu.compressor('compresor_netherite_block')
     
     .itemInputs(
@@ -175,6 +161,41 @@ ServerEvents.recipes(event=>{
         }
 
     )
+
+    event.recipes.gtceu.cooler('gtceu:cooler/snowball')
+
+        .itemInputs(
+            "gtceu:ball_casting_mold"
+        )
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 72)
+        )
+
+        .itemOutputs(
+            "minecraft:snowball"
+        )
+
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.cooler('gtceu:cooler/snow_block')
+
+        .itemInputs(
+            "gtceu:block_casting_mold"
+        )
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 642)
+        )
+
+        .itemOutputs(
+            "minecraft:snow_block"
+        )
+
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.LV])
+        
     
 
 })

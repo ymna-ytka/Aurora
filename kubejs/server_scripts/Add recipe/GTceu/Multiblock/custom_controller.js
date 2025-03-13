@@ -10,12 +10,12 @@ ServerEvents.recipes(event=>{
         
         {
             P:"#minecraft:planks",
-            R:"gtceu:bad_bronze_ring",
+            R:"gtceu:sponge_metal_ring",
             W:"#forge:tools/wrench",
             C:"kubejs:fire_casing",
             H:"#forge:tools/hammers",
-            S:"gtceu:bad_bronze_screw",
-            G:"gtceu:bad_bronze_gear"  
+            S:"gtceu:sponge_metal_screw",
+            G:"gtceu:sponge_metal_gear"  
         }
      
     )
@@ -30,12 +30,12 @@ ServerEvents.recipes(event=>{
         
         {
             P:"gtceu:coke_oven_bricks",
-            R:"gtceu:bad_bronze_ring",
+            R:"gtceu:sponge_metal_ring",
             W:"#forge:tools/wrench",
             C:"kubejs:fire_casing",
             H:"#forge:tools/hammers",
-            S:"gtceu:bad_bronze_screw",
-            G:"gtceu:bad_bronze_gear"  
+            S:"gtceu:sponge_metal_screw",
+            G:"gtceu:sponge_metal_gear"  
         }
      
     )
@@ -49,13 +49,13 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            P:"gtceu:bad_bronze_block",
-            R:"gtceu:bad_bronze_ring",
+            P:"gtceu:sponge_metal_block",
+            R:"gtceu:sponge_metal_ring",
             W:"#forge:tools/wrench",
             C:"kubejs:fire_casing",
             H:"#forge:tools/hammers",
-            S:"gtceu:bad_bronze_screw",
-            G:"gtceu:bad_bronze_gear"  
+            S:"gtceu:sponge_metal_screw",
+            G:"gtceu:sponge_metal_gear"  
         }
      
     )
@@ -201,5 +201,41 @@ ServerEvents.recipes(event=>{
         }
 
     )
+
+    event.shaped('gregtech:infuser',
+
+        [
+            "OPO",
+            "SMS",
+            "PTP"
+        ],
+
+        {
+            O:"minecraft:stone",
+            P:"naturesaura:wood_stand",
+            S:"twilightforest:naga_scale",
+            M:"gtceu:lv_assembler",
+            P:"gtceu:stone_plate",
+            T:"kubejs:trophy_tablet"
+        }
+
+    )
+       
+    event.shaped('gregtech:primitive_alloy_furnace',
+
+        [
+            "CCC",
+            "IOI",
+            "CCC"
+        ],
+
+        {
+            C:"minecraft:cobblestone",
+            I:"gtceu:sponge_iron_ingot",
+            O:"gtceu:sponge_copper_ingot"
+        }
+
+    )
+        
 
 })

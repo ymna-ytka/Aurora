@@ -12,9 +12,9 @@ StartupEvents.registry('item', event=> {
     .displayName('Шматок дерев\'яної резини')
     .texture('kubejs:item/pre_stone_age/piece_wooden_rubber')
 
-    event.create('ingot_wood_mold')
+    event.create('wood_mold')
     .displayName('Дерев\'яна форма')
-    .texture('kubejs:item/pre_stone_age/ingot_wood_mold')
+    .texture('kubejs:item/pre_stone_age/wood_mold')
 
     event.create('stone_ingot')
     .displayName('Кам\'яний злиток')
@@ -24,11 +24,13 @@ StartupEvents.registry('item', event=> {
     .displayName('Кам\'яний пластина')
     .texture('kubejs:item/pre_stone_age/stone_plate')
 
-    event.create('ingot_stone_mold')
+    event.create('stone_mold')
     .displayName('Кам\'яний форма')
-    .texture('kubejs:item/pre_stone_age/ingot_stone_mold')
+    .texture('kubejs:item/pre_stone_age/stone_mold')
 
-
+    event.create('stone_mold_block')
+    .displayName('Кам\'яна форма: Блок')
+    .texture('kubejs:item/pre_stone_age/stone_mold_block')
 
 
 })

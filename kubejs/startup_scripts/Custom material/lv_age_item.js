@@ -11,12 +11,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         )
         .blastTemp(1800, 'low')
     
-    event.create('sodium_carbonate')
-        .liquid()
-        .element(GTElements.get("sodium_carbonate"))
-        .color(0xcabafb2)
-        .iconSet(GTMaterialIconSet.DULL)
-
     event.create('ecoferum')
         .ingot()
         .components('6x iron', '2x nickel', '1x rubber', '1x copper')    
@@ -43,6 +37,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .color(0x75f096)
         .secondaryColor(0xc5e8cf)
+        .element(GTElements.get("vitalized_iron"))
         .iconSet(GTMaterialIconSet.DULL)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
@@ -108,11 +103,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .ore()
         .color(0x9c7106)
+        .element(GTElements.get("twilight_gold"))
         .iconSet(GTMaterialIconSet.BRIGHT)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
         )
         .blastTemp(1400, 'low', 100, 400)
+
     
         
 })
