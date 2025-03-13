@@ -230,5 +230,71 @@ ServerEvents.recipes(event=>{
 
         .duration(200)
         .EUt(GTValues.VA[GTValues.MV])
-        
+
+    event.recipes.gtceu.distillery('gtceu:distillery/magical_essence')    
+
+        .inputFluids(
+            Fluid.of("gtceu:liquid_twilight_gas", 50)
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:magical_essence', 25)
+        )
+
+        .duration(200)
+        .EUt(GTValues.V[GTValues.MV])
+
+    event.recipes.gtceu.chemical_reactor('vitalized_iron_dust_chemical_reactor')
+            
+        .itemInputs(
+            "4x gtceu:magnetic_steel_dust"
+        )
+
+        .inputFluids(
+            Fluid.of('gtceu:beryllium', 192),
+            Fluid.of('gtceu:magical_essence', 72)
+        )
+
+        .itemOutputs(
+            "4x gtceu:vitalized_iron_dust"
+        )
+
+        .duration(400)
+        .EUt(GTValues.VHA[GTValues.LV])
+
+        event.recipes.gtceu.chemical_reactor('infused_iron_dust_chemical_reactor')
+            
+        .itemInputs(
+            "4x gtceu:vitalized_iron_dust"
+        )
+
+        .inputFluids(
+            Fluid.of('gtceu:salt_water', 192),
+            Fluid.of('gtceu:magical_essence', 72)
+        )
+
+        .itemOutputs(
+            "4x gtceu:infused_iron_dust"
+        )
+
+        .duration(260)
+        .EUt(GTValues.V[GTValues.MV])
+
+        event.recipes.gtceu.mixer('tained_gold_dust')
+            
+        .itemInputs(
+            "4x gtceu:netherrack_dust",
+            "2x gtceu:gold_dust",
+            "2x gtceu:vitalized_iron_dust",
+            "2x gtceu:copper_dust",
+            "2x gtceu:charcoal_dust",
+        )
+
+        .itemOutputs(
+            "11x gtceu:tained_gold_dust"
+        )
+
+        .duration(210)
+        .EUt(GTValues.V[GTValues.MV])
+       
 })

@@ -1,5 +1,15 @@
 ServerEvents.recipes(event => {
 
     event.remove( { output: "moredelight:stone_knife" } )
-
+    event.remove( { output: "farmersdelight:oak_cabinet" } )
+    event.remove( { output: "farmersdelight:spruce_cabinet" } )
+    event.remove( { output: "farmersdelight:birch_cabinet" } )
+    event.remove( { output: "farmersdelight:jungle_cabinet" } )
+    event.remove( { output: "farmersdelight:acacia_cabinet" } )
+    event.remove( { output: "farmersdelight:dark_oak_cabinet" } )
+    event.remove( { output: "farmersdelight:mangrove_cabinet" } )
+    event.remove( { output: "farmersdelight:cherry_cabinet" } )
+    event.remove( { output: "farmersdelight:bamboo_cabinet" } )
+    event.remove( { output: "farmersdelight:crimson_cabinet" } )
+    event.remove( { output: "farmersdelight:warped_cabinet" } )
 })
