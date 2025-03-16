@@ -323,4 +323,18 @@ ServerEvents.recipes( event=> {
         .duration(400)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.recipes.gtceu.alloy_smelter('gtceu:alloy_smelter/phantom_armor_set')    
+
+        .itemInputs(
+            "twilightforest:phantom_helmet",
+            "twilightforest:phantom_chestplate"
+        )
+
+        .itemOutputs(
+            'kubejs:phantom_armor_set'
+        )
+
+        .duration(6000)
+        .EUt(GTValues.V[GTValues.LV])
+
 })

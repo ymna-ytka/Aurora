@@ -262,7 +262,7 @@ ServerEvents.recipes(event=>{
         .duration(400)
         .EUt(GTValues.VHA[GTValues.LV])
 
-        event.recipes.gtceu.chemical_reactor('infused_iron_dust_chemical_reactor')
+    event.recipes.gtceu.chemical_reactor('infused_iron_dust_chemical_reactor')
             
         .itemInputs(
             "4x gtceu:vitalized_iron_dust"
@@ -280,7 +280,7 @@ ServerEvents.recipes(event=>{
         .duration(260)
         .EUt(GTValues.V[GTValues.MV])
 
-        event.recipes.gtceu.mixer('tained_gold_dust')
+    event.recipes.gtceu.mixer('tained_gold_dust')
             
         .itemInputs(
             "4x gtceu:netherrack_dust",
@@ -296,5 +296,20 @@ ServerEvents.recipes(event=>{
 
         .duration(210)
         .EUt(GTValues.V[GTValues.MV])
+
+    event.recipes.gtceu.extractor('gtceu:extractor/fiery_magic_water')
+
+        .itemInputs(
+            "#twilightforest:fiery_vial"
+        )
+
+        .outputFluids(
+            Fluid.of('gtceu:fiery_magic_water', 72)
+        )
+
+        .duration(100)
+        .EUt(GTValues.V[GTValues.ULV])
+
+
        
 })

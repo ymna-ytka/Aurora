@@ -45,7 +45,7 @@ ServerEvents.recipes(event=>{
       M:"gtceu:lv_electric_motor",
       R:"gtceu:steel_rod",
       P:"gtceu:lv_electric_piston",
-      I:"gtceu:basic_electronic_circuit"
+      I:"#gtceu:circuits/lv"
     }
 
   )
@@ -58,7 +58,7 @@ ServerEvents.recipes(event=>{
     "2x gtceu:lv_electric_motor",
     "gtceu:steel_rod",
     "gtceu:lv_electric_piston",
-    "gtceu:basic_electronic_circuit"
+    "#gtceu:circuits/lv"
   )
 
   .itemOutputs(
@@ -81,7 +81,7 @@ ServerEvents.recipes(event=>{
       Q:"gtceu:quartzite_gem",
       R:"gtceu:brass_rod",
       P:"gtceu:steel_plate",
-      I:"gtceu:basic_electronic_circuit"
+      I:"#gtceu:circuits/lv"
     }
 
   )
@@ -93,7 +93,7 @@ ServerEvents.recipes(event=>{
     "gtceu:quartzite_gem",
     "gtceu:brass_rod",
     "2x gtceu:steel_plate",
-    "2x gtceu:basic_electronic_circuit"
+    "2x #gtceu:circuits/lv"
 )
 
   .itemOutputs(
@@ -116,7 +116,7 @@ ServerEvents.recipes(event=>{
       O:"kubejs:blank_lv_emitter",
       Q:"gtceu:quartzite_gem",
       R:"gtceu:brass_rod",
-      I:"gtceu:basic_electronic_circuit"
+      I:"#gtceu:circuits/lv"
     }
 
   )
@@ -128,7 +128,7 @@ ServerEvents.recipes(event=>{
     "kubejs:blank_lv_emitter",
     "gtceu:quartzite_gem",
     "3x gtceu:brass_rod",
-    "2x gtceu:basic_electronic_circuit"
+    "2x #gtceu:circuits/lv"
 )
 
   .itemOutputs(
@@ -151,7 +151,7 @@ ServerEvents.recipes(event=>{
       O:"kubejs:blank_lv_field_generator",
       Q:"minecraft:ender_pearl",
       P:"gtceu:steel_plate",
-      I:"gtceu:basic_electronic_circuit"
+      I:"#gtceu:circuits/lv"
     }
 
   )
@@ -163,7 +163,7 @@ ServerEvents.recipes(event=>{
     "kubejs:blank_lv_field_generator",
     "minecraft:ender_pearl",
     "gtceu:steel_plate",
-    "2x gtceu:basic_electronic_circuit"
+    "2x #gtceu:circuits/lv"
 )
 
   .itemOutputs(

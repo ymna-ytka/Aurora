@@ -14,7 +14,7 @@ ServerEvents.recipes( event=> {
             E:"gtceu:mercury_bucket",
             C:"gtceu:tin_single_cable",
             M:"gtceu:lv_electric_motor",
-            I:"gtceu:basic_electronic_circuit",
+            I:"gtceu:circuits/lv",
             A:"gtceu:lv_machine_hull"
         }
     )
@@ -33,7 +33,7 @@ ServerEvents.recipes( event=> {
             P:"gtceu:lv_electric_pump",
             H:"gtceu:lv_machine_hull",
             C:"gtceu:tin_single_cable",
-            M:"gtceu:basic_electronic_circuit"
+            M:"#gtceu:circuits/lv"
         }
 
     )
@@ -53,9 +53,9 @@ ServerEvents.recipes( event=> {
             S:"gtceu:lv_electric_piston",
             H:"gtceu:lv_machine_hull",
             C:"gtceu:tin_single_cable",
-            M:"gtceu:basic_electronic_circuit"
+            M:"#gtceu:circuits/lv"
         }
 
-    )
+    )    
 
 })
