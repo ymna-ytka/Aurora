@@ -21,7 +21,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('magical_essence')
         .liquid()
         .element(GTElements.get("magical_essence"))
-        .color(0xcabafb2)
+        .color(0x6f7f0d)
         .iconSet(GTMaterialIconSet.DULL)
+
+    event.create('fiery_magic_water')
+        .liquid()
+        .element(GTElements.get("fiery_magic_water"))
+        .color(0x6c1414)
+        .iconSet(GTMaterialIconSet.DULL)
+
         
 })    

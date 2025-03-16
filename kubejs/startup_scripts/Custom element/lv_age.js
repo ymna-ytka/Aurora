@@ -25,5 +25,15 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         .neutrons(78) 
         .symbol('???')
 
+    event.create('fiery_iron')
+         .protons(52)
+         .neutrons(47)
+         .symbol('Fi')
+    
+    event.create('fiery_magic_water')
+        .protons(78) 
+        .neutrons(78) 
+        .symbol('Fi(OH)₂')
+         
         
 })
