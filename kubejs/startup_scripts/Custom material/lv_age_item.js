@@ -42,6 +42,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
         )
+        .blastTemp(1500, 'low')
+
         
     event.create('infused_iron')
         .ingot()
@@ -56,6 +58,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_FOIL,
             GTMaterialFlags.GENERATE_GEAR
         )
+        .blastTemp(1800, 'low')
 
     event.create('sky_iron')
         .ingot()
@@ -70,6 +73,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_FOIL,
             GTMaterialFlags.GENERATE_GEAR
         )
+        .blastTemp(2200, 'low') 
+        
         
     event.create('tained_gold')
         .ingot()
@@ -84,6 +89,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_FOIL,
             GTMaterialFlags.GENERATE_GEAR
         )
+        .blastTemp(1700, 'low') 
  
     event.create('depth_iron')
         .ingot()
@@ -98,6 +104,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_FOIL,
             GTMaterialFlags.GENERATE_GEAR
         )
+        .blastTemp(2700, 'low') 
 
     event.create('twilight_gold')
         .ingot()
@@ -107,8 +114,26 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.BRIGHT)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_GEAR
         )
         .blastTemp(1400, 'low', 100, 400)
+
+    event.create('fiery_iron')
+        .ingot()
+        .color(0x370d0d)
+        .secondaryColor(0xecb521)
+        .element(GTElements.get('fiery_iron'))
+        .iconSet(GTMaterialIconSet.METALLIC)   
+        .flags(
+            GTMaterialFlags.FORCE_GENERATE_BLOCK,
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_FRAME,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR
+        )
+        .blastTemp(2000, 'low')
 
     
         
