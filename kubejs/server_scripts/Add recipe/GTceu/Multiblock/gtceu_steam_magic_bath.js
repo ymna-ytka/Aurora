@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
         .itemInputs(
             "gtceu:wrought_iron_dust",
-            "gtceu:basic_electronic_circuit"
+            "#gtceu:circuits/lv"
         )   
 
         .itemOutputs(

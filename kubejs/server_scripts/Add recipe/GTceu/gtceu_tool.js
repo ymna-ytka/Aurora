@@ -200,7 +200,7 @@ ServerEvents.recipes(event=>{
     .itemInputs(
         "64x gtceu:fine_ruby_wire",
         "16x gtceu:zinc_foil",
-        "gtceu:basic_electronic_circuit"
+        "#gtceu:circuits/lv"
     )
 
     .inputFluids(
@@ -220,7 +220,7 @@ ServerEvents.recipes(event=>{
     .itemInputs(
         "gtceu:carbon_fiber_mesh",
         "16x gtceu:zinc_foil",
-        "gtceu:basic_electronic_circuit"
+        "#gtceu:circuits/lv"
 
     )
 

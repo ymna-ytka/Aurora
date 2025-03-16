@@ -72,7 +72,7 @@ ServerEvents.recipes(event=>{
             W:"#forge:tools/wrench",
             C:"gtceu:coke_oven_bricks",
             S:"gtceu:steel_plate",
-            I:"gtceu:basic_electronic_circuit"  
+            I:"#gtceu:circuits/lv"  
         }
      
     )
@@ -89,7 +89,7 @@ ServerEvents.recipes(event=>{
             P:"gtceu:steel_plate",
             R:"gtceu:steel_rod",
             W:"#forge:tools/wrench",
-            C:"gtceu:basic_electronic_circuit",
+            C:"#gtceu:circuits/lv",
             H:"#forge:tools/hammers",
             S:"gtceu:steel_screw",
             F:"gtceu:firebricks"  
@@ -106,7 +106,7 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            C:"gtceu:basic_electronic_circuit",
+            C:"#gtceu:circuits/lv",
             W:"#forge:tools/wrench",
             G:"gtceu:steel_gear",
             H:"#forge:tools/hammers",
@@ -126,7 +126,7 @@ ServerEvents.recipes(event=>{
 
         {
             D:"gtceu:lv_distillery",
-            B:"gtceu:basic_electronic_circuit",
+            B:"#gtceu:circuits/lv",
             C:"kubejs:ecoferum_casing", 
             A:"gtceu:cobalt_single_cable"
         }
@@ -142,7 +142,7 @@ ServerEvents.recipes(event=>{
         ],
 
         {
-            B:"gtceu:basic_electronic_circuit",
+            B:"#gtceu:circuits/lv",
             C:"gtceu:tin_single_cable",
             O:"kubejs:machine_coil_annealed",
             A:"gtceu:lv_alloy_smelter",

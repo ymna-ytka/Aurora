@@ -5,7 +5,7 @@ ServerEvents.recipes( event=> {
         .itemInputs(
             "2x gtceu:glowstone_plate",
             "gtceu:steel_plate",
-            "gtceu:basic_electronic_circuit"
+            "#gtceu:circuits/lv"
         )
 
         .inputFluids(
@@ -25,7 +25,7 @@ ServerEvents.recipes( event=> {
         .itemInputs(
             "5x gtceu:glowstone_plate",
             "gtceu:steel_plate",
-            "gtceu:basic_electronic_circuit"
+            "#gtceu:circuits/lv"
         )
 
         .inputFluids(
@@ -45,7 +45,7 @@ ServerEvents.recipes( event=> {
         .itemInputs(
             "gtceu:glowstone_plate",
             "2x gtceu:steel_plate",
-            "gtceu:basic_electronic_circuit"
+            "#gtceu:circuits/lv"
         )
 
         .inputFluids(
@@ -65,7 +65,7 @@ ServerEvents.recipes( event=> {
         .itemInputs(
             "3x gtceu:steel_plate",
             "2x gtceu:glowstone_plate",
-            "gtceu:basic_electronic_circuit"
+            "#gtceu:circuits/lv"
         )
 
         .inputFluids(
@@ -134,7 +134,7 @@ ServerEvents.recipes( event=> {
         .itemInputs(
             "3x gtceu:glowstone_plate",
             "2x gtceu:steel_plate",
-            "gtceu:basic_electronic_circuit"   
+            "#gtceu:circuits/lv"   
         )
 
         .inputFluids(
@@ -155,7 +155,7 @@ ServerEvents.recipes( event=> {
             "#simplylight:any_lamp_on",
             "gtceu:steel_plate",
             "gtceu:steel_rod",
-            "gtceu:basic_electronic_circuit"
+            "#gtceu:circuits/lv"
         )
 
         .inputFluids(
@@ -176,7 +176,7 @@ ServerEvents.recipes( event=> {
             "2x gtceu:glowstone_plate",
             "4x gtceu:steel_plate",
             "minecraft:redstone_torch",
-            "2x gtceu:basic_electronic_circuit"
+            "2x #gtceu:circuits/lv"
         )
 
         .inputFluids(
@@ -197,7 +197,7 @@ ServerEvents.recipes( event=> {
             "2x gtceu:glowstone_plate",
             "4x gtceu:steel_plate",
             "gtceu:red_alloy_ingot",
-            "2x gtceu:basic_electronic_circuit"
+            "2x #gtceu:circuits/lv"
         )
 
         .inputFluids(
