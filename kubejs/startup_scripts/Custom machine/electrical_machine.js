@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM)
         .definition((tier, builder) =>
             builder
-                .langValue(GTValues.VLVH[tier] + " Air Cooler")
+                .langValue("Охолоджувач повітря")
                 .recipeType('air_cooler')
                 .workableTieredHullRenderer('gtceu:block/machines/gas_collector')
         )
@@ -13,17 +13,17 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM)
         .definition((tier, builder) =>
             builder
-                .langValue(GTValues.VLVH[tier] + " Cooler")
+                .langValue("Охолоджувач")
                 .recipeType('cooler')
                 .workableTieredHullRenderer('gtceu:block/machines/brewery')
         )
 
     event.create('twilight_farmer', 'simple')
-        .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM)
+        .tiers(GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM)
         .definition((tier, builder) =>
             builder
-                .langValue(GTValues.VLVH[tier] + " Twilight Farmer")
-                .recipeType('cooler')
+                .langValue("Сутінковий фермер")
+                .recipeType('twilight_farmer')
                 .workableTieredHullRenderer('gtceu:block/machines/rock_crusher')
         )
 
