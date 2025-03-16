@@ -312,5 +312,60 @@ ServerEvents.recipes( event=> {
         .duration(400)
         .EUt(GTValues.VA[GTValues.ULV])
     
+    event.shapeless("palegarden:resin_bricks_slab",
+        [
+            "palegarden:resin_bricks",
+            "#forge:tools/saws"    
+        ]
+    ) 
+                                            
+                        
+    event.recipes.gtceu.cutter('resin_bricks_slab_lubricant')
+                                    
+        .itemInputs(
+            "palegarden:resin_bricks"
+        )
+                                    
+        .inputFluids(
+        Fluid.of("gtceu:lubricant", 1)
+        )
+                                    
+        .itemOutputs(   
+            "2x palegarden:resin_bricks_slab",
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.ULV])
+                                        
+    event.recipes.gtceu.cutter('resin_bricks_slab_dist_water')
+                                    
+        .itemInputs(
+            "palegarden:resin_bricks" 
+        )
+                                    
+        .inputFluids(
+            Fluid.of("gtceu:distilled_water", 3)
+        )
+                                    
+        .itemOutputs(
+            "2x palegarden:resin_bricks_slab",
+        )
+        .duration(350)
+        .EUt(GTValues.VA[GTValues.ULV]) 
+                                        
+    event.recipes.gtceu.cutter('resin_bricks_slab_water')
+                                    
+        .itemInputs(
+            "palegarden:resin_bricks"  
+        )
+                                    
+        .inputFluids(
+            Fluid.of("minecraft:water", 4)
+        )
+                                    
+        .itemOutputs(
+            "2x palegarden:resin_bricks_slab",
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.ULV])
         
 })
