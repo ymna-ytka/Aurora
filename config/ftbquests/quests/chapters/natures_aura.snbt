@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: ""
+	icon: "gtceu:infused_iron_ingot"
+	id: "2A2388D2EFD83A33"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "129BA932EC504AF4"
+			tasks: [{
+				count: 4L
+				id: "349E5D351130AAFF"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129BA932EC504AF4"]
+			id: "639BF92B52B9B831"
+			tasks: [{
+				count: 8L
+				id: "0998ADBC3678FCFB"
+				item: { Count: 8, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["639BF92B52B9B831"]
+			id: "3163318EAAAE24CF"
+			tasks: [{
+				count: 16L
+				id: "360C09585C806A97"
+				item: "gtceu:infused_iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "42BFA6A9FD38A2A5"
+			tasks: [{
+				id: "2DC3C040FE94510C"
+				item: "naturesaura:placer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "10C722C098E33BEA"
+			tasks: [{
+				id: "3774A3223DA15404"
+				item: "naturesaura:pickup_stopper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "217D7EDC8F6BFA16"
+			tasks: [{
+				id: "7725FD7131FE1214"
+				item: "naturesaura:oak_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "5B6D7D9EBDFF1999"
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "11542771C81009AF"
+				item: "gregtech:trees_ritual"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B6D7D9EBDFF1999"]
+			id: "725C2E28B2FDF287"
+			tasks: [{
+				id: "5DD1078005BA20A9"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "76268B9E3D3700DB"
+			tasks: [{
+				id: "5FB7A04688219B83"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76268B9E3D3700DB"]
+			id: "4CAE627C3DDE5D9A"
+			tasks: [{
+				id: "7288CAE7ADD419B6"
+				item: "naturesaura:moss_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "0E1F3D0AD1164F8D"
+			tasks: [{
+				id: "32F155607C38A28E"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "0D6E0291A4B8A524"
+			tasks: [{
+				id: "3514EFC0CF00D4D9"
+				item: "naturesaura:grated_chute"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3163318EAAAE24CF"]
+			id: "16ADAC9FB906EE49"
+			tasks: [{
+				id: "7EE1226CB590D22F"
+				item: "naturesaura:aura_timer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+	]
+	title: "Nature's Aura"
+}
