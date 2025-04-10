@@ -265,7 +265,8 @@ ServerEvents.recipes(event=>{
     event.recipes.gtceu.chemical_reactor('infused_iron_dust_chemical_reactor')
             
         .itemInputs(
-            "4x gtceu:vitalized_iron_dust"
+            "4x gtceu:vitalized_iron_dust",
+            "2x gtceu:leaf_gold_dust"
         )
 
         .inputFluids(
@@ -310,6 +311,89 @@ ServerEvents.recipes(event=>{
         .duration(100)
         .EUt(GTValues.V[GTValues.ULV])
 
+    event.recipes.gtceu.macerator('gtceu:macerator/leaf_gold_dust')
+    
+        .itemInputs(
+            "naturesaura:gold_leaf"
+        )
 
-       
+        .itemOutputs(
+            "2x gtceu:leaf_gold_dust"
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ULV])
+
+    event.recipes.gtceu.electrolyzer('gtceu:electrolyzer/fiery_iron_dust')
+
+        .inputFluids(
+            Fluid.of("gtceu:fiery_magic_water", 144)
+        )
+
+        .itemOutputs(
+            "gtceu:fiery_iron_dust"
+        )
+
+        .outputFluids(
+            Fluid.of("gtceu:steam", 25)
+        )
+
+        .duration(800)
+        .EUt(GTValues.VA[GTValues.MV])
+        .circuit(1)
+
+   
+    event.recipes.gtceu.chemical_reactor('gtceu:chemical_reactor/ammonium_chloride_dust')
+
+        .inputFluids(
+            Fluid.of("gtceu:ammonia", 458),
+            Fluid.of("gtceu:hydrochloric_acid", 982)
+        )
+
+        .itemOutputs(
+            "10x gtceu:ammonium_chloride_dust"
+        )
+        .duration(4800)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.chemical_reactor('gtceu:chemical_reactor/potassium_sulfate_dust')
+
+        .itemInputs(
+            "10x gtceu:small_potassium_hydroxide_dust"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:sulfuric_acid", 424)
+        )
+
+        .itemOutputs(
+            "5x gtceu:potassium_sulfate_dust"
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.extractor('liquid_overworld_aura')
+     
+        .itemInputs(
+            "naturesaura:gold_leaf"
+        )
+
+        .outputFluids(
+            Fluid.of("gtceu:overworld_aura", 15)
+        )
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.ULV])        
+
+    event.recipes.gtceu.macerator('soul_sand_dust')
+     
+        .itemInputs(
+            "minecraft:soul_sand"
+        )
+
+
+        .itemOutputs(
+            "gtceu:soul_sand_dust"
+        )
+        .duration(24)
+        .EUt(GTValues.V[GTValues.ULV])        
+
 })
