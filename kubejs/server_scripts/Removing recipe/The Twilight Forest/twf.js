@@ -203,5 +203,12 @@ ServerEvents.recipes( event=> {
 
 
     event.remove( { id:"twilightforest:material/carminite" } )
+    event.remove( { id:"twilightforest:equipment/fiery_iron_sword" } )
+    event.remove( { id:"twilightforest:equipment/fiery_iron_pickaxe" } )
+    event.remove( { id:"twilightforest:equipment/fiery_ingot_crafting" } )
+    event.remove( { id:"twilightforest:equipment/fiery_fiery_leggings" } )
+    event.remove( { id:"twilightforest:equipment/fiery_fiery_helmet" } )
+    event.remove( { id:"twilightforest:equipment/fiery_fiery_chestplate" } )
+    event.remove( { id:"twilightforest:equipment/fiery_fiery_boots" } )
 
 })
