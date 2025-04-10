@@ -77,7 +77,7 @@ ServerEvents.recipes( event=> {
 
         [
             "SDS",
-            "DBD",
+            "IBI",
             "HDC"
         ],
 
@@ -86,7 +86,8 @@ ServerEvents.recipes( event=> {
             D:"gtceu:glass_plate",
             B:"minecraft:chest",
             H:"#forge:tools/hammers",
-            C:"#forge:tools/screwdrivers"
+            C:"#forge:tools/screwdrivers",
+            I:"gtceu:diamond_plate"
         }
 
     )
@@ -155,7 +156,8 @@ ServerEvents.recipes( event=> {
 
     .itemInputs(
         "minecraft:chest",
-        "4x gtceu:glass_plate"
+        "2x gtceu:glass_plate",
+        "2x gtceu:diamond_plate"
     )
 
     .itemOutputs(
