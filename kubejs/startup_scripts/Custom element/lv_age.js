@@ -12,7 +12,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         
     event.create('twilight_gold')
         .protons(79) 
-        .neutrons(125) 
+        .neutrons(78) 
         .symbol('Tg') 
 
     event.create('cold_water')
@@ -35,5 +35,14 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         .neutrons(78) 
         .symbol('Fi(OH)₂')
          
+     event.create('leaf_gold')
+        .protons(78) 
+        .neutrons(78) 
+        .symbol('Nt₂Tg')
+
+     event.create('infused_iron')
+        .protons(378)
+        .neutrons(466)
+        .symbol('???Vi₄Nt₂Tg₂')
         
 })
