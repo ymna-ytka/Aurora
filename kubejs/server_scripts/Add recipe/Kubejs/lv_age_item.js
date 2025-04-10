@@ -11,7 +11,7 @@ ServerEvents.recipes( event=> {
         {
             F:"gtceu:carbide_silicon_foil",
             P:"gtceu:carbide_silicon_plate",
-            H:"forge:tools/hammers"
+            H:"#forge:tools/hammers"
         }
 
     )
@@ -58,8 +58,8 @@ ServerEvents.recipes( event=> {
             D:"gtceu:double_wrought_iron_plate",
             S:"gtceu:wrought_iron_screw",
             G:"gtceu:wrought_iron_gear",
-            F:"forge:tools/files",
-            C:"forge:tools/screwdrivers"
+            F:"#forge:tools/files",
+            C:"#forge:tools/screwdrivers"
         }
 
     )
@@ -336,5 +336,95 @@ ServerEvents.recipes( event=> {
 
         .duration(6000)
         .EUt(GTValues.V[GTValues.LV])
+
+
+    event.recipes.gtceu.chemical_reactor('gtceu:chemical_reactor/trash')    
+
+        .itemInputs(
+            "20x gtceu:paper_dust",
+            "gtceu:polyethylene_dust",
+            "gtceu:bio_chaff"
+        )
+
+        .inputFluids(
+            
+            Fluid.of("minecraft:water", 100)
+
+        )
+
+        .outputFluids(
+
+            Fluid.of("gtceu:polluted_water", 50)
+
+        )
+
+        .itemOutputs(
+            '20x kubejs:trash'
+        )
+
+        .duration(200)
+        .EUt(GTValues.VH[GTValues.ULV])
+
+    event.shaped("kubejs:incorrect_mold",
+
+        [
+            "  C",
+            "   ",
+            " R "
+        ],
+
+        {
+            R:"gtceu:empty_mold",
+            C:"#forge:tools/hammers"
+        }
+
+    )
+
+    event.recipes.gtceu.alloy_smelter('metal_scrap')
+
+        .itemInputs(
+            "#balm:ingots",
+        )
+
+        .notConsumable(
+            "kubejs:incorrect_mold"
+        )
+
+        .itemOutputs(
+            "kubejs:metal_scrap"
+        )
+        .duration(80)
+        .EUt(GTValues.VA[GTValues.ULV])
+
+    event.recipes.gtceu.centrifuge('toxic_substance')
+
+        .itemInputs(
+            "2x kubejs:trash",
+            "kubejs:scrap_metal"
+        )
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 1000)
+        )
+
+        .itemOutputs(
+            "4x kubejs:toxic_substance"
+        )
+        .duration(320)
+        .EUt(GTValues.VHA[GTValues.MV])
+
+    event.recipes.gtceu.chemical_reactor('break_leaf')
+    
+        .itemInputs(
+            "naturesaura:gold_leaf",
+            "kubejs:toxic_substance"
+        )
+
+        .itemOutputs(
+            "kubejs:broken_leaf"
+        )
+        .duration(200)
+        .EUt(GTValues.VHA[GTValues.LV])
+
 
 })
