@@ -30,5 +30,20 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x6c1414)
         .iconSet(GTMaterialIconSet.DULL)
 
+    event.create('overworld_aura')
+        .liquid()
+        .color(0xB6F746)
+        .iconSet(GTMaterialIconSet.DULL)
+
+    event.create('nether_aura')
+        .dust()
+        .liquid()
+        .color(0x7e1a0b)
+        .iconSet(GTMaterialIconSet.DULL)
+
+    event.create('polluted_water')
+        .liquid()
+        .color(0x4d4f4a)
+        .iconSet(GTMaterialIconSet.DULL)        
         
 })    
