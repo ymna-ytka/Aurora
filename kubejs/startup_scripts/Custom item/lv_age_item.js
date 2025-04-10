@@ -29,7 +29,7 @@ StartupEvents.registry('item', event=>{
     .texture('kubejs:item/lv_age/glass_balloon') 
 
     event.create('ballon_mold')
-    .displayName('Форма балона')
+    .displayName('Відливна форма (балон)')
     .texture('kubejs:item/lv_age/baloon_mold')
     
     event.create('raw_aluminium_ingot')
@@ -52,5 +52,36 @@ StartupEvents.registry('item', event=>{
     .displayName('Очищена шкіра')
     .texture('kubejs:item/stone_age/cleansed_leather')
 
+    event.create('template_token')
+    .displayName('Порожній жетон')
+    .texture('kubejs:item/lv_age/template_token')
 
+    event.create('trash')
+    .displayName('Сміття')
+    .texture('kubejs:item/lv_age/trash')
+
+    event.create('incorrect_mold')
+    .displayName('Відливна форма (неправильна)')
+    .texture('kubejs:item/lv_age/incorrect_mold')
+
+    event.create('metal_scrap')
+    .displayName('Шматок металу')
+    .texture('kubejs:item/lv_age/metal_scrap')
+
+    event.create('toxic_substance')
+    .displayName('Токсична субстанція')
+    .texture('kubejs:item/lv_age/toxic_substance')
+
+    event.create('broken_leaf')
+    .displayName('Поламаний лист')
+    .texture('kubejs:item/lv_age/broken_leaf')
+
+    event.create('heart_joy')
+    .displayName('Веселе серце')
+    .texture('kubejs:item/lv_age/heart_joy')
+
+    event.create('flower_bud')
+    .displayName('Бутон квітів')
+    .texture('kubejs:item/lv_age/flower_bud')
+    
 })
