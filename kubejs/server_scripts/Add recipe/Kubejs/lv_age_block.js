@@ -39,5 +39,34 @@ ServerEvents.recipes( event=> {
         .duration(500)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.recipes.gtceu.assembler('proxy_item_trees')
+        
+        .itemInputs(
+            "ironchest:iron_chest",
+            "gtceu:mv_machine_hull",
+            "2x naturesaura:gold_leaf"
+        )
+
+        .itemOutputs(
+            "gregtech:proxy_item_trees"
+        )
+        .circuit(1)
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.assembler('fluid_trees_part')
+        
+        .itemInputs(
+            "fluidtank:tank_wood",
+            "gtceu:mv_machine_hull",
+            "2x naturesaura:gold_leaf"
+        )
+
+        .itemOutputs(
+            "gregtech:fluid_trees_part"
+        )
+        .circuit(2)
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.LV])
 
 })
