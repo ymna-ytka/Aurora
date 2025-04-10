@@ -511,18 +511,6 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(31)
 
-    event.recipes.gtceu.electrolyzer('gtceu:electrolyzer/fiery_ingot')
-
-        .inputFluids(
-            Fluid.of("gtceu:fiery_magic_water", 144)
-        )
-
-        .itemOutputs(
-            "gtceu:fiery_iron_dust"
-        )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(1)
         
 
 })
