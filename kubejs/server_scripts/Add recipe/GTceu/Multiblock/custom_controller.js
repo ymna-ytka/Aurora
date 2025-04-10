@@ -237,5 +237,38 @@ ServerEvents.recipes(event=>{
 
     )
         
+    event.shaped('gtceu:fertilizer_buck',
 
+        [
+            "MPM",
+            "PHP",
+            "IRI"
+        ],
+
+        {
+            P:"gtceu:polybenzimidazole_large_fluid_pipe",
+            R:"gtceu:stainless_steel_rotor",
+            M:"gtceu:mv_electric_motor",
+            H:"gtceu:inert_machine_casing",
+            I:"#gtceu:circuits/mv"
+        }
+
+    )
+
+    event.shaped('gregtech:trees_ritual',
+
+        [
+            "P P",
+            "PHP",
+            "PRP"
+        ],
+
+        {
+            P:"naturesaura:gold_leaf",
+            R:"gtceu:infused_iron_frame",
+            H:"naturesaura:wood_stand",
+        }
+
+    )
+    
 })
