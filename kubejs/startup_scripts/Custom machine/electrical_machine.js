@@ -27,4 +27,13 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .workableTieredHullRenderer('gtceu:block/machines/rock_crusher')
         )
 
+    event.create('farmer', 'simple')
+        .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM)
+        .definition((tier, builder) =>
+            builder
+                .langValue("Фермер")
+                .recipeType('farmer')
+                .workableTieredHullRenderer('gtceu:block/machines/autoclave')
+        )
+
 })
