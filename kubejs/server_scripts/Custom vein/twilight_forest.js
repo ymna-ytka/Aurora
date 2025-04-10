@@ -45,12 +45,12 @@ GTCEuServerEvents.oreVeins(event => {
         .layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).block(() => Block.getBlock('gtceu:twilight_gold_ore')).size(2, 4))
-                .layer(l => l.weight(2).mat(GTMaterials.Gold).size(1, 1))
-                .layer(l => l.weight(2).mat(GTMaterials.Iron).size(1, 1))
+                .layer(l => l.weight(2).block(() => Block.getBlock('gtceu:black_essence_ore')).size(1, 1))
+                .layer(l => l.weight(2).block(() => Block.getBlock('gtceu:light_essence_ore')).size(1, 1))
             )
         )
         .surfaceIndicatorGenerator(indicator => indicator
-            .surfaceRock(GTMaterials.Gold)
+            .surfaceRock(GTMaterials.get('twilight_gold'))
             .density(0.2)
             .radius(3)
         )
