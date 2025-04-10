@@ -23,6 +23,8 @@
     "material.gtceu.magical_essence": "Магічна есенція",
     "material.gtceu.fiery_magic_water": "Вогняна магічна вода",
     "material.gtceu.fiery_iron": "Вогняне залізо",
+    "material.gtceu.leaf_gold": "Листвене золото",
+    "material.gtceu.basic_liquid_fertilizer": "Базове рідке добриво",
 
 
     "block.gtceu.fire_bath": "Вогняна баня",
@@ -40,6 +42,7 @@
     "block.gtceu.steam_centrifuge": "Парова центрифуга",
     "block.gtceu.steam_compressor": "Паровий компресор",
     "block.gtceu.steam_alloy_smelter": "Паровий сплавний завод",
+    "block.gtceu.fertilizer_buck": "Фертилізующий бак",
 
 
     "gtceu.fire_bath": "Вогняна баня",
@@ -53,7 +56,9 @@
     "gtceu.induction_furnace":  "Індукційна піч",
     "gtceu.air_cooler":  "Охолоджувач повітря",
     "gtceu.cooler":  "Охолоджувач",
-    "gtceu.Twilight_farmer":  "Сутінковий фермер",
+    "gtceu.twilight_farmer":  "Сутінковий фермер",
+    "gtceu.fertilizer_buck": "Фертилізація",
+    "gtceu.farmer": "Вирощування",
 
     "gtceu.jei.ore_vein.nickel_twilight": "Жила Нікелю",
     "gtceu.jei.ore_vein.galena_nether": "Жила Галеніту",
