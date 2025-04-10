@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "iii_lv"
 	group: ""
-	icon: "gtceu:lv_machine_casing"
+	icon: "gtceu:steel_ingot"
 	id: "7E6064802DFDE272"
 	order_index: 3
 	quest_links: [ ]
@@ -1630,5 +1630,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Глава III: LV напруга"
+	title: "Етап III: LV напруга"
 }
