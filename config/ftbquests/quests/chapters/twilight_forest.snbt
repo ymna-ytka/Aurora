@@ -5,12 +5,13 @@
 	group: ""
 	icon: "twilightforest:snow_queen_trophy"
 	id: "7497BD714E51CB1D"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3677A37E3341F851"]
 			description: ["Темніше ночі, але все так же цікаво(ні)."]
+			hide_until_deps_complete: true
 			id: "7A4672139FCF1636"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -35,6 +36,7 @@
 		}
 		{
 			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
 			icon: "twilightforest:naga_trophy"
 			id: "75C65DC5BC672DBA"
 			tasks: [
@@ -55,15 +57,16 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 1.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A4672139FCF1636"]
 			id: "77EC62A3D9A402C9"
 			tasks: [{
-				id: "1D8C6C0CCEEEAD3A"
-				item: "kubejs:essence_naga"
+				count: 4L
+				id: "5C00ACE051148018"
+				item: "twilightforest:naga_scale"
 				type: "item"
 			}]
 			x: 2.0d
@@ -71,6 +74,7 @@
 		}
 		{
 			dependencies: ["77EC62A3D9A402C9"]
+			hide_until_deps_complete: true
 			icon: "gregtech:infuser"
 			id: "259D6D74BA84C7AF"
 			tasks: [
@@ -102,6 +106,182 @@
 			x: 3.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "602E81968B8D4A32"
+			tasks: [{
+				id: "2C017C69694CDF10"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "64BFAA7215C33676"
+			tasks: [{
+				id: "579D74B2C582C16B"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "690B470450D5AE8F"
+			tasks: [{
+				id: "6D0DD18673E392A9"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "5E916E9B7186F59B"
+			tasks: [{
+				id: "07966A2E79605093"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "7F3D0BE0BC4A87E0"
+			tasks: [{
+				id: "4BDA7BB36CC8D3A8"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "59D6C8AE29CF8576"
+			tasks: [{
+				id: "7EA601C5C7C5DF36"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["259D6D74BA84C7AF"]
+			hide_until_deps_complete: true
+			id: "75143FAB643D2751"
+			tasks: [{
+				id: "77BF414994074EEB"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1BC2D90BEAAF7830"]
+			id: "1FD272E02A1DE4AD"
+			tasks: [{
+				id: "0608D2BDABB4C3BE"
+				item: "gtceu:twilight_gas_bucket"
+				type: "item"
+			}]
+			title: "Сутінкове повітря"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A4672139FCF1636"]
+			description: ["У сучасному світі технологічного прогресу, одна з найцінніших розробок — це система, що перетворює повітря з газового стану в рідкий. Цей процес має широкий спектр застосувань: від створення нових матеріалів до розвитку передових енергетичних систем."]
+			id: "1BC2D90BEAAF7830"
+			tasks: [{
+				id: "7F70CE90C89D5A23"
+				item: "gtceu:lv_air_cooler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BC2D90BEAAF7830"]
+			id: "26DA4CF3AC580090"
+			tasks: [{
+				id: "506327F43231C183"
+				item: "gtceu:liquid_twilight_gas_bucket"
+				type: "item"
+			}]
+			title: "Рідке сутінкове повітря"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26DA4CF3AC580090"]
+			id: "6A294C965F48D30C"
+			tasks: [{
+				id: "7E3B691D961E5CC4"
+				item: "gtceu:magical_essence_bucket"
+				type: "item"
+			}]
+			title: "Магічна есенція"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A294C965F48D30C"]
+			id: "43C00EF97EE27A8D"
+			tasks: [{
+				id: "763D727E884415B7"
+				item: "gtceu:mv_twilight_farmer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43C00EF97EE27A8D"]
+			id: "032D65053A2935AC"
+			tasks: [{
+				id: "5339F5D5D510FA21"
+				title: "Що таке сутінковий фермер?"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43C00EF97EE27A8D"]
+			icon: "twilightforest:fiery_blood"
+			id: "00CAD2EE7C5F3E6B"
+			tasks: [
+				{
+					count: 4L
+					id: "683D3B35FA062474"
+					item: { Count: 4, id: "twilightforest:fiery_blood" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4276EFD52C0D1491"
+					item: { Count: 4, id: "twilightforest:fiery_tears" }
+					type: "item"
+				}
+			]
+			title: "Рідкий вогонь"
+			x: 1.5d
+			y: 5.5d
+		}
 	]
-	title: "Twilight Forest W.I.P"
+	title: "Twilight Forest"
 }
