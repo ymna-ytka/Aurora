@@ -58,4 +58,24 @@ ServerEvents.recipes( event=> {
 
     )    
 
+    event.shaped('gtceu:lv_farmer',
+
+        [
+            'GMG',
+            'IHI',
+            'CPC'
+        ],
+
+        {
+            G:"gtceu:lv_robot_arm",
+            I:"#minecraft:hoes",
+            P:"gtceu:lv_electric_pump",
+            H:"gtceu:lv_machine_hull",
+            C:"gtceu:tin_single_cable",
+            M:"#gtceu:circuits/lv"
+        }
+
+    )    
+
+    
 })
