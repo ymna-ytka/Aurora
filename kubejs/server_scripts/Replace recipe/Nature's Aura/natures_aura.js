@@ -28,4 +28,11 @@ ServerEvents.recipes( event=> {
 
     )
 
+    event.replaceInput( { input:"naturesaura:gold_powder" }, 
+
+        'naturesaura:gold_powder',
+        'gtceu:leaf_gold_dust'
+
+    )
+
 })
