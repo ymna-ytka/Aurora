@@ -49,6 +49,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .color(0x0fd146)
         .iconSet(GTMaterialIconSet.METALLIC)
+        .element(GTElements.get("infused_iron"))
         .flags(
             GTMaterialFlags.FORCE_GENERATE_BLOCK,
             GTMaterialFlags.GENERATE_PLATE,
@@ -56,9 +57,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD,
             GTMaterialFlags.GENERATE_RING,
             GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_GEAR
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .blastTemp(1800, 'low')
+        .blastTemp(1600, 'low')
 
     event.create('sky_iron')
         .ingot()
@@ -71,9 +73,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD,
             GTMaterialFlags.GENERATE_RING,
             GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_GEAR
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .blastTemp(2200, 'low') 
+        .blastTemp(1800, 'low') 
         
         
     event.create('tained_gold')
@@ -87,7 +90,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD,
             GTMaterialFlags.GENERATE_RING,
             GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_GEAR
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_BOLT_SCREW
         )
         .blastTemp(1700, 'low') 
  
@@ -102,7 +106,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD,
             GTMaterialFlags.GENERATE_RING,
             GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_GEAR
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_BOLT_SCREW
         )
         .blastTemp(2700, 'low') 
 
@@ -131,10 +136,43 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD,
             GTMaterialFlags.GENERATE_RING,
             GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_GEAR
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_BOLT_SCREW
         )
         .blastTemp(2000, 'low')
 
-    
+    event.create('leaf_gold')
+        .dust()
+        .color(0xf9de18)
+        .secondaryColor(0xf9d518)
+        .element(GTElements.get('leaf_gold'))        
+        .iconSet(GTMaterialIconSet.BRIGHT)    
+        .flags(
+            GTMaterialFlags.FORCE_GENERATE_BLOCK,
+        )
+         
+    event.create('soul_sand')
+        .dust()
+        .color(0x4c362c)
+        .secondaryColor(0x2a1f19)
+        .iconSet(GTMaterialIconSet.DULL)    
+
+    event.create('black_essence')
+        .ingot()
+        .liquid()
+        .ore()
+        .color(0x000000)
+        .secondaryColor(0x151616)
+        .iconSet(GTMaterialIconSet.FINE)
+        .blastTemp(1650, 'low', GTValues.VA[GTValues.MV])
+        
+    event.create('light_essence')
+        .ingot()
+        .liquid()
+        .ore()
+        .color(0xffffff)
+        .secondaryColor(0xececec)
+        .iconSet(GTMaterialIconSet.FINE)
+        .blastTemp(1640, 'low', GTValues.VA[GTValues.MV])
         
 })
