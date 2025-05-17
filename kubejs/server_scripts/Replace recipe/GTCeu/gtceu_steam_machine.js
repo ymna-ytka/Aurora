@@ -56,11 +56,4 @@ ServerEvents.recipes(event => {
 
    )
 
-   event.replaceInput ({ id: 'gtceu:shaped/steam_boiler_solar_steel' },
-
-      "minecraft:glass", 
-      "kubejs:solar_element"
-      
-   )
-
 })

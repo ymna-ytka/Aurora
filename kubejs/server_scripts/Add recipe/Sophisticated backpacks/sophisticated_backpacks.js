@@ -10,7 +10,7 @@ ServerEvents.recipes(event=>{
 
         {
             S:"minecraft:string",
-            T:"kubejs:tanned_leather",
+            T:"gtac:tanned_leather",
             C:"minecraft:chest",
             O:"gtceu:wood_screw"
         }
@@ -27,7 +27,7 @@ ServerEvents.recipes(event=>{
         
         {
             B:"gtceu:bronze_plate",
-            T:"kubejs:tanned_leather",
+            T:"gtac:tanned_leather",
             C:"sophisticatedbackpacks:backpack"
         }
     
@@ -43,7 +43,7 @@ ServerEvents.recipes(event=>{
         
         {
             S:"gtceu:steel_plate",
-            T:"kubejs:tanned_leather",
+            T:"gtac:tanned_leather",
             C:"sophisticatedbackpacks:copper_backpack"
         }
     
@@ -59,7 +59,7 @@ ServerEvents.recipes(event=>{
         
         {
             A:"gtceu:aluminium_plate",
-            T:"kubejs:tanned_leather",
+            T:"gtac:tanned_leather",
             C:"sophisticatedbackpacks:iron_backpack"
         }
     
@@ -75,7 +75,7 @@ ServerEvents.recipes(event=>{
         
         {
             S:"gtceu:stainless_steel_plate",
-            T:"kubejs:tanned_leather",
+            T:"gtac:tanned_leather",
             C:"sophisticatedbackpacks:gold_backpack"
         }
     
@@ -91,7 +91,7 @@ ServerEvents.recipes(event=>{
         
         {
             I:"gtceu:titanium_plate",
-            T:"kubejs:tanned_leather",
+            T:"gtac:tanned_leather",
             C:"sophisticatedbackpacks:diamond_backpack"
         }
     
@@ -100,7 +100,7 @@ ServerEvents.recipes(event=>{
     event.recipes.gtceu.assembler('upgrade_base_assemb')
         
         .itemInputs(
-            "#forge:leather",
+            'gtac:tanned_leather',
             "4x minecraft:string"
         )
 

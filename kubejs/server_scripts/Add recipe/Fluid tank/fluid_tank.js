@@ -11,7 +11,7 @@ ServerEvents.recipes(event =>{
         {
             B:"minecraft:bucket",
             P:"gtceu:double_iron_plate",
-            I:"gtceu:sponge_metal_plate"
+            I:"gtac:sponge_metal_plate"
         }
 
 
@@ -80,7 +80,7 @@ ServerEvents.recipes(event =>{
     event.recipes.gtceu.assembler('bad_bronze_tank_assemb')
 
         .itemInputs(
-            "5x gtceu:bad_bronze_plate",
+            "5x gtac:sponge_metal_plate",
             "2x gtceu:double_iron_plate"
         )
 

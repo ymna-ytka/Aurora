@@ -9,8 +9,8 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            F:"gtceu:carbide_silicon_foil",
-            P:"gtceu:carbide_silicon_plate",
+            F:"gtac:carbide_silicon_foil",
+            P:"gtac:carbide_silicon_plate",
             H:"#forge:tools/hammers"
         }
 
@@ -19,8 +19,8 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.assembler('carbide_silicon_orb_assemb')
 
     .itemInputs(
-        "4x gtceu:carbide_silicon_foil",
-        "4x gtceu:carbide_silicon_plate"
+        "4x gtac:carbide_silicon_foil",
+        "4x gtac:carbide_silicon_plate"
     )
 
     .itemOutputs(
@@ -252,13 +252,16 @@ ServerEvents.recipes( event=> {
             Fluid.of("gtceu:carbon_dioxide", 100 )
         )
         .duration(1200) 
-        .EUt(GTValues.VA[GTValues.MV])
+        .EUt(GTValues.VH[GTValues.MV])
         .blastFurnaceTemp(1800)
 
     event.recipes.gtceu.natural_cleaner('clean_alum_ing')
           
         .itemInputs(
             "kubejs:raw_aluminium_ingot",
+        )
+        
+        .notConsumable(
             "gtceu:steel_rod"
         )
 
@@ -311,60 +314,6 @@ ServerEvents.recipes( event=> {
         .circuit(1)
         .blastFurnaceTemp(900)
 
-    event.recipes.gtceu.compressor('trophy_tablet')
-    
-        .itemInputs(
-            "9x gtceu:twilight_gold_plate"
-        )
-
-        .itemOutputs(
-            'kubejs:trophy_tablet'
-        )
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    event.recipes.gtceu.alloy_smelter('gtceu:alloy_smelter/phantom_armor_set')    
-
-        .itemInputs(
-            "twilightforest:phantom_helmet",
-            "twilightforest:phantom_chestplate"
-        )
-
-        .itemOutputs(
-            'kubejs:phantom_armor_set'
-        )
-
-        .duration(6000)
-        .EUt(GTValues.V[GTValues.LV])
-
-
-    event.recipes.gtceu.chemical_reactor('gtceu:chemical_reactor/trash')    
-
-        .itemInputs(
-            "20x gtceu:paper_dust",
-            "gtceu:polyethylene_dust",
-            "gtceu:bio_chaff"
-        )
-
-        .inputFluids(
-            
-            Fluid.of("minecraft:water", 100)
-
-        )
-
-        .outputFluids(
-
-            Fluid.of("gtceu:polluted_water", 50)
-
-        )
-
-        .itemOutputs(
-            '20x kubejs:trash'
-        )
-
-        .duration(200)
-        .EUt(GTValues.VH[GTValues.ULV])
-
     event.shaped("kubejs:incorrect_mold",
 
         [
@@ -378,53 +327,5 @@ ServerEvents.recipes( event=> {
             C:"#forge:tools/hammers"
         }
 
-    )
-
-    event.recipes.gtceu.alloy_smelter('metal_scrap')
-
-        .itemInputs(
-            "#balm:ingots",
-        )
-
-        .notConsumable(
-            "kubejs:incorrect_mold"
-        )
-
-        .itemOutputs(
-            "kubejs:metal_scrap"
-        )
-        .duration(80)
-        .EUt(GTValues.VA[GTValues.ULV])
-
-    event.recipes.gtceu.centrifuge('toxic_substance')
-
-        .itemInputs(
-            "2x kubejs:trash",
-            "kubejs:scrap_metal"
-        )
-
-        .inputFluids(
-            Fluid.of("minecraft:water", 1000)
-        )
-
-        .itemOutputs(
-            "4x kubejs:toxic_substance"
-        )
-        .duration(320)
-        .EUt(GTValues.VHA[GTValues.MV])
-
-    event.recipes.gtceu.chemical_reactor('break_leaf')
-    
-        .itemInputs(
-            "naturesaura:gold_leaf",
-            "kubejs:toxic_substance"
-        )
-
-        .itemOutputs(
-            "kubejs:broken_leaf"
-        )
-        .duration(200)
-        .EUt(GTValues.VHA[GTValues.LV])
-
-
+    )       
 })

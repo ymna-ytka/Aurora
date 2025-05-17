@@ -8,7 +8,7 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            "8x gtceu:carbide_silicon_dust"
+            "8x gtac:carbide_silicon_dust"
         )
 
         .circuit(8)
@@ -26,7 +26,7 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            "gtceu:carbide_silicon_ingot"
+            "gtac:carbide_silicon_ingot"
         )
 
         .duration(400)
@@ -43,7 +43,7 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            "gtceu:carbide_silicon_ingot"
+            "gtac:carbide_silicon_ingot"
         )
 
         .duration(250)
@@ -63,13 +63,13 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            "10x gtceu:ecoferum_dust"
+            "10x gtac:ecoferum_dust"
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.LV])
         .circuit(10)
 
-    event.recipes.gtceu.assembler('alum_ing_assemb')
+    event.recipes.gtceu.alloy_smelter('aluminium_ingot')
        
         .itemInputs(
             "kubejs:high_quality_aluminium_ingot"
@@ -125,7 +125,7 @@ ServerEvents.recipes(event=>{
 
 
         .itemOutputs(
-            "2x gtceu:cold_quartz_dust"
+            "2x gtac:cold_quartz_dust"
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.LV])
@@ -256,7 +256,7 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            "4x gtceu:vitalized_iron_dust"
+            "4x gtac:vitalized_iron_dust"
         )
 
         .duration(400)
@@ -265,8 +265,8 @@ ServerEvents.recipes(event=>{
     event.recipes.gtceu.chemical_reactor('infused_iron_dust_chemical_reactor')
             
         .itemInputs(
-            "4x gtceu:vitalized_iron_dust",
-            "2x gtceu:leaf_gold_dust"
+            "4x gtac:vitalized_iron_dust",
+            "2x gtac:leaf_gold_dust"
         )
 
         .inputFluids(
@@ -275,30 +275,30 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            "4x gtceu:infused_iron_dust"
+            "4x gtac:infused_iron_dust"
         )
 
         .duration(260)
         .EUt(GTValues.V[GTValues.MV])
 
-    event.recipes.gtceu.mixer('tained_gold_dust')
+    event.recipes.gtceu.mixer('tainted_gold_dust')
             
         .itemInputs(
-            "4x gtceu:netherrack_dust",
+            "2x gtceu:nether_aura_dust",
             "2x gtceu:gold_dust",
-            "2x gtceu:vitalized_iron_dust",
+            "2x gtac:vitalized_iron_dust",
             "2x gtceu:copper_dust",
             "2x gtceu:charcoal_dust",
         )
 
         .itemOutputs(
-            "11x gtceu:tained_gold_dust"
+            "9x gtac:tainted_gold_dust"
         )
 
         .duration(210)
         .EUt(GTValues.V[GTValues.MV])
 
-    event.recipes.gtceu.extractor('gtceu:extractor/fiery_magic_water')
+    event.recipes.gtceu.extractor('fiery_magic_water')
 
         .itemInputs(
             "#twilightforest:fiery_vial"
@@ -311,19 +311,19 @@ ServerEvents.recipes(event=>{
         .duration(100)
         .EUt(GTValues.V[GTValues.ULV])
 
-    event.recipes.gtceu.macerator('gtceu:macerator/leaf_gold_dust')
+    event.recipes.gtceu.macerator('leaf_gold_dust')
     
         .itemInputs(
             "naturesaura:gold_leaf"
         )
 
         .itemOutputs(
-            "2x gtceu:leaf_gold_dust"
+            "2x gtac:leaf_gold_dust"
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.ULV])
 
-    event.recipes.gtceu.electrolyzer('gtceu:electrolyzer/fiery_iron_dust')
+    event.recipes.gtceu.electrolyzer('fiery_iron_dust')
 
         .inputFluids(
             Fluid.of("gtceu:fiery_magic_water", 144)
@@ -342,7 +342,7 @@ ServerEvents.recipes(event=>{
         .circuit(1)
 
    
-    event.recipes.gtceu.chemical_reactor('gtceu:chemical_reactor/ammonium_chloride_dust')
+    event.recipes.gtceu.chemical_reactor('ammonium_chloride_dust')
 
         .inputFluids(
             Fluid.of("gtceu:ammonia", 458),
@@ -355,7 +355,7 @@ ServerEvents.recipes(event=>{
         .duration(4800)
         .EUt(GTValues.VA[GTValues.LV])
 
-    event.recipes.gtceu.chemical_reactor('gtceu:chemical_reactor/potassium_sulfate_dust')
+    event.recipes.gtceu.chemical_reactor('potassium_sulfate_dust')
 
         .itemInputs(
             "10x gtceu:small_potassium_hydroxide_dust"
@@ -391,9 +391,61 @@ ServerEvents.recipes(event=>{
 
 
         .itemOutputs(
-            "gtceu:soul_sand_dust"
+            "gtac:soul_sand_dust"
         )
         .duration(24)
         .EUt(GTValues.V[GTValues.ULV])        
 
+    event.recipes.gtceu.induction_furnace("invar_ingot")
+
+        .itemInputs(
+            "gtceu:invar_dust"
+        )
+
+
+        .itemOutputs(
+            "gtceu:invar_ingot"
+        )
+        .duration(160)
+        .EUt(GTValues.VH[GTValues.LV])
+
+    event.recipes.gtceu.induction_furnace("cupronickel_ingot")
+
+        .itemInputs(
+            "gtceu:cupronickel_dust"
+        )
+
+
+        .itemOutputs(
+            "gtceu:cupronickel_ingot"
+        )
+        .duration(160)
+        .EUt(GTValues.VH[GTValues.LV])
+
+    event.recipes.gtceu.induction_furnace("electrum_ingot")
+
+        .itemInputs(
+            "gtceu:electrum_dust"
+        )
+
+
+        .itemOutputs(
+            "gtceu:electrum_ingot"
+        )
+        .duration(160)
+        .EUt(GTValues.VH[GTValues.LV])
+
+    event.recipes.gtceu.induction_furnace('ecoferum_ingot')
+      
+        .itemInputs(
+            'gtac:ecoferum_dust'
+        )
+
+
+        .itemOutputs(
+            'gtac:ecoferum_ingot'
+        )
+        .duration(160)
+        .EUt(GTValues.VA[GTValues.LV])
+        
 })

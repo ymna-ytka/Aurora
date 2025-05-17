@@ -10,5 +10,10 @@ ServerEvents.recipes(event =>{
 
     event.remove( { id: 'gtceu:shaped/steam_furnace_bronze' } )
 
+    event.remove( { id: 'gtceu:shaped/steam_boiler_lava_steel' } )
+
+    event.remove( { id: 'gtceu:shaped/steam_alloy_smelter_steel' } )
+
+    event.remove( { id: 'gtceu:shaped/steam_boiler_solar_steel' } )
 
 })

@@ -196,6 +196,145 @@ ServerEvents.recipes(event=>{
         .duration(600)
         .EUt(GTValues.VA[GTValues.LV])
         
+    event.recipes.gtceu.steam_coke_oven('charcoal')
     
+        .itemInputs(
+            "#minecraft:logs",
+    )
+
+    .inputFluids(
+        Fluid.of("gtceu:steam", 2500)
+    )
+
+        .outputFluids(
+            Fluid.of("gtceu:creosote", 500)
+    )
+
+        .itemOutputs(
+            "minecraft:charcoal"
+    )
+        .EUt(7)
+        .duration(450)
+    
+    event.recipes.gtceu.fire_saw("oak_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:oak_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:oak_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("spruce_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:spruce_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:spruce_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("birch_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:birch_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:birch_planks"
+        )
+        .duration(1200)
+        
+    event.recipes.gtceu.fire_saw("jungle_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:jungle_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:jungle_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("acacia_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:acacia_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:acacia_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("cherry_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:cherry_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:cherry_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("dark_oak_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:dark_oak_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:dark_oak_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("mangrove_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:mangrove_logs"
+        )
+
+        .itemOutputs(
+            "4x minecraft:mangrove_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("bamboo_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:bamboo_blocks"
+        )
+
+        .itemOutputs(
+            "4x minecraft:bamboo_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("crimson_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:crimson_stems"
+        )
+
+        .itemOutputs(
+            "4x minecraft:crimson_planks"
+        )
+        .duration(1200)
+
+    event.recipes.gtceu.fire_saw("warped_plank_fire_saw")
+
+        .itemInputs(
+            "#minecraft:warped_stems"
+        )
+
+        .itemOutputs(
+            "4x minecraft:warped_planks"
+        )
+        .duration(1200)
 
 })

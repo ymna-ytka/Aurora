@@ -88,5 +88,88 @@ ServerEvents.recipes( event =>{
 
     )
 
+    event.shaped("gtceu:hp_steam_solar_boiler",
+
+        [
+            "PRP",
+            "GGG",
+            "WCW"
+        ],
+
+        {
+            R:"gtceu:ulv_machine_hull",
+            G:"gtceu:double_silver_plate",
+            C:"gtceu:steel_brick_casing",
+            W:"gtceu:steel_small_fluid_pipe",
+            P:"kubejs:solar_element"
+        }
+
+    )
+
+    event.shaped("gtceu:hp_steam_liquid_boiler",
+
+        [
+            "WRW",
+            "WGW",
+            "WCW"
+        ],
+
+        {
+            R:"gtceu:ulv_machine_hull",
+            G:"minecraft:glass",
+            C:"gtceu:steel_brick_casing",
+            W:"gtceu:steel_plate"
+        }
+
+    )
+
+    event.shaped("gtceu:hp_steam_alloy_smelter",
+
+        [
+            "WRW",
+            "WCW",
+            "WGW"
+        ],
+
+        {
+            R:"gtceu:ulv_machine_hull",
+            G:"gtceu:tin_alloy_small_fluid_pipe",
+            C:"gtceu:lp_steam_alloy_smelter",
+            W:"gtceu:steel_plate"
+        }
+
+    )
+
+    event.shaped('gtceu:lp_steam_autoclave',
+
+        [
+            "BBB",
+            "PIP",
+            "GPG"
+        ],
+
+        {
+            B:"minecraft:bucket",
+            P:"gtceu:bronze_small_fluid_pipe",
+            I:"gtceu:bronze_brick_casing",
+            G:"minecraft:glass"
+        }
+    )
+
+    event.shaped('gtceu:hp_steam_autoclave',
+
+        [
+            "PPP",
+            "LBL",
+            "PPP"
+        ],
+        
+        {
+            P:"gtceu:steel_small_fluid_pipe",
+            L:"gtceu:steel_plate",
+            B:"gtceu:lp_steam_autoclave"
+        }
+
+    )
 
 })

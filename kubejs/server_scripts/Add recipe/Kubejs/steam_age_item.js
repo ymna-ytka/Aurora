@@ -60,11 +60,11 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
-         R:"gtceu:constantan_rod",
+         P:"gtac:constantan_plate",
+         R:"gtac:constantan_rod",
          F:"#forge:tools/files",
          H:"#forge:tools/hammers",
-         G:"gtceu:constantan_gear",
+         G:"gtac:constantan_gear",
       }
 
    )
@@ -78,8 +78,8 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
-         R:"gtceu:constantan_ring",
+         P:"gtac:constantan_plate",
+         R:"gtac:constantan_ring",
          F:"#forge:tools/files"
       }
 
@@ -94,11 +94,11 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
-         R:"gtceu:constantan_rod",
+         P:"gtac:constantan_plate",
+         R:"gtac:constantan_rod",
          F:"#forge:tools/files",
          H:"#forge:tools/hammers",
-         G:"gtceu:constantan_gear"
+         G:"gtac:constantan_gear"
       }
 
    )
@@ -112,9 +112,9 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
-         R:"gtceu:constantan_rod",
-         L:"gtceu:long_constantan_rod",
+         P:"gtac:constantan_plate",
+         R:"gtac:constantan_rod",
+         L:"gtac:long_constantan_rod",
          F:"#forge:tools/files",
          H:"#forge:tools/hammers"
       }
@@ -130,11 +130,11 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
-         R:"gtceu:constantan_rod",
-         I:"gtceu:constantan_ring",
+         P:"gtac:constantan_plate",
+         R:"gtac:constantan_rod",
+         I:"gtac:constantan_ring",
          H:"#forge:tools/hammers",
-         G:"gtceu:constantan_gear",
+         G:"gtac:constantan_gear",
          S:"#forge:tools/screwdrivers"
       }
 
@@ -149,8 +149,8 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
-         I:"gtceu:constantan_ring",
+         P:"gtac:constantan_plate",
+         I:"gtac:constantan_ring",
          W:"#forge:tools/wrench"
       }
 
@@ -165,8 +165,8 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
-         R:"gtceu:constantan_rod",
+         P:"gtac:constantan_plate",
+         R:"gtac:constantan_rod",
          F:"#forge:tools/files",
          H:"#forge:tools/hammers"
       }
@@ -182,12 +182,12 @@ ServerEvents.recipes(event =>{
       ],
 
       {
-         P:"gtceu:constantan_plate",
+         P:"gtac:constantan_plate",
          F:"#forge:tools/files",
          H:"#forge:tools/hammers",
          W:"#forge:tools/wrench",
          S:"#forge:tools/screwdrivers",
-         G:"gtceu:constantan_gear"
+         G:"gtac:constantan_gear"
       }
 
    )
@@ -195,9 +195,9 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_electric_motor_assemb')
 
       .itemInputs(
-         "4x gtceu:constantan_plate",
-         "2x gtceu:constantan_rod",
-         "gtceu:constantan_gear"
+         "4x gtac:constantan_plate",
+         "2x gtac:constantan_rod",
+         "gtac:constantan_gear"
       )
 
       .inputFluids(
@@ -214,8 +214,8 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_conveyor_assemb')
 
       .itemInputs(
-         "4x gtceu:constantan_plate",
-         "4x gtceu:constantan_ring",
+         "4x gtac:constantan_plate",
+         "4x gtac:constantan_ring",
       )
 
       .inputFluids(
@@ -231,9 +231,9 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_electric_piston_assemb')
 
       .itemInputs(
-         "5x gtceu:constantan_plate",
-         "gtceu:constantan_rod",
-         "gtceu:constantan_gear"
+         "5x gtac:constantan_plate",
+         "gtac:constantan_rod",
+         "gtac:constantan_gear"
       )
 
       .inputFluids(
@@ -249,9 +249,9 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_electric_pump_assemb')
 
       .itemInputs(
-         "4x gtceu:constantan_plate",
-         "2x gtceu:constantan_rod",
-         "gtceu:long_constantan_rod"
+         "4x gtac:constantan_plate",
+         "2x gtac:constantan_rod",
+         "gtac:long_constantan_rod"
       )
 
       .inputFluids(
@@ -267,10 +267,10 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_robot_arm_assemb')
 
       .itemInputs(
-         "gtceu:constantan_plate",
-         "4x gtceu:constantan_rod",
-         "gtceu:constantan_gear",
-         "gtceu:constantan_ring"
+         "gtac:constantan_plate",
+         "4x gtac:constantan_rod",
+         "gtac:constantan_gear",
+         "gtac:constantan_ring"
       )
 
       .inputFluids(
@@ -286,8 +286,8 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_sensor_assemb')
 
       .itemInputs(
-         "4x gtceu:constantan_plate",
-         "gtceu:constantan_ring",
+         "4x gtac:constantan_plate",
+         "gtac:constantan_ring",
       )
 
       .inputFluids(
@@ -303,8 +303,8 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_emitter_assemb')
 
       .itemInputs(
-         "5x gtceu:constantan_plate",
-         "2x gtceu:constantan_rod",
+         "5x gtac:constantan_plate",
+         "2x gtac:constantan_rod",
       )
 
       .inputFluids(
@@ -320,8 +320,8 @@ ServerEvents.recipes(event =>{
    event.recipes.gtceu.assembler('blank_lv_field_generator')
 
       .itemInputs(
-         "4x gtceu:constantan_plate",
-         "gtceu:constantan_gear"
+         "4x gtac:constantan_plate",
+         "gtac:constantan_gear"
       )
 
       .inputFluids(
@@ -344,4 +344,119 @@ ServerEvents.recipes(event =>{
 
    )
 
+   event.recipes.gtceu.steam_magic_bath('twilight_gem')
+    
+      .inputFluids(
+         Fluid.of("gtceu:steam", 64000)
+      )    
+
+      .itemInputs(
+         "gtceu:wrought_iron_dust",
+         "#gtceu:circuits/lv"
+      )   
+
+      .itemOutputs(
+         'kubejs:twilight_gem'
+      )
+
+      .duration(1000)
+
+   event.recipes.gtceu.bronze_mixer("raw_cleansed_leather_bronze")
+
+      .itemInputs(
+         "minecraft:leather"
+      )
+
+      .inputFluids(
+         Fluid.of("kubejs:salter_water", 432)
+      )
+
+      .itemOutputs(
+         'gtac:raw_cleansed_leather'
+      )
+
+      .duration(900)
+      .EUt(GTValues.VH[GTValues.ULV])
+
+   event.recipes.gtceu.mixer("raw_cleansed_leather")
+
+      .itemInputs(
+         "minecraft:leather"
+      )
+
+      .inputFluids(
+         Fluid.of("kubejs:salter_water", 432)
+      )
+
+      .itemOutputs(
+         'gtac:raw_cleansed_leather'
+      )
+
+      .duration(900)
+      .EUt(GTValues.VH[GTValues.ULV])
+      
+   event.recipes.gtceu.alloy_smelter("tanned_leather_alloy")
+
+      .itemInputs(
+         'gtac:raw_cleansed_leather',
+         "4x kubejs:tanning_mixture"
+      )
+
+      .itemOutputs(
+         'gtac:tanned_leather'
+      )
+      .duration(1800)
+      .EUt(GTValues.VH[GTValues.ULV])
+      
+    event.recipes.gtceu.cutter("tanned_leather_cutter")
+    
+        .itemInputs(
+            "kubejs:cleansed_leather"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:lubricant", 5)
+        )
+
+        .itemOutputs(
+            'gtac:tanned_leather'
+        )
+
+        .duration(100)
+        .EUt(GTValues.VH[GTValues.ULV])
+
+    event.recipes.gtceu.cutter("tanned_leather_cutter_dis_water")
+    
+        .itemInputs(
+            "kubejs:cleansed_leather"
+        )
+
+        .inputFluids(
+            Fluid.of("gtceu:distilled_water", 25)
+        )
+
+        .itemOutputs(
+            'gtac:tanned_leather'
+        )
+
+        .duration(300)
+        .EUt(GTValues.VH[GTValues.ULV])
+
+    event.recipes.gtceu.cutter("tanned_leather_cutter_water")
+    
+        .itemInputs(
+            "kubejs:cleansed_leather"
+        )
+
+        .inputFluids(
+            Fluid.of("minecraft:water", 55)
+        )
+
+        .itemOutputs(
+            'gtac:tanned_leather'
+        )
+
+        .duration(600)
+        .EUt(GTValues.VH[GTValues.ULV])
+      
 })

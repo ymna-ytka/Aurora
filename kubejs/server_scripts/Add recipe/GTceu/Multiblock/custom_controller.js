@@ -10,12 +10,12 @@ ServerEvents.recipes(event=>{
         
         {
             P:"#minecraft:planks",
-            R:"gtceu:sponge_metal_ring",
+            R:"gtac:sponge_metal_ring",
             W:"#forge:tools/wrench",
             C:"kubejs:fire_casing",
             H:"#forge:tools/hammers",
-            S:"gtceu:sponge_metal_screw",
-            G:"gtceu:sponge_metal_gear"  
+            S:"gtac:sponge_metal_screw",
+            G:"gtac:sponge_metal_gear"  
         }
      
     )
@@ -30,12 +30,12 @@ ServerEvents.recipes(event=>{
         
         {
             P:"gtceu:coke_oven_bricks",
-            R:"gtceu:sponge_metal_ring",
+            R:"gtac:sponge_metal_ring",
             W:"#forge:tools/wrench",
             C:"kubejs:fire_casing",
             H:"#forge:tools/hammers",
-            S:"gtceu:sponge_metal_screw",
-            G:"gtceu:sponge_metal_gear"  
+            S:"gtac:sponge_metal_screw",
+            G:"gtac:sponge_metal_gear"  
         }
      
     )
@@ -49,13 +49,13 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            P:"gtceu:sponge_metal_block",
-            R:"gtceu:sponge_metal_ring",
+            P:"gtac:sponge_metal_block",
+            R:"gtac:sponge_metal_ring",
             W:"#forge:tools/wrench",
             C:"kubejs:fire_casing",
             H:"#forge:tools/hammers",
-            S:"gtceu:sponge_metal_screw",
-            G:"gtceu:sponge_metal_gear"  
+            S:"gtac:sponge_metal_screw",
+            G:"gtac:sponge_metal_gear"  
         }
      
     )
@@ -110,7 +110,7 @@ ServerEvents.recipes(event=>{
             W:"#forge:tools/wrench",
             G:"gtceu:steel_gear",
             H:"#forge:tools/hammers",
-            R:"gtceu:ferabrass_frame",
+            R:"gtac:ferabrass_frame",
             F:"kubejs:ferabrass_casing"  
         }
      
@@ -163,7 +163,7 @@ ServerEvents.recipes(event=>{
             C:"gtceu:steam_machine_casing",
             A:"minecraft:anvil",
             M:"gtceu:lp_steam_compressor",
-            G:"gtceu:tumbaga_gear"
+            G:"gtac:tumbaga_gear"
         }
 
     )
@@ -180,7 +180,7 @@ ServerEvents.recipes(event=>{
             C:"gtceu:steam_machine_casing",
             A:"gtceu:bronze_gearbox",
             M:"gtceu:lp_steam_mixer",
-            G:"gtceu:tumbaga_gear"
+            G:"gtac:tumbaga_gear"
         }
 
     )
@@ -197,7 +197,7 @@ ServerEvents.recipes(event=>{
             C:"gtceu:steam_machine_casing",
             A:"gtceu:bronze_firebox_casing",
             M:"gtceu:lp_steam_alloy_smelter",
-            G:"gtceu:tumbaga_gear"
+            G:"gtac:tumbaga_gear"
         }
 
     )
@@ -216,7 +216,7 @@ ServerEvents.recipes(event=>{
             S:"twilightforest:naga_scale",
             M:"gtceu:lv_assembler",
             P:"gtceu:stone_plate",
-            T:"kubejs:trophy_tablet"
+            T:'gtac:trophy_tablet'
         }
 
     )
@@ -231,8 +231,8 @@ ServerEvents.recipes(event=>{
 
         {
             C:"minecraft:cobblestone",
-            I:"gtceu:sponge_iron_ingot",
-            O:"gtceu:sponge_copper_ingot"
+            I:"gtac:sponge_iron_ingot",
+            O:"gtac:sponge_copper_ingot"
         }
 
     )
@@ -265,8 +265,25 @@ ServerEvents.recipes(event=>{
 
         {
             P:"naturesaura:gold_leaf",
-            R:"gtceu:infused_iron_frame",
+            R:"gtac:infused_iron_frame",
             H:"naturesaura:wood_stand",
+        }
+
+    )
+
+    event.shaped('gtceu:tar_smokehouse',
+
+        [
+            "LLL",
+            "PHP",
+            "RPR"
+        ],
+
+        {
+            P:"gtceu:clay_normal_fluid_pipe",
+            R:"gtceu:bronze_firebox_casing",
+            H:"minecraft:bricks",
+            L:"gtceu:clay_plate"
         }
 
     )

@@ -52,4 +52,16 @@ ServerEvents.recipes(event=>{
 
     event.remove( { id: "gtceu:cutter/cut_diamond_block_to_plate_water" } )
 
+    event.remove( { id: "gtceu:shaped_fluid_container/treated_wood_planks" } )
+
+    event.remove( { id: "gtceu:extruder/extrude_clay_to_plate" } )
+
+    event.remove( { id: "gtceu:forge_hammer/hammer_clay_to_plate" } )
+
+    event.remove( { id: "gtceu:extractor/charcoal_extraction" } )
+
+    event.remove( { id: "gtceu:chemical_bath/treated_planks" } )
+
+    event.remove( { id: "gtceu:shaped/compressed_coke_clay" } )
+
 })

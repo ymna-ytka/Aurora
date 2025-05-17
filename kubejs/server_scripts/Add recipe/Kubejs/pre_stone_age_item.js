@@ -137,5 +137,4 @@ ServerEvents.recipes( event=> {
         }
 
     ).damageIngredient('kubejs:bad_stone_hammer')
-
 })

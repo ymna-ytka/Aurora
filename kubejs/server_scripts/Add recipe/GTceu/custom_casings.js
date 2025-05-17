@@ -10,7 +10,7 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            P:"gtceu:sponge_metal_plate",
+            P:"gtac:sponge_metal_plate",
             W:"#forge:tools/wrench"  
         }
      
@@ -41,10 +41,10 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            P:"gtceu:ferabrass_plate",
+            P:"gtac:ferabrass_plate",
             W:"#forge:tools/wrench",
             H:"#forge:tools/hammers",
-            F:"gtceu:ferabrass_frame"  
+            F:"gtac:ferabrass_frame"  
         }
      
     )
@@ -52,8 +52,8 @@ ServerEvents.recipes(event=>{
     event.recipes.gtceu.assembler('ferabrass_casing')
     
         .itemInputs(
-            "6x gtceu:ferabrass_plate",
-            "gtceu:ferabrass_frame"
+            "6x gtac:ferabrass_plate",
+            "gtac:ferabrass_frame"
         )
 
         .itemOutputs(
@@ -73,10 +73,10 @@ ServerEvents.recipes(event=>{
         ],
         
         {
-            P:"gtceu:ecoferum_plate",
+            P:"gtac:ecoferum_plate",
             W:"#forge:tools/wrench",
             H:"#forge:tools/hammers",
-            F:"gtceu:ecoferum_frame"  
+            F:"gtac:ecoferum_frame"  
         }
      
     )
@@ -85,8 +85,8 @@ ServerEvents.recipes(event=>{
     event.recipes.gtceu.assembler('ecoferum_casing')
 
         .itemInputs(
-            'gtceu:ecoferum_frame',
-            '6x gtceu:ecoferum_plate',
+            'gtac:ecoferum_frame',
+            '6x gtac:ecoferum_plate',
         )
 
         .itemOutputs(
@@ -101,7 +101,7 @@ ServerEvents.recipes(event=>{
     event.recipes.gtceu.assembler('induction_casing')
 
         .itemInputs(
-            "gtceu:cold_quartz_frame",
+            "gtac:cold_quartz_frame",
             "2x gtceu:lazurite_plate",
             "2x gtceu:silver_foil"
         )
@@ -112,5 +112,23 @@ ServerEvents.recipes(event=>{
         .duration(300)
         .EUt(GTValues.VA[GTValues.LV])
         .circuit(2)
+    //
+    
+    //Coke bricks
+
+    event.shaped("2x gtceu:coke_oven_bricks",
+
+        [
+            "BBB",
+            "BWB",
+            "BBB"
+        ],
+
+        {
+            B:"gtceu:coke_oven_brick",
+            W:"minecraft:water_bucket"
+        }
+
+    )
      
 })

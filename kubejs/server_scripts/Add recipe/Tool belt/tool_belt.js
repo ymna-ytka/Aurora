@@ -9,7 +9,7 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            L:"kubejs:tanned_leather",
+            L:"gtac:tanned_leather",
             S:"minecraft:string",
             R:"gtceu:steel_ring"
         }
@@ -25,7 +25,7 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            L:"kubejs:tanned_leather",
+            L:"gtac:tanned_leather",
             S:"minecraft:string",
             R:"gtceu:gold_ring",
             C:"minecraft:chest"

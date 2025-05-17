@@ -342,7 +342,7 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(18)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/seeker_bow')
+    event.recipes.gtceu.twilight_farmer('seeker_bow')
 
         .inputFluids(
             Fluid.of("gtceu:magical_essence", 2000)
@@ -355,7 +355,7 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(19)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/fiery_blood')
+    event.recipes.gtceu.twilight_farmer('fiery_blood')
 
         .inputFluids(
             Fluid.of("gtceu:magical_essence", 450)
@@ -368,7 +368,7 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(20)
         
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/lamp_of_cinders')
+    event.recipes.gtceu.twilight_farmer('lamp_of_cinders')
 
         .inputFluids(
             Fluid.of("gtceu:magical_essence", 5000)
@@ -381,7 +381,7 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(22)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/fiery_tears')
+    event.recipes.gtceu.twilight_farmer('fiery_tears')
 
         .inputFluids(
             Fluid.of("gtceu:magical_essence", 470)
@@ -394,7 +394,7 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(21)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/giant_pickaxe')
+    event.recipes.gtceu.twilight_farmer('giant_pickaxe')
 
         .inputFluids(
             Fluid.of("gtceu:magical_essence", 2500)
@@ -407,7 +407,7 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(23)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/giant_sword')
+    event.recipes.gtceu.twilight_farmer('giant_sword')
 
         .inputFluids(
             Fluid.of("gtceu:magical_essence", 2500)
@@ -420,97 +420,93 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(24)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/essence_naga')
+    event.recipes.gtceu.fire_saw("twilight_oak_plank_fire_saw")
 
-        .inputFluids(
-            Fluid.of("gtceu:magical_essence", 150)
+        .itemInputs(
+            "#twilightforest:twilight_oak_logs"
         )
 
         .itemOutputs(
-            "4x kubejs:essence_naga"
+            "4x twilightforest:twilight_oak_planks"
         )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(25)
+        .duration(1200)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/essence_lich')
+    event.recipes.gtceu.fire_saw("canopy_plank_fire_saw")
 
-        .inputFluids(
-            Fluid.of("gtceu:magical_essence", 150)
+        .itemInputs(
+            "#twilightforest:canopy_logs"
         )
 
         .itemOutputs(
-            "4x kubejs:essence_lich"
+            "4x twilightforest:canopy_planks"
         )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(26)
+        .duration(1200)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/essence_minoshroom')
+    event.recipes.gtceu.fire_saw("dark_plank_fire_saw")
 
-        .inputFluids(
-            Fluid.of("gtceu:magical_essence", 150)
+        .itemInputs(
+            "#twilightforest:darkwood_logs"
         )
 
         .itemOutputs(
-            "4x kubejs:essence_minoshroom"
+            "4x twilightforest:dark_planks"
         )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(27)
+        .duration(1200)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/essence_hydra')
+    event.recipes.gtceu.fire_saw("mangrove_t_plank_fire_saw")
 
-        .inputFluids(
-            Fluid.of("gtceu:magical_essence", 150)
+        .itemInputs(
+            "#twilightforest:mangrove_logs"
         )
 
         .itemOutputs(
-            "4x kubejs:essence_hydra"
+            "4x twilightforest:mangrove_planks"
         )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(28)
+        .duration(1200)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/essence_alpha_yeti')
+    event.recipes.gtceu.fire_saw("time_plank_fire_saw")
 
-        .inputFluids(
-            Fluid.of("gtceu:magical_essence", 150)
+        .itemInputs(
+            "#twilightforest:timewood_logs"
         )
 
         .itemOutputs(
-            "4x kubejs:essence_alpha_yeti"
+            "4x twilightforest:time_planks"
         )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(30)
+        .duration(1200)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/essence_ur_ghast')
+    event.recipes.gtceu.fire_saw("transformation_plank_fire_saw")
 
-        .inputFluids(
-            Fluid.of("gtceu:magical_essence", 150)
+        .itemInputs(
+            "#twilightforest:transwood_logs"
         )
 
         .itemOutputs(
-            "4x kubejs:essence_ur_ghast"
+            "4x twilightforest:transformation_planks"
         )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(29)
+        .duration(1200)
 
-    event.recipes.gtceu.twilight_farmer('gtceu:twilight_farmer/essence_snow_queen')
+    event.recipes.gtceu.fire_saw("mining_plank_fire_saw")
 
-        .inputFluids(
-            Fluid.of("gtceu:magical_essence", 150)
+        .itemInputs(
+            "#twilightforest:mining_logs"
         )
 
         .itemOutputs(
-            "4x kubejs:essence_snow_queen"
+            "4x twilightforest:mining_planks"
         )
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.MV])
-        .circuit(31)
+        .duration(1200)
 
+    event.recipes.gtceu.fire_saw("sorting_plank_fire_saw")
+
+        .itemInputs(
+            "#twilightforest:sortwood_logs"
+        )
+
+        .itemOutputs(
+            "4x twilightforest:sorting_planks"
+        )
+        .duration(1200)
         
 
 })

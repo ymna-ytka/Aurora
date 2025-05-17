@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'gtceu:shaped/steam_oven' },
 
         "gtceu:invar_gear", 
-        "gtceu:tumbaga_gear"
+        "gtac:tumbaga_gear"
 
     )
     
