@@ -2,7 +2,7 @@ ServerEvents.recipes( event => {
 
     event.recipes.gtceu.assembler('core_destruction')
         .itemInputs(
-            "gtceu:diamond_drill_head",
+            "4x minecraft:tnt",
             "4x gtceu:diamond_plate"
         )
 
