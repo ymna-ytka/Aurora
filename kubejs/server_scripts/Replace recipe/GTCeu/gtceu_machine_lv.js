@@ -3,98 +3,98 @@ ServerEvents.recipes(event => {
      event.replaceInput( { id: "gtceu:shaped/lv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/mv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/hv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/ev_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/iv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/luv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/zpm_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/uv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/uhv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/uev_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/uiv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/uxv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/opv_arc_furnace" },
 
         "gtceu:graphite_dust",
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
 
     )
 
     event.replaceInput( { id: "gtceu:shaped/lv_bender" },
 
         "gtceu:steel_plate",
-        "kubejs:wrough_iron_bender_path"
+        "gtac:wrough_iron_bender_path"
 
     )
 
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
     event.replaceInput( { id: "gtceu:shaped/lv_canner" },
 
         "minecraft:glass",
-        "kubejs:empty_flask"
+        "gtac:empty_flask"
 
     )
 

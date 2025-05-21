@@ -9,7 +9,7 @@ ServerEvents.recipes( event=> {
         ],
 
         {
-            G:'kubejs:mini_cobblestone',
+            G:'gtac:mini_cobblestone',
             S:"minecraft:stick"
         }
 

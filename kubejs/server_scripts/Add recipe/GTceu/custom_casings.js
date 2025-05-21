@@ -1,21 +1,5 @@
 ServerEvents.recipes(event=>{
 
-    //Fire casing
-    event.shaped("kubejs:fire_casing",
-        
-        [
-            "PPP",
-            "PWP",
-            "PPP" 
-        ],
-        
-        {
-            P:"gtac:sponge_metal_plate",
-            W:"#forge:tools/wrench"  
-        }
-     
-    )
-    //
 
     //Firebricks block
     event.recipes.gtceu.compressor('firebricks_block')
@@ -32,7 +16,7 @@ ServerEvents.recipes(event=>{
     //
 
     //Ferabrass casing
-    event.shaped("kubejs:ferabrass_casing",
+    event.shaped("gtac:ferabrass_casing",
         
         [
             "PHP",
@@ -57,14 +41,14 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            "kubejs:ferabrass_casing"
+            "gtac:ferabrass_casing"
         )
 
     .duration(140)    
     //
     
     //Ecoferum casing
-    event.shaped("kubejs:ecoferum_casing",
+    event.shaped("gtac:ecoferum_casing",
         
         [
             "PHP",
@@ -90,7 +74,7 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            'kubejs:ecoferum_casing'
+            'gtac:ecoferum_casing'
         )
         .duration(50)
         .EUt(GTValues.VH[GTValues.LV])
@@ -107,7 +91,7 @@ ServerEvents.recipes(event=>{
         )
 
         .itemOutputs(
-            'kubejs:induction_casing'
+            'gtac:induction_casing'
         )
         .duration(300)
         .EUt(GTValues.VA[GTValues.LV])

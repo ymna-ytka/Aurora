@@ -1,6 +1,6 @@
 ServerEvents.recipes( event=> {
 
-    event.shaped("kubejs:carbide_silicon_orb",
+    event.shaped("gtac:carbide_silicon_orb",
 
         [
             "FPF",
@@ -24,7 +24,7 @@ ServerEvents.recipes( event=> {
     )
 
     .itemOutputs(
-        "kubejs:carbide_silicon_orb"
+        "gtac:carbide_silicon_orb"
     )
 
     .duration (400)
@@ -34,18 +34,18 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.canner('graphite_orb_fill')
 
     .itemInputs(
-        "kubejs:carbide_silicon_orb",
+        "gtac:carbide_silicon_orb",
         "2x gtceu:graphite_dust",
     )
 
     .itemOutputs(
-        "kubejs:carbide_silicon_fill_orb"
+        "gtac:fill_carbide_silicon_orb"
     )
 
     .duration (1600)
     .EUt      (16)
 
-    event.shaped("kubejs:wrough_iron_bender_path",
+    event.shaped("gtac:wrough_iron_bender_path",
 
         [
             " R ",
@@ -77,7 +77,7 @@ ServerEvents.recipes( event=> {
     )
 
     .itemOutputs(
-        "kubejs:wrough_iron_bender_path"
+        "gtac:wrough_iron_bender_path"
     )
 
     .duration (400)
@@ -94,7 +94,7 @@ ServerEvents.recipes( event=> {
     )
     
     .chancedOutput(
-        "kubejs:plant_fibers", 3300, 150    
+        "gtac:plant_fibers", 3300, 150    
     )
 
     .duration (200)
@@ -111,7 +111,7 @@ ServerEvents.recipes( event=> {
     )
 
     .chancedOutput(
-        "kubejs:plant_fibers", 5000, 150    
+        "gtac:plant_fibers", 5000, 150    
     )
 
     .duration (150)
@@ -128,7 +128,7 @@ ServerEvents.recipes( event=> {
     )
 
     .chancedOutput(
-        "kubejs:plant_fibers", 8000, 150    
+        "gtac:plant_fibers", 8000, 150    
     )
 
     .duration (100)
@@ -145,7 +145,7 @@ ServerEvents.recipes( event=> {
     )
 
     .itemOutputs(
-        "kubejs:plant_fibers"
+        "gtac:plant_fibers"
     )
 
     .duration (50)
@@ -154,11 +154,11 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.assembler('plant_fiber_mesh_assemb')
 
     .itemInputs(
-        "2x kubejs:plant_fibers",
+        "2x gtac:plant_fibers",
     )
 
     .itemOutputs(
-        "kubejs:plant_fiber_mesh"
+        "gtac:plant_fiber_mesh"
     )
 
     .duration (50)
@@ -168,7 +168,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.electric_blast_furnace('plant_fiber_mesh_ebf')
 
     .itemInputs(
-        "kubejs:plant_fiber_mesh",
+        "gtac:plant_fiber_mesh",
     )
 
     .itemOutputs(
@@ -185,7 +185,7 @@ ServerEvents.recipes( event=> {
     )
 
     .itemOutputs(
-        "kubejs:empty_flask"
+        "gtac:empty_flask"
     )
 
     .duration(200)
@@ -199,14 +199,14 @@ ServerEvents.recipes( event=> {
     )
 
     .itemOutputs(
-        "kubejs:empty_flask"
+        "gtac:empty_flask"
     )
 
     .duration(200)
     .EUt(GTValues.VA[GTValues.MV])
     .circuit(4)
 
-    event.shaped('kubejs:ballon_mold',
+    event.shaped('gtac:ballon_mold',
 
         [
             "  H",
@@ -224,7 +224,7 @@ ServerEvents.recipes( event=> {
     event.recipes.gtceu.fluid_solidifier('glass_ballon_solid')
 
         .notConsumable(
-            'kubejs:ballon_mold'
+            'gtac:ballon_mold'
         )
 
         .inputFluids(
@@ -232,100 +232,9 @@ ServerEvents.recipes( event=> {
         )
 
         .itemOutputs(
-            'kubejs:glass_balloon'
+            'gtac:glass_balloon'
         )
         .duration(300)
         .EUt(GTValues.VHA[GTValues.LV])
     
-    event.recipes.gtceu.electric_blast_furnace('raw_alum_ing')
-          
-        .itemInputs(
-            "gtceu:coke_block",
-            "2x gtceu:aluminium_dust"
-        )
-
-        .itemOutputs(
-            "kubejs:raw_aluminium_ingot"
-        )
-
-        .outputFluids(
-            Fluid.of("gtceu:carbon_dioxide", 100 )
-        )
-        .duration(1200) 
-        .EUt(GTValues.VH[GTValues.MV])
-        .blastFurnaceTemp(1800)
-
-    event.recipes.gtceu.natural_cleaner('clean_alum_ing')
-          
-        .itemInputs(
-            "kubejs:raw_aluminium_ingot",
-        )
-        
-        .notConsumable(
-            "gtceu:steel_rod"
-        )
-
-        .inputFluids(
-            Fluid.of("gtceu:sulfuric_acid", )
-        )
-
-        .itemOutputs(
-            "kubejs:clean_aluminium_ingot",
-        )
-
-        .chancedOutput(
-            "gtceu:silicon_dust", 1100, 400
-        )
-
-        .outputFluids(
-            Fluid.of("gtceu:carbon_dioxide", 100 )
-        )
-        .duration(600) 
-        .EUt(GTValues.VA[GTValues.MV])
-
-    event.recipes.gtceu.arc_furnace('high_qual_alum_ing')
-       
-        .itemInputs(
-            "kubejs:clean_aluminium_ingot"
-        )
-
-        .inputFluids(
-            Fluid.of("gtceu:oxygen", 60)
-        )
-
-        .itemOutputs(
-            "kubejs:high_quality_aluminium_ingot"
-        )
-        .duration(60)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    event.recipes.gtceu.electric_blast_furnace('flint_dye')
-       
-        .itemInputs(
-            "minecraft:lime_dye",
-            "gtceu:flint_dust"
-        )
-
-        .itemOutputs(
-            "kubejs:flint_dye"
-        )
-        .duration(300)
-        .EUt(GTValues.VA[GTValues.LV])
-        .circuit(1)
-        .blastFurnaceTemp(900)
-
-    event.shaped("kubejs:incorrect_mold",
-
-        [
-            "  C",
-            "   ",
-            " R "
-        ],
-
-        {
-            R:"gtceu:empty_mold",
-            C:"#forge:tools/hammers"
-        }
-
-    )       
 })

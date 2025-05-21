@@ -7,7 +7,7 @@ ServerEvents.recipes( event=> {
         )
 
         .inputFluids(
-            Fluid.of("gtceu:tin_alloy", 144)
+            Fluid.of("gtac:black_essence", 144)
         )
 
         .itemOutputs(
@@ -21,16 +21,17 @@ ServerEvents.recipes( event=> {
        
         .itemInputs(
             "8x gtceu:steel_block",
-            "minecraft:coal_block"
         )
 
         .inputFluids(
-             Fluid.of("gtceu:steam", 64000)
+             Fluid.of("gtac:black_essence", 1440)
         )
 
         .itemOutputs(
             "dankstorage:dank_1"
         )
+
+        .EUt(7)
         .duration(1000)
 
     event.recipes.gtceu.steam_magic_bath('dank_2')
@@ -41,8 +42,8 @@ ServerEvents.recipes( event=> {
         )
 
         .inputFluids(
-             Fluid.of("gtceu:steam", 64000)
-        )
+             Fluid.of("gtceu:redstone", 1440)
+        )        
 
         .itemOutputs(
             "dankstorage:dank_2"
@@ -57,12 +58,13 @@ ServerEvents.recipes( event=> {
         )
 
         .inputFluids(
-             Fluid.of("gtceu:steam", 64000)
+             Fluid.of("gtceu:redstone", 1440)
         )
 
         .itemOutputs(
             'dankstorage:1_to_2'
         )
+        .EUt(7)
         .duration(1000)
         
 

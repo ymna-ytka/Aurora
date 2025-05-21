@@ -367,16 +367,5 @@ ServerEvents.recipes( event=> {
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.ULV])
-
-    event.recipes.gtceu.fire_saw("pale_plank_fire_bath")
-
-        .itemInputs(
-            "palegarden:pale_log"
-        )
-
-        .itemOutputs(
-            "4x palegarden:pale_plank"
-        )
-        .duration(1200)
         
 })

@@ -1,66 +1,6 @@
 ServerEvents.recipes(event=>{
 
-    event.shaped("gtceu:fire_bath",
-        
-        [
-            "PRP",
-            "WCH",
-            "SGS" 
-        ],
-        
-        {
-            P:"#minecraft:planks",
-            R:"gtac:sponge_metal_ring",
-            W:"#forge:tools/wrench",
-            C:"kubejs:fire_casing",
-            H:"#forge:tools/hammers",
-            S:"gtac:sponge_metal_screw",
-            G:"gtac:sponge_metal_gear"  
-        }
-     
-    )
-
-    event.shaped("gtceu:fire_smalter",
-        
-        [
-            "PRP",
-            "WCH",
-            "SGS" 
-        ],
-        
-        {
-            P:"gtceu:coke_oven_bricks",
-            R:"gtac:sponge_metal_ring",
-            W:"#forge:tools/wrench",
-            C:"kubejs:fire_casing",
-            H:"#forge:tools/hammers",
-            S:"gtac:sponge_metal_screw",
-            G:"gtac:sponge_metal_gear"  
-        }
-     
-    )
-
-    event.shaped("gtceu:fire_saw",
-        
-        [
-            "PRP",
-            "WCH",
-            "SGS" 
-        ],
-        
-        {
-            P:"gtac:sponge_metal_block",
-            R:"gtac:sponge_metal_ring",
-            W:"#forge:tools/wrench",
-            C:"kubejs:fire_casing",
-            H:"#forge:tools/hammers",
-            S:"gtac:sponge_metal_screw",
-            G:"gtac:sponge_metal_gear"  
-        }
-     
-    )
-
-    event.shaped("gtceu:steam_coke_oven",
+    event.shaped("gtac:steam_coke_oven",
         
         [
             "CSC",
@@ -77,7 +17,7 @@ ServerEvents.recipes(event=>{
      
     )
 
-    event.shaped("gtceu:steam_blast_furnace",
+    event.shaped("gtac:steam_blast_furnace",
         
         [
             "HRS",
@@ -97,7 +37,7 @@ ServerEvents.recipes(event=>{
      
     )
 
-    event.shaped("gtceu:steam_magic_bath",
+    event.shaped("gtac:steam_magic_bath",
         
         [
             "RGR",
@@ -116,7 +56,7 @@ ServerEvents.recipes(event=>{
      
     )
 
-    event.shaped("gtceu:natural_cleaner",
+    event.shaped("gtac:natural_cleaner",
 
         [
             "DDD",
@@ -133,7 +73,7 @@ ServerEvents.recipes(event=>{
 
     )
 
-    event.shaped('gtceu:induction_furnace',
+    event.shaped('gtac:induction_furnace',
 
         [
             "BCB",
@@ -151,7 +91,7 @@ ServerEvents.recipes(event=>{
 
     )
 
-    event.shaped('gtceu:steam_compressor',
+    event.shaped('gtac:steam_compressor',
 
         [
             "CCC",
@@ -167,25 +107,8 @@ ServerEvents.recipes(event=>{
         }
 
     )
-
-    event.shaped('gtceu:steam_centrifuge',
-
-        [
-            "CCC",
-            "AMA",
-            "GCG"
-        ],
-
-        {
-            C:"gtceu:steam_machine_casing",
-            A:"gtceu:bronze_gearbox",
-            M:"gtceu:lp_steam_mixer",
-            G:"gtac:tumbaga_gear"
-        }
-
-    )
         
-    event.shaped('gtceu:steam_alloy_smelter',
+    event.shaped('gtac:steam_alloy_smelter',
 
         [
             "CCC",
@@ -201,43 +124,8 @@ ServerEvents.recipes(event=>{
         }
 
     )
-
-    event.shaped('gregtech:infuser',
-
-        [
-            "OPO",
-            "SMS",
-            "PTP"
-        ],
-
-        {
-            O:"minecraft:stone",
-            P:"naturesaura:wood_stand",
-            S:"twilightforest:naga_scale",
-            M:"gtceu:lv_assembler",
-            P:"gtceu:stone_plate",
-            T:'gtac:trophy_tablet'
-        }
-
-    )
-       
-    event.shaped('gregtech:primitive_alloy_furnace',
-
-        [
-            "CCC",
-            "IOI",
-            "CCC"
-        ],
-
-        {
-            C:"minecraft:cobblestone",
-            I:"gtac:sponge_iron_ingot",
-            O:"gtac:sponge_copper_ingot"
-        }
-
-    )
         
-    event.shaped('gtceu:fertilizer_buck',
+    event.shaped('gtac:fertilizer_buck',
 
         [
             "MPM",
@@ -251,22 +139,6 @@ ServerEvents.recipes(event=>{
             M:"gtceu:mv_electric_motor",
             H:"gtceu:inert_machine_casing",
             I:"#gtceu:circuits/mv"
-        }
-
-    )
-
-    event.shaped('gregtech:trees_ritual',
-
-        [
-            "P P",
-            "PHP",
-            "PRP"
-        ],
-
-        {
-            P:"naturesaura:gold_leaf",
-            R:"gtac:infused_iron_frame",
-            H:"naturesaura:wood_stand",
         }
 
     )

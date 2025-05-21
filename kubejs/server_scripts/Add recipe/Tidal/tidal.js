@@ -414,15 +414,4 @@ ServerEvents.recipes( event=> {
         .EUt(GTValues.VA[GTValues.ULV])
         .circuit(3)
 
-    event.recipes.gtceu.fire_saw("palm_plank_fire_bath")
-
-        .itemInputs(
-            "tidal:palm_log"
-        )
-
-        .itemOutputs(
-            "4x tidal:palm_planks"
-        )
-        .duration(1200)
-
 })

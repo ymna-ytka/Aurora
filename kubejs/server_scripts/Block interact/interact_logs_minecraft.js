@@ -4,7 +4,7 @@ BlockEvents.rightClicked("minecraft:logs", (event) => {
 
     if (item.id === "gtceu:sticky_resin") {
 
-        player.give("kubejs:piece_wooden_rubber");
+        player.give("gtac:piece_wooden_rubber");
 
         item.count--;
 

@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
 
-    event.remove( { output: "moredelight:stone_knife" } )
+    event.remove( { id: "moredelight:stone_knife" } )
 
 })

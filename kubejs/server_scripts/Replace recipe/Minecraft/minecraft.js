@@ -35,4 +35,11 @@ ServerEvents.recipes( event=>{
 
     )
 
+    event.replaceInput( { id:"minecraft:crafting_table" },
+
+        "minecraft:flint",
+        "gtac:mini_cobblestone"
+
+     )
+
 })

@@ -71,7 +71,7 @@ ServerEvents.recipes(event=>{
 
         .duration(450)
 
-    event.recipes.gtac.steam_coke_oven('coke_block')
+    event.recipes.gtceu.steam_coke_oven('coke_block')
     
         .itemInputs(
             "minecraft:coal_block"

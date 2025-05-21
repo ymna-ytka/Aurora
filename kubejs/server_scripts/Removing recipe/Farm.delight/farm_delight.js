@@ -20,7 +20,6 @@ ServerEvents.recipes(event => {
 
     event.remove( { output: "farmersdelight:wheat_dough" } )
 
-    event.remove( { output: "moredelight:stone_knife" } )
     event.remove( { output: "farmersdelight:oak_cabinet" } )
     event.remove( { output: "farmersdelight:spruce_cabinet" } )
     event.remove( { output: "farmersdelight:birch_cabinet" } )

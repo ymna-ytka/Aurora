@@ -10,7 +10,7 @@ ServerEvents.recipes(event=>{
 
     event.remove( { output:"minecraft:wooden_hoe" } )
 
-    event.remove( { output:"minecraft:campfire" } )
+    event.remove( { id:"minecraft:campfire" } )
 
     event.remove( { output:"minecraft:furnace" } )
 
@@ -123,5 +123,6 @@ ServerEvents.recipes(event=>{
     event.remove( { id:"minecraft:polished_blackstone_brick_slab_from_blackstone_stonecutting" } )
     event.remove( { id:"minecraft:waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting" } )
     event.remove( { id:"minecraft:waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting" } )
+    event.remove( { id:"palegarden:pale_crafting" } )
 
 })

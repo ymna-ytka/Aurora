@@ -5,13 +5,6 @@ ServerEvents.recipes( event=>{
         "minecraft:wooden_shovel",
         "gtceu:flint_shovel"
 
-    ),
-
-    event.replaceInput ( { id:"miners_delight:copper_pot" },
-
-        "minecraft:copper_ingot",
-        "gtac:sponge_metal_ingot"
-
     )
 
 })

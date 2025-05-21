@@ -1,6 +1,6 @@
 ServerEvents.recipes(event =>{
 
-   event.shaped("kubejs:solar_element",
+   event.shaped("gtac:solar_element",
 
       [
          "GGG",
@@ -16,7 +16,7 @@ ServerEvents.recipes(event =>{
 
    )
  
-   event.shaped("kubejs:copper_voltage_coil",
+   event.shaped("gtac:copper_voltage_coil",
 
       [
          "CCC",
@@ -31,27 +31,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:whisk",
-
-      [
-         "FPH",
-         "RRR",
-         "WIS"
-      ],
-
-      {
-         P:"gtceu:iron_plate",
-         R:"gtceu:iron_rod",
-         I:"gtceu:iron_ring",
-         F:"#forge:tools/files",
-         H:"#forge:tools/hammers",
-         W:"#forge:tools/wrench",
-         S:"#forge:tools/screwdrivers"
-      }
-
-   )
-
-   event.shaped("kubejs:blank_lv_electric_motor",
+   event.shaped("gtac:blank_lv_electric_motor",
 
       [
          "FPR",
@@ -69,7 +49,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:blank_lv_conveyor",
+   event.shaped("gtac:blank_lv_conveyor",
 
       [
          "RPR",
@@ -85,7 +65,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:blank_lv_electric_piston",
+   event.shaped("gtac:blank_lv_electric_piston",
 
       [
          "PHP",
@@ -103,7 +83,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:blank_lv_electric_pump",
+   event.shaped("gtac:blank_lv_electric_pump",
 
       [
          "FPR",
@@ -121,7 +101,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:blank_lv_robot_arm",
+   event.shaped("gtac:blank_lv_robot_arm",
 
       [
          "HPI",
@@ -140,7 +120,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:blank_lv_sensor",
+   event.shaped("gtac:blank_lv_sensor",
 
       [
          "P  ",
@@ -156,7 +136,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:blank_lv_emitter",
+   event.shaped("gtac:blank_lv_emitter",
 
       [
          "PHP",
@@ -173,7 +153,7 @@ ServerEvents.recipes(event =>{
 
    )
 
-   event.shaped("kubejs:blank_lv_field_generator",
+   event.shaped("gtac:blank_lv_field_generator",
 
       [
          "PHP",
@@ -205,7 +185,7 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_electric_motor"
+         "gtac:blank_lv_electric_motor"
    )
    .duration(100)
    .EUt(16)
@@ -223,7 +203,7 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_conveyor"
+         "gtac:blank_lv_conveyor"
    )
    .duration(100)
    .EUt(16)
@@ -241,7 +221,7 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_electric_piston"
+         "gtac:blank_lv_electric_piston"
    )
    .duration(100)
    .EUt(16)
@@ -259,7 +239,7 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_electric_pump"
+         "gtac:blank_lv_electric_pump"
    )
    .duration(100)
    .EUt(16)
@@ -278,7 +258,7 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_robot_arm"
+         "gtac:blank_lv_robot_arm"
    )
    .duration(100)
    .EUt(16)
@@ -295,7 +275,7 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_sensor"
+         "gtac:blank_lv_sensor"
    )
    .duration(100)
    .EUt(16)
@@ -312,7 +292,7 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_emitter"
+         "gtac:blank_lv_emitter"
    )
    .duration(100)
    .EUt(16)
@@ -329,12 +309,12 @@ ServerEvents.recipes(event =>{
       )
 
       .itemOutputs(
-         "kubejs:blank_lv_field_generator"
+         "gtac:blank_lv_field_generator"
    )
    .duration(100)
    .EUt(16)
 
-   event.shapeless("kubejs:tanning_mixture",
+   event.shapeless("gtac:tanning_mixture",
 
       [
          "minecraft:flint",
@@ -356,7 +336,7 @@ ServerEvents.recipes(event =>{
       )   
 
       .itemOutputs(
-         'kubejs:twilight_gem'
+         'gtac:twilight_gem'
       )
 
       .duration(1000)
@@ -368,7 +348,7 @@ ServerEvents.recipes(event =>{
       )
 
       .inputFluids(
-         Fluid.of("kubejs:salter_water", 432)
+         Fluid.of("gtac:salter_water", 432)
       )
 
       .itemOutputs(
@@ -385,7 +365,7 @@ ServerEvents.recipes(event =>{
       )
 
       .inputFluids(
-         Fluid.of("kubejs:salter_water", 432)
+         Fluid.of("gtac:salter_water", 432)
       )
 
       .itemOutputs(
@@ -399,7 +379,7 @@ ServerEvents.recipes(event =>{
 
       .itemInputs(
          'gtac:raw_cleansed_leather',
-         "4x kubejs:tanning_mixture"
+         "4x gtac:tanning_mixture"
       )
 
       .itemOutputs(
@@ -411,7 +391,7 @@ ServerEvents.recipes(event =>{
     event.recipes.gtceu.cutter("tanned_leather_cutter")
     
         .itemInputs(
-            "kubejs:cleansed_leather"
+            "gtac:cleansed_leather"
         )
 
         .inputFluids(
@@ -428,7 +408,7 @@ ServerEvents.recipes(event =>{
     event.recipes.gtceu.cutter("tanned_leather_cutter_dis_water")
     
         .itemInputs(
-            "kubejs:cleansed_leather"
+            "gtac:cleansed_leather"
         )
 
         .inputFluids(
@@ -445,7 +425,7 @@ ServerEvents.recipes(event =>{
     event.recipes.gtceu.cutter("tanned_leather_cutter_water")
     
         .itemInputs(
-            "kubejs:cleansed_leather"
+            "gtac:cleansed_leather"
         )
 
         .inputFluids(
