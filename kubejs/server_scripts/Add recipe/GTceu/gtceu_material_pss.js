@@ -1,4 +1,13 @@
 ServerEvents.recipes(event => {
+
+  event.shapeless("gtac:refined_iron_bloom",
+
+    [
+      "gtac:iron_bloom",
+      "kubejs:bad_stone_hammer"
+    ]
+
+  ).damageIngredient('kubejs:bad_stone_hammer')
    
   //Fireclay Dust
   event.recipes.gtceu.bronze_mixer('fireclay_dust')
@@ -195,24 +204,7 @@ ServerEvents.recipes(event => {
       "gtceu:treated_wood_planks"
     )
     .duration(2400)
-    .EUt(8)
-
-  event.recipes.gtceu.fire_smelter('bronze_stable')
-    
-    .itemInputs(
-      "3x gtceu:copper_dust",
-      "gtceu:tin_dust"
-    )
-       
-    .inputFluids(
-      Fluid.of("minecraft:lava", 15)
-    )      
-
-    .itemOutputs(
-      "4x gtceu:bronze_ingot"
-    )
-
-    .duration(240)    
+    .EUt(8) 
 
     event.recipes.gtceu.steam_blast_furnace('steel_coke_gem_steam')
     
@@ -264,39 +256,6 @@ ServerEvents.recipes(event => {
     )
 
     .duration(9333)
-
-  event.recipes.gtceu.fire_bath('coke_oven_brick')
-    
-    .itemInputs(
-      '1x gtceu:compressed_coke_clay'
-    )
-
-    .inputFluids(
-      Fluid.of('minecraft:lava', 150)
-    )
-
-    .itemOutputs(
-      "1x gtceu:coke_oven_brick"
-    )
-
-    .duration(100)
-
-  event.recipes.gtceu.fire_bath('sponge_metal_alternative')
-    
-    .itemInputs(
-      "gtceu:copper_dust",
-      "gtceu:tin_dust"
-    )
-
-    .inputFluids(
-      Fluid.of('minecraft:lava', 50)
-    )
-
-    .itemOutputs(
-      "2x gtac:sponge_metal_ingot"
-    )
-
-    .duration(80)
     
   event.shaped("3x gtceu:compressed_coke_clay",
 
@@ -313,6 +272,9 @@ ServerEvents.recipes(event => {
       S:"minecraft:sand"
     }
 
-  )  
+  )
+  
+
+    
 })
 
